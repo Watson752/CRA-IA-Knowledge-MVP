@@ -27,11 +27,13 @@ tags:
 
 ## Sequence
 
-1. Pick a public case from [[Public-Audit-Case-Library]]
-2. Extract: risk statement → [[Criteria]] → [[Methodology]] → [[Finding]] → [[Recommendation]]
-3. Trace [[Management Response]] → [[Management Action Plan]] → [[Follow-up]]
-4. Compare related cases (e.g., BI vs cyber vs ARNI vs EFMS vs charities)
-5. Read TBS [[SRC-TBS-Policy-Internal-Audit]] context via the source register
+1. Start [[Internal Audit Onboarding Path]] or pick a public case from [[Public-Audit-Case-Library]]
+2. Extract: [[Audit Objective]] → [[Scope]] → [[Criteria]] → [[Risk Assessment|risk]] → [[Methodology]] / [[Control Testing]]
+3. Trace: [[Evidence]] → [[Evidence Evaluation]] → condition ↔ [[Criteria]] → [[Audit Observation]] / [[Finding]] → [[Root Cause Analysis|cause]] (only if supported) → [[Consequence or Impact|effect]] → [[Recommendation]]
+4. Trace [[Management Response]] → [[Management Action Plan]] → [[Follow-up]] (current status unknown unless a follow-up source exists)
+5. Compare related cases (e.g., BI vs cyber vs ARNI vs EFMS vs charities) using [[Audit Lifecycle Map]]
+6. Read TBS [[SRC-TBS-Policy-Internal-Audit]] context via the source register
+7. Apply [[Interpreting Historical Public Audit Findings]]
 
 ## Suggested primary case
 

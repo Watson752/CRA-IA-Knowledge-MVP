@@ -1,6 +1,8 @@
 ---
 title: Analytics
-aliases: []
+aliases:
+  - Data Analysis
+  - Analytical Procedures
 note_type: data-concept
 primary_domain: software-data
 domains:

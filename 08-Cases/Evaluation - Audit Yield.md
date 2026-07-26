@@ -241,6 +241,12 @@ Linking audit files to reassessments to accounting transactions is a **data gove
 
 Start: [[Performance Reporting]] → [[Evidence Reliability]] → [[Population Completeness]] → [[Data Quality]] → [[Missing Data]] → this case → [[Internal Audit - Accounts Receivable National Inventory]].
 
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
+
 ## Sources
 
 - [Evaluation – Audit yield](https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/internal-audit-program-evaluation/internal-audit-program-evaluation-reports-2020/evaluation-audit-yield.html)

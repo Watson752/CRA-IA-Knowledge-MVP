@@ -51,6 +51,8 @@ Auditors evaluate whether responses are responsive; inadequate responses may ele
 - [[Follow-up]]
 - [[Governance]]
 - [[Control Ownership]]
+- [[Root Cause Analysis]]
+- [[Findings and Recommendations Map]]
 
 ## Sources
 

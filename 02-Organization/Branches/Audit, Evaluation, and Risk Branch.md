@@ -79,6 +79,10 @@ Enables achievement of CRA strategic goals by providing independent and objectiv
 - Chief Audit Executive leadership; Senior Officer for internal disclosure of wrongdoing (publicly stated for the AC/CAE role).
 - Publishes audit and evaluation results for public accountability ([[Internal Audit and Program Evaluation]]).
 
+### Independence clarification (onboarding)
+
+> **Derived onboarding interpretation** (not a change to the official mandate text above): AERB’s enterprise risk **oversight and advice** role is not the same as first-line ownership of program risks and controls, and it is not MAP execution. Management owns risks, controls, and corrective action; AERB provides independent assurance and may follow up ([[Internal Audit Independence]], [[Ownership and Assurance Roles]], [[Three Lines Model]]). Judging that management action plans are “reasonable” is an assurance judgment—not proof that remediation is complete or that AERB operates the control.
+
 ## Why a new employee should understand it
 
 AERB is the public third-line assurance home for published CRA internal audits and evaluations. Almost every case in the vault is an AERB product; knowing AERB clarifies independence, MAP follow-up, and Board/Audit Committee governance.

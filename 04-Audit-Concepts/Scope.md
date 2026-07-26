@@ -1,6 +1,8 @@
 ---
 title: Scope
-aliases: []
+aliases:
+  - Audit Scope
+  - Engagement Scope
 note_type: audit-concept
 primary_domain: audit
 domains:
@@ -66,6 +68,13 @@ OPI and MAP owner are often the same area, but confirm each report’s labeled o
 - [[Audit Client]]
 - [[CRA-Acronym-Dictionary]]
 - [[Ownership and Assurance Roles]]
+- [[Audit Period]]
+- [[Audit Planning]]
+- [[Audit Methodology Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
+- [[Internal Audit - Enterprise Fraud Management System]]
+- [[Internal Audit - Specific Cyber Security Controls]]
+- [[Internal Audit - Charities Audit Process]]
 
 ## Sources
 

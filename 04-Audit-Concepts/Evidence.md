@@ -1,6 +1,7 @@
 ---
 title: Evidence
-aliases: []
+aliases:
+  - Audit Evidence
 note_type: evidence
 primary_domain: audit
 domains:
@@ -34,7 +35,9 @@ related_methods: []
 tags: []
 ---
 
-**Evidence** comprises the information used by auditors to support findings, conclusions, and opinions. It should be sufficient, appropriate, and reliable for the purpose of the engagement. Sufficiency relates to quantity; appropriateness relates to relevance and persuasiveness. Together they determine whether an informed third party could reach the same conclusions from the same facts.
+**Evidence** (audit evidence) comprises the information used by auditors to support findings, conclusions, and opinions. It should be sufficient, appropriate, and reliable for the purpose of the engagement. **Sufficiency** relates to quantity and coverage; **appropriateness** relates to relevance and reliability/persuasiveness ([[Evidence Reliability]]). Evidence is assessed **against [[Criteria]] within [[Scope]]** for the [[Audit Objective]]. Together these determine whether an informed third party could reach the same conclusions from the same facts.
+
+More low-quality items from one weak source do **not** resolve a reliability problem. There is **no** universal numeric evidence threshold ([[Missing Data]]). Prefer corroboration and, where needed, alternative evidence. See [[Evidence Hierarchy]] and [[System-Generated Evidence]].
 
 Evidence types include documents, data extracts, system configurations, interview notes, observations, external confirmations, and analytical procedures. Digital evidence raises questions of integrity, completeness, and chain of custody. Auditors document how evidence was obtained, who provided it, and any limitations (e.g., partial populations, redactions, or system cut-off dates)—forms of [[Missing Data]] that reduce sufficiency even when remaining items are accurate.
 
@@ -53,6 +56,18 @@ Working papers retain evidence linkages so that [[Finding]]s can be traced to te
 - [[Missing Data]]
 - [[Structured Data]]
 - [[Control]]
+- [[Evidence Hierarchy]]
+- [[System-Generated Evidence]]
+- [[Audit Logging]]
+- [[Evidence Evaluation]]
+- [[IT Controls]]
+- [[Monitoring and Reporting]]
+- [[How Missing Data Limits Audit Assurance]]
+- [[Audit Objective]]
+- [[Scope]]
+- [[Evidence and Conclusion Map]]
+- [[Evaluation - Audit Yield]]
+- [[Internal Audit - Accounts Receivable National Inventory]]
 
 ## Sources
 

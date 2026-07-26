@@ -29,6 +29,9 @@ Use **public** CRA material and general audit concepts only. Start at [[Home]] a
 
 ## Sequence
 
+For audit-methodology focus, prefer [[Internal Audit Onboarding Path]] after organizational orientation.
+
+
 1. [[CRA Mandate]]
 2. [[CRA Core Responsibilities]]
 3. [[Organizational-Onboarding-Path]] · [[CRA-Organization-Map]] · [[CRA-Acronym-Dictionary]]

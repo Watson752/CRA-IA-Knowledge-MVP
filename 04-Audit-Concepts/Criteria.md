@@ -1,6 +1,8 @@
 ---
 title: Criteria
-aliases: []
+aliases:
+  - Audit Criteria
+  - Engagement Criteria
 note_type: audit-concept
 primary_domain: audit
 domains:
@@ -52,6 +54,11 @@ Findings typically describe a condition, compare it to criteria, identify cause 
 - [[Control]]
 - [[IT Controls]]
 - [[Governance]]
+- [[Audit Planning]]
+- [[Evidence Evaluation]]
+- [[Audit Methodology Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
+- [[Internal Audit - Accounts Receivable National Inventory]]
 
 ## Sources
 

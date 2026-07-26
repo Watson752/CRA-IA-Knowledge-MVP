@@ -1,6 +1,8 @@
 ---
 title: Control Ownership
-aliases: []
+aliases:
+  - Control Owner
+  - Control Owners
 note_type: control
 primary_domain: risk-control
 domains:

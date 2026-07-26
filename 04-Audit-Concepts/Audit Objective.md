@@ -52,6 +52,10 @@ Objectives differ from scope (what is included and excluded) and from criteria (
 - [[Control]]
 - [[Three Lines Model]]
 - [[Internal Audit and Program Evaluation]]
+- [[Audit Planning]]
+- [[Reasonable Assurance]]
+- [[Audit Lifecycle Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

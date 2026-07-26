@@ -53,6 +53,10 @@ Distinguish reliability from relevance: reliable but off-scope data still fails 
 - [[Structured Data]]
 - [[IT Controls]]
 - [[How Statistical Limitations Affect Audit Conclusions]]
+- [[System-Generated Evidence]]
+- [[Evidence Hierarchy]]
+- [[Audit Logging]]
+- [[Evidence and Conclusion Map]]
 
 ## Sources
 

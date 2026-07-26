@@ -48,6 +48,9 @@ Independence is preserved when auditors name reasonable MAPs— judging plans is
 - [[Management Action Plan Owner]]
 - [[Audit Client]]
 - [[Follow-up]]
+- [[Reasonable Assurance]]
+- [[Interpreting Historical Public Audit Findings]]
+- [[Audit Lifecycle Map]]
 
 ## Sources
 

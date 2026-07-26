@@ -53,6 +53,10 @@ Linking risk to root cause and effect helps management and those charged with go
 - [[Risk Management]]
 - [[Three Lines Model]]
 - [[Evidence]]
+- [[Risk Assessment]]
+- [[Control Deficiency]]
+- [[Risk and Control Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

@@ -42,6 +42,9 @@ This note summarizes a publicly released CRA report. It is not an internal worki
 
 # Internal Audit – Specific Cyber Security Controls
 
+> **Historical context:** Findings and recommendations describe conditions for the audited period **December 1, 2021 to August 31, 2022** (examination May to August 2022; report dated March 2023). Do not assume the same conditions remain unresolved today unless a current official source says so. Protected finding detail must not be reconstructed. Separate **what the published report states** from any cross-domain interpretation below.
+
+
 ## What the published report states
 
 **Report context.** This Audit, Evaluation, and Risk Branch report is dated March 2023. For April 1, 2021 to March 31, 2022, the report stated that the CRA administered more than $586.3 billion in revenues and pension contributions; 91% of individual and 94% of corporate returns were filed digitally, and 89% of tax services were online. Budget 2021 was stated to propose $332 million over five years and $51.2 million ongoing for cyber security.
@@ -105,6 +108,12 @@ This vault further interprets alignment with the Treasury Board policy as a gove
 ### Historical relationship
 
 - Report dated March 2023; Security Branch formation context as of April 2022 per report
+
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
 
 ## Sources
 

@@ -44,6 +44,9 @@ This note summarizes a publicly released CRA report. It is not an internal worki
 
 # Internal Audit – Accounts Receivable National Inventory
 
+> **Historical context:** Findings describe conditions for the audit period **April 1, 2022 to December 31, 2024** (examination January to March 2025; report dated May 14, 2026). Do not assume the same conditions remain unresolved today unless a current official source says so. Separate **what the published report states** from any cross-domain interpretation below.
+
+
 ## What the published report states
 
 **Context.** The Accounts Receivable National Inventory (ARNI) is a Collections and Verification Branch program for tax-debt accounts below $1,000,000 that are automatically risk scored and allocated to officers. It is part of the collections continuum after automated strategies and the debt-management call centre, and before complex collections. In 2024–25, the report states ARNI resolved 171,796 accounts and collected $8.29146 billion in cash.
@@ -107,6 +110,12 @@ This vault also interprets the DSS finding through [[Business Intelligence]], [[
 ### Historical relationship
 
 - Report findings cover April 2022–December 2024; do not treat as current ARNI performance
+
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
 
 ## Sources
 

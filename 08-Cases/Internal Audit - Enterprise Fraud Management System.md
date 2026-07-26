@@ -43,6 +43,9 @@ This note summarizes a publicly released CRA report. It is not an internal worki
 
 # Internal Audit – Enterprise Fraud Management System
 
+> **Historical context:** Findings describe conditions for the audit period **April 1, 2021 to March 31, 2024** (with pertinent activities since 2017; examination July to December 2024; report dated January 23, 2026). Do not assume the same conditions remain unresolved today unless a current official source says so. Do not reconstruct protected/redacted detail. Separate **what the published report states** from any cross-domain interpretation below.
+
+
 ## What the published report states
 
 **Context.** CRA implemented the Enterprise Fraud Management System (EFMS) in 2017 to reduce risks of unauthorized employee access to taxpayer information. The system records employee transactions and uses business rules to identify questionable activity in real time. The Security Branch’s Internal Fraud Management Solutions (IFMS) Section maintains/enhances EFMS and supports system developers; Internal Affairs reviews alerts. ITB’s Enterprise Fraud Management Services Section maintains EFMS. The report states that EFMS generated more than 17,000 alerts since implementation, including 2,334 in 2022–23 and 1,850 in 2023–24.
@@ -107,6 +110,12 @@ This vault interprets the loading/re-ingestion finding through [[Defence in Dept
 ### Historical relationship
 
 - EFMS implemented 2017; audit period April 2021–March 2024 (with pertinent activities since 2017)
+
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
 
 ## Sources
 

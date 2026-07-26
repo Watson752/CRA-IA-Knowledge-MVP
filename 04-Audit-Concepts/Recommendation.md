@@ -51,6 +51,10 @@ Recommendations should avoid vague language (“improve monitoring”) in favor 
 - [[Follow-up]]
 - [[Control Ownership]]
 - [[Risk Management]]
+- [[Root Cause Analysis]]
+- [[Consequence or Impact]]
+- [[Findings and Recommendations Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

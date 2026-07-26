@@ -289,6 +289,12 @@ See also: [[How the CRA Business Intelligence Audit Supports the Knowledge-Vault
 
 Start: [[Business Intelligence]] → [[Data Governance]] → [[Horizontal Collaboration]] → [[Continuous Improvement]] → [[Duplicate Analytical Work]] → this case.
 
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
+
 ## Sources
 
 - [Internal Audit – Oversight, Use, and Continuous Improvement of Business Intelligence](https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/internal-audit-program-evaluation/internal-audit-program-evaluation-reports-2024/internal-audit-oversight-use-continuous-improvement-business-intelligence.html)

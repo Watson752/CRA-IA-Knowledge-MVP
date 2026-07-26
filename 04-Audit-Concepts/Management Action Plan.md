@@ -51,6 +51,10 @@ In multi-year remediation, plans may phase quick wins and structural changes. Li
 - [[Control Ownership]]
 - [[Continuous Improvement]]
 - [[Risk Management]]
+- [[Management Action Plan Owner]]
+- [[Internal Audit Independence]]
+- [[Interpreting Historical Public Audit Findings]]
+- [[Audit Lifecycle Map]]
 
 ## Sources
 

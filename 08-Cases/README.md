@@ -45,7 +45,7 @@ tags:
 
 # Public CRA audit and evaluation case studies
 
-This folder contains learning notes that summarize **publicly released** CRA internal audit and evaluation reports. Each case separates **what the published report states** from this vault’s clearly labelled **cross-domain interpretation**. Historical findings are not statements about current CRA conditions unless a newer official source says so.
+This folder contains learning notes that summarize **publicly released** CRA internal audit and evaluation reports. Each case separates **what the published report states** from this vault’s clearly labelled **cross-domain interpretation**. Historical findings are not statements about current CRA conditions unless a newer official source says so. See [[Interpreting Historical Public Audit Findings]]. Each case should include a **Follow-up evidence in vault** section stating current remediation status is unknown unless a follow-up source is linked.
 
 Master index with demo journeys: [[00-Start/Public-Audit-Case-Library]].
 

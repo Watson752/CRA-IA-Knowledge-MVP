@@ -42,6 +42,9 @@ This note summarizes a publicly released CRA report. It is not an internal worki
 
 # Internal Audit – Charities Audit Process
 
+> **Historical context:** Findings describe conditions for the audit period **April 1, 2020 to March 31, 2023** (examination June 2023 to January 2024; report dated January 2025 in vault frontmatter). Do not assume the same conditions remain unresolved today unless a current official source says so. Separate **what the published report states** from any cross-domain interpretation below.
+
+
 ## What the published report states
 
 **Context.** The Charities Directorate (CD) within the Legislative Policy and Regulatory Affairs Branch (LPRAB) promotes compliance with legislation relating to charities through education and enforcement. Its Compliance Division manages general charities compliance, while the Review and Analysis Division (RAD) manages a program focused on terrorism-abuse and non-compliance risks. The report states that approximately 86,000 Canadian charities were federally registered and that the two divisions completed 545 audits from 2020–21 through 2022–23: 541 by Compliance and 4 by RAD.
@@ -107,6 +110,12 @@ This vault interprets the report’s limited/incomplete data dispersed across so
 ### Historical relationship
 
 - None required beyond the report’s own audit period (2020–21 to 2022–23)
+
+## Follow-up evidence in vault
+
+**Current remediation / follow-up status:** unknown in this vault.
+
+This note records the **published** report’s findings, recommendations, and any management action-plan **commitments** (target dates). It does **not** contain a later public follow-up report confirming completion or ongoing operating effectiveness. Do not treat MAP dates as proof of current remediation. See [[Interpreting Historical Public Audit Findings]] and [[Follow-up]].
 
 ## Sources
 

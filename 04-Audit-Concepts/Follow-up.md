@@ -1,6 +1,9 @@
 ---
 title: Follow-up
-aliases: []
+aliases:
+  - Follow-Up
+  - Follow Up
+  - Follow-up Audit
 note_type: audit-concept
 primary_domain: audit
 domains:
@@ -35,7 +38,7 @@ related_methods: []
 tags: []
 ---
 
-**Follow-up** (or follow-up auditing) verifies whether management implemented agreed actions from prior audits and whether those actions effectively addressed [[Finding]]s and residual [[Risk]]. It closes the loop between reporting and sustained improvement, and it holds parties accountable for commitments in [[Management Response]] and [[Management Action Plan]] items.
+**Follow-up** (or follow-up auditing) verifies whether management implemented agreed actions from prior audits and whether those actions effectively addressed [[Finding]]s and residual [[Risk]]. Implementation status is not assumed from MAP target dates alone, and verifying implementation does **not** automatically prove ongoing operating effectiveness without testing. Follow-up closes the loop between reporting and sustained improvement and holds parties accountable for commitments in [[Management Response]] and [[Management Action Plan]] items—without transferring ownership of controls to Internal Audit ([[Internal Audit Independence]]).
 
 Follow-up procedures may include status interviews, document inspection, data re-testing, and walkthroughs of updated [[Control]]s. Outcomes are often reported as implemented, partially implemented, not implemented, or no longer applicable (with justification). Persistent gaps may be re-reported or escalated to governance.
 
@@ -51,6 +54,10 @@ Follow-up is distinct from a new audit: it focuses on prior commitments rather t
 - [[Finding]]
 - [[Control]]
 - [[Internal Audit and Program Evaluation]]
+- [[Ownership and Assurance Roles]]
+- [[Interpreting Historical Public Audit Findings]]
+- [[Internal Audit Independence]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

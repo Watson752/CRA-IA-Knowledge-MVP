@@ -1,6 +1,8 @@
 ---
 title: Finding
-aliases: []
+aliases:
+  - Audit Finding
+  - Findings
 note_type: finding
 primary_domain: audit
 domains:
@@ -35,11 +37,21 @@ related_methods: []
 tags: []
 ---
 
-An audit **finding** communicates a significant issue identified during the engagement. Common elements include **condition** (what was observed), **criteria** (the standard or expectation), **cause** (why it happened, when known), and **effect** or **risk** (actual or potential impact). Some frameworks add **recommendation** within or alongside the finding; others separate recommendations for clarity.
+An audit **finding** communicates a significant issue identified during the engagement. Explanatory structure (reports may not use these exact headings):
 
-Findings are graded or prioritized by severity, likelihood, and alignment with organizational risk appetite. Not every observation becomes a formal finding—immaterial exceptions or isolated errors may be noted to management without public report treatment. Aggregation matters: individually minor issues may combine into a significant theme.
+```text
+[[Evidence]] → condition
+→ compare to [[Criteria]]
+→ [[Root Cause Analysis|cause]] (when supported—do not invent)
+→ [[Consequence or Impact|consequence / risk]]
+→ [[Recommendation]]
+```
 
-Findings should be fact-based, supported by [[Evidence]], and discussed with management before final reporting when practicable (management comment processes). They differ from recommendations (proposed remedies) and from conclusions (overall engagement judgments).
+Common elements: **condition** (what was observed), **criteria** (expected state), **cause** (why, when known), and **effect** / [[Consequence or Impact]] (actual or potential impact). Some frameworks add recommendation within the finding; this vault often separates [[Recommendation]].
+
+Workflow: [[Evidence Evaluation]] → [[Audit Observation]] → (may become) Finding. Not every observation or [[Control Deficiency]] becomes a formal finding—immaterial exceptions may be noted to management without public report treatment. Aggregation matters.
+
+Findings should be fact-based, supported by [[Evidence]], and discussed with management when practicable. They differ from recommendations (proposed remedies) and from conclusions (overall engagement judgments). Historical public findings are period-bound—[[Interpreting Historical Public Audit Findings]].
 
 In public sector reporting, findings may relate to compliance, value for money, governance, or program results. Case studies in this vault may link specific published reports to these general elements without inventing organization-specific content in concept notes.
 
@@ -53,6 +65,14 @@ In public sector reporting, findings may relate to compliance, value for money, 
 - [[Control]]
 - [[Follow-up]]
 - [[How Statistical Limitations Affect Audit Conclusions]]
+- [[Audit Observation]]
+- [[Root Cause Analysis]]
+- [[Consequence or Impact]]
+- [[Evidence Evaluation]]
+- [[Control Deficiency]]
+- [[Interpreting Historical Public Audit Findings]]
+- [[Findings and Recommendations Map]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

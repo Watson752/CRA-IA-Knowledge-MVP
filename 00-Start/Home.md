@@ -67,6 +67,12 @@ Welcome to a personal Obsidian vault for learning **Canada Revenue Agency intern
 | [[CRA-Technology-and-Risk-Map]] | Technology, cyber, fraud, BI themes from public IA reports |
 | [[Public-Audit-Case-Library]] | Published CRA internal audit reports indexed as case studies |
 | [[Public-Audit-Case-Map]] | Branch×case matrix (official relationships only) |
+| [[Internal Audit Onboarding Path]] | Ordered IA methodology + independence + historical reading path |
+| [[Audit Lifecycle Map]] | Objective → evidence → finding → MAP → follow-up |
+| [[Audit Methodology Map]] | Planning, criteria, control testing procedures |
+| [[Risk and Control Map]] | Risk, control design/OE, deficiencies |
+| [[Evidence and Conclusion Map]] | Sufficiency, reliability, data/system limits |
+| [[Findings and Recommendations Map]] | Condition–criteria–cause–effect–recommendation |
 
 ## Role-based learning paths
 

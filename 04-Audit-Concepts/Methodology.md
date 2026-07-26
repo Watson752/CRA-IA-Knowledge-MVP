@@ -40,7 +40,7 @@ Methodology should be proportionate to engagement risk and complexity. A complia
 
 Documented methodology supports reproducibility, peer review, and defensibility of [[Evidence]] and [[Finding]]s. Changes during the engagement (e.g., expanded analytics after preliminary results) should be recorded. [[Sampling Risk]] and limitations from data cut-offs ([[Assessment Cut-Off Date]]) should be explicit in design.
 
-Methodology connects to related **methods** notes in case studies when specific techniques (e.g., walkthroughs, data mining) are applied.
+Methodology connects to related **methods** notes in case studies when specific techniques (e.g., [[Walkthrough]], data mining) are applied. A [[Walkthrough]] supports understanding of [[Design Effectiveness]]; it is not by itself [[Operating Effectiveness]] testing for the full [[Audit Period]]. See [[Control Testing]].
 
 ## Related notes
 
@@ -51,6 +51,13 @@ Methodology connects to related **methods** notes in case studies when specific 
 - [[Analytics]]
 - [[Control]]
 - [[Risk]]
+- [[Audit Planning]]
+- [[Control Testing]]
+- [[Walkthrough]]
+- [[Evidence Evaluation]]
+- [[Design Effectiveness]]
+- [[Operating Effectiveness]]
+- [[Audit Methodology Map]]
 
 ## Sources
 
