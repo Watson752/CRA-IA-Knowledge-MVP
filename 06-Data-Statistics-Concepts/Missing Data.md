@@ -53,13 +53,13 @@ tags:
 
 ## Types
 
-Distinguish forms of absence before assessing impact:
+Distinguish forms of absence before assessing impact (first-class notes: [[Missing Records]], [[Missing Values]], [[Systematic Exclusion]], [[Non-Response or Unavailable Evidence]]):
 
 | Type | Meaning |
 |------|---------|
-| Missing records | Entire in-scope items never appear in the extract or register |
-| Missing values within records | Rows exist but critical fields are blank, null, or unusable |
-| Omitted population segments | Groups, regions, channels, or product lines excluded by filter or join logic |
+| Missing records | Entire in-scope items never appear in the extract or register ([[Missing Records]]) |
+| Missing values within records | Rows exist but critical fields are blank, null, or unusable ([[Missing Values]]) |
+| Omitted population segments | Groups, regions, channels, or product lines excluded by filter or join logic ([[Systematic Exclusion]]) |
 | Truncated extracts | Cut-off, row limits, or incomplete transfers leave part of the period or inventory out |
 | Missing time periods | Gaps in the time series relative to the [[Audit Objective]] and [[Scope]] |
 | Missing supporting evidence | Source documents, approvals, logs, or workpapers needed to corroborate data |
@@ -117,8 +117,9 @@ Use procedures already supported by related vault concepts (no separate procedur
 - **Completeness testing** against source counts, hash totals, or independent registers ([[Population Completeness]])
 - **Source-to-report tracing** and review of extraction logic ([[Evidence Reliability]], [[Structured Data]])
 - **Exception analysis** on full or large populations where tools allow ([[Analytics]], [[Sampling Risk]])
-- **Sensitivity analysis** of whether conclusions change when incomplete segments are excluded or bounded ([[How Statistical Limitations Affect Audit Conclusions]])
+- **Sensitivity analysis** of whether conclusions change when incomplete segments are excluded or bounded ([[Sensitivity Analysis]], [[How Statistical Limitations Affect Audit Conclusions]])
 - Cut-off and period alignment checks ([[Assessment Cut-Off Date]])
+- Bias checks: [[Selection Bias]], [[Survivorship Bias]]—**not** assumed for every gap
 
 Document limitations in methodology or scope so [[Finding]] language stays defensible.
 
@@ -142,6 +143,13 @@ These cases illustrate why missing or incomplete operational data, incomplete me
 
 - [[Data Quality]]
 - [[Population Completeness]]
+- [[Missing Records]]
+- [[Missing Values]]
+- [[Systematic Exclusion]]
+- [[Non-Response or Unavailable Evidence]]
+- [[Selection Bias]]
+- [[Survivorship Bias]]
+- [[Sensitivity Analysis]]
 - [[Sampling Risk]]
 - [[Evidence]]
 - [[Evidence Reliability]]
@@ -150,6 +158,9 @@ These cases illustrate why missing or incomplete operational data, incomplete me
 - [[Analytics]]
 - [[Performance Reporting]]
 - [[How Missing Data Limits Audit Assurance]]
+- [[Inclusion and Exclusion Rules]]
+- [[Audit Population]]
+- [[Data Quality and Bias Map]]
 
 ## Sources
 

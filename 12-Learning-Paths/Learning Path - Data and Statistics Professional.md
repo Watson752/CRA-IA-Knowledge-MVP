@@ -36,12 +36,15 @@ For IA + software/data combined sequence: [[Learning Path - Internal Audit Softw
 
 ## Sequence
 
+0. [[Data and Statistics Onboarding Path]] · [[Statistics and Evidence Map]]
 1. [[CRA Public Statistical Data]] · [[Individual Income Tax Return Statistics]]
 2. [[Assessment Cut-Off Date]] · [[Data Suppression]] · [[Rounding]] · [[Statistical Revision]]
-3. [[Comparability Across Editions]] · [[Population Completeness]] · [[Data Quality]] · [[Missing Data]]
-4. [[Business Intelligence]] · [[Performance Reporting]] · [[Evidence Reliability]]
-5. [[How Statistical Limitations Affect Audit Conclusions]] · [[How Missing Data Limits Audit Assurance]]
-6. Cases:
+3. [[Audit Population]] · [[Population Completeness]] · [[Comparability Across Editions]] · [[Data Quality]] · [[Missing Data]] · [[Selection Bias]]
+4. [[Sample Selection]] · [[Random Sampling]] · [[Stratified Sampling]] · [[Judgmental Sampling]] · [[Full-Population Analysis]]
+5. [[Outlier Analysis]] · [[Trend Analysis]] · [[Statistical Significance]] · [[Operational Significance]] · [[Materiality]]
+6. [[Reproducibility]] · [[Analytical Validity]] · [[Business Intelligence]] · [[Performance Reporting]] · [[Evidence Reliability]] · [[Audit Conclusion]]
+7. [[How Statistical Limitations Affect Audit Conclusions]] · [[How Missing Data Limits Audit Assurance]]
+8. Cases:
    - [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
    - [[Evaluation - Audit Yield]] (report shorthand **ABS** = verification required; not a silent alias for [[Assessment, Benefit, and Service Branch|ABSB]])
 

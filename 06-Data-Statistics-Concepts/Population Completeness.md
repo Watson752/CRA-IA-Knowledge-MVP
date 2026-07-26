@@ -36,22 +36,32 @@ related_methods: []
 tags: []
 ---
 
-**Population completeness** means the audited or analyzed population includes all records that should be in scope— no systematic omissions, truncation, or filter errors. Incomplete populations inflate [[Sampling Risk]] and can invalidate extrapolations from samples to totals.
+**Population completeness** means the [[Retrieved Population]] includes all items that belong in the [[Intended Population]] for the [[Audit Objective]], [[Scope]], and [[Audit Period]]—no systematic omissions, truncation, or filter errors ([[Inclusion and Exclusion Rules]]). Incomplete populations inflate [[Sampling Risk]] and can invalidate [[Statistical Extrapolation]].
 
-[[Missing Data]] often produces those gaps: omitted segments, truncated extracts, missing time periods, or entire records never loaded. Completeness checks compare source counts, control totals, hash totals, or independent registers. Cut-off errors at an [[Assessment Cut-Off Date]] are a frequent cause of gaps between financial and operational data.
+[[Missing Data]] often produces those gaps: [[Missing Records]], omitted segments ([[Systematic Exclusion]]), truncated extracts, missing time periods, or entire records never loaded. Completeness checks compare source counts, control totals, hash totals, or independent registers ([[Data Reconciliation]]). Cut-off errors at an [[Assessment Cut-Off Date]] are a frequent cause of gaps between financial and operational data.
 
-**Access and pipeline examples:** [[User Access Dataset]] extracts must include nested groups, [[Service Accounts]], and [[Dormant Accounts]] still enabled; [[Data Pipeline]] filters/rejects can silently drop segments. Completeness is distinct from [[Data Accuracy]].
+**Access and pipeline examples:** [[User Access Dataset]] extracts must include nested groups, [[Service Accounts]], and [[Dormant Accounts]] still enabled; analysing only active/successful items can create [[Survivorship Bias]]. [[Data Pipeline]] filters/rejects can silently drop segments. Completeness is distinct from [[Data Accuracy]].
 
-In statistical agencies and large programs, completeness interacts with coverage studies and late-reported transactions. Auditors state when conclusions apply only to retrieved subsets. Link to [[Data Quality]] and [[Evidence Reliability]] when audit procedures depend on full population analytics.
+In statistical agencies and large programs, completeness interacts with coverage studies and late-reported transactions. Auditors state when conclusions apply only to retrieved subsets—never treat the extract as the intended universe without testing. Incomplete populations weaken [[Evidence Reliability]] and force narrower [[Audit Conclusion]]s. Validate the [[Sampling Frame]] before [[Sample Selection]].
 
 ## Related notes
 
+- [[Audit Population]]
+- [[Intended Population]]
+- [[Retrieved Population]]
+- [[Sampling Frame]]
+- [[Audit Objective]]
+- [[Scope]]
+- [[Sample Selection]]
 - [[Missing Data]]
+- [[Missing Records]]
 - [[Data Quality]]
 - [[Data Accuracy]]
 - [[Sampling Risk]]
 - [[Assessment Cut-Off Date]]
 - [[Evidence Reliability]]
+- [[Survivorship Bias]]
+- [[Selection Bias]]
 - [[Structured Data]]
 - [[Analytics]]
 - [[User Access Dataset]]
@@ -59,6 +69,8 @@ In statistical agencies and large programs, completeness interacts with coverage
 - [[Data Pipeline]]
 - [[Rejected Records]]
 - [[Data Reconciliation]]
+- [[Audit Conclusion]]
+- [[Population and Sampling Map]]
 
 ## Sources
 

@@ -34,6 +34,10 @@ tags:
 - [[Rejected Records]]
 - [[Record Uniqueness]]
 - [[Evidence Reliability]]
+- [[Intended Population]]
+- [[Sampling Frame]]
+- [[Audit Population]]
+- [[Inclusion and Exclusion Rules]]
 
 ## Sources
 

@@ -38,19 +38,25 @@ related_methods: []
 tags: []
 ---
 
-**Analytics** is the systematic analysis of data to discover patterns, test hypotheses, and support decisions. It ranges from descriptive (what happened) to diagnostic (why), predictive (what may happen), and prescriptive (what to do). In audit, analytics can test full populations for exceptions, profile [[Risk]], and enhance [[Methodology]] efficiency.
+**Analytics** is the systematic analysis of data to discover patterns, test hypotheses, and support decisions. It ranges from [[Descriptive Statistics|descriptive]] (what happened) to diagnostic (why), predictive (what may happen), and prescriptive (what to do). In audit, analytics can support [[Full-Population Analysis]], [[Outlier Analysis]], [[Trend Analysis]], profile [[Risk]], and enhance [[Methodology]] efficiency.
 
-Analytics quality hinges on [[Structured Data]] fitness, documented logic, reproducibility, and analyst competence. Results should distinguish statistical association from causation unless [[Research]] methods support causal claims.
+Analytics quality hinges on [[Structured Data]] fitness, documented logic, [[Reproducibility]], [[Analytical Validity]], and analyst competence. Results should distinguish statistical association from causation unless [[Research]] methods support causal claims. **Reproducible ≠ valid**—wrong population or logic can reproduce a wrong answer.
 
-Organizational challenges include [[Outdated Analytics]], tool fragmentation, and [[Siloed Knowledge]]. [[Horizontal Collaboration]] and shared repositories reduce [[Duplicate Analytical Work]].
+In very large datasets, statistically detectable differences may be operationally negligible—apply [[Materiality]], [[Effect Size]], and [[Operational Significance]]. Organizational challenges include [[Outdated Analytics]], tool fragmentation, and [[Siloed Knowledge]].
 
-Auditors performing analytics document data sources, scripts, and limitations ([[Sampling Risk]], [[Data Suppression]], [[Rounding]]) when findings depend on analytical output.
+Document sources, extract dates, scripts/parameters/versions, transforms, inclusion/exclusion rules, and limitations ([[Reproducibility]], [[Sampling Risk]], [[Data Suppression]], [[Rounding]]) when findings depend on analytical output. Prefer independent review or [[Reperformance]] of critical analytics.
 
 ## Related notes
 
+- [[Descriptive Statistics]]
+- [[Outlier Analysis]]
+- [[Trend Analysis]]
+- [[Reproducibility]]
+- [[Analytical Validity]]
 - [[Business Intelligence]]
 - [[Research]]
 - [[Data Quality]]
+- [[Data Lineage]]
 - [[Methodology]]
 - [[Risk Algorithms]]
 - [[Continuous Improvement]]
@@ -59,8 +65,12 @@ Auditors performing analytics document data sources, scripts, and limitations ([
 - [[Sample Selection]]
 - [[False Positives]]
 - [[False Negatives]]
+- [[Sensitivity Analysis]]
+- [[Statistical Significance]]
+- [[Operational Significance]]
 - [[User Access Dataset]]
 - [[Audit Log Dataset]]
+- [[Reproducible Analytics Map]]
 
 ## Sources
 

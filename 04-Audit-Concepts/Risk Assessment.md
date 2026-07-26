@@ -37,6 +37,11 @@ Risk assessment informs—but does not replace—[[Criteria]] or [[Evidence]]. D
 - [[Scope]]
 - [[Sampling Risk]]
 - [[Audit Methodology Map]]
+- [[Materiality]]
+- [[Risk-Based Selection]]
+- [[Operational Significance]]
+- [[Sample Selection]]
+- [[Rare High-Impact Events]]
 
 ## Sources
 

@@ -40,6 +40,12 @@ Guide to **aggregate public** CRA data and statistics. No taxpayer-level data.
 - [[Initial Assessment Data]] · [[Reassessment Data]]
 - [[Statistical Revision]] · [[Comparability Across Editions]]
 - [[Data Quality]] · [[Population Completeness]] · [[Missing Data]] · [[Evidence Reliability]]
+- [[Audit Population]] · [[Sample Selection]] · [[Full-Population Analysis]] · [[Reproducibility]]
+- [[Statistical Significance]] · [[Operational Significance]] · [[Materiality]]
+
+## Audit analytics navigation
+
+[[Statistics and Evidence Map]] · [[Population and Sampling Map]] · [[Data Quality and Bias Map]] · [[Outliers and Trend Analysis Map]] · [[Statistical Interpretation Map]] · [[Reproducible Analytics Map]] · [[Data and Statistics Onboarding Path]]
 
 ## Limitation chain (statistics and evidence)
 

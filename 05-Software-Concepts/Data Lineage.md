@@ -33,6 +33,10 @@ tags:
 - [[Data Reconciliation]]
 - [[System-Generated Evidence]]
 - [[Evaluation - Audit Yield]]
+- [[Full-Population Analysis]]
+- [[Reproducibility]]
+- [[Analytics]]
+- [[Population Completeness]]
 
 ## Sources
 

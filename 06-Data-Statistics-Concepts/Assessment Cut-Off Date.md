@@ -52,6 +52,9 @@ Link to [[Initial Assessment Data]] when first-pass populations are frozen befor
 - [[Statistical Revision]]
 - [[Evidence]]
 - [[Scope]]
+- [[Trend Analysis]]
+- [[Intended Population]]
+- [[Inclusion and Exclusion Rules]]
 
 ## Sources
 

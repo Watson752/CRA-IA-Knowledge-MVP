@@ -63,7 +63,14 @@ Welcome to a personal Obsidian vault for learning **Canada Revenue Agency intern
 | [[CRA-Organization-Map]] | Public CRA governance and structure entry points |
 | [[Organizational-Onboarding-Path]] | Ordered path: governance → branches → regions → AERB → cross-branch audit |
 | [[Ownership and Assurance Roles]] | Business / IT / data / control ownership vs AERB assurance |
-| [[CRA-Data-and-Statistics-Map]] | Public aggregate data and statistics (planned notes) |
+| [[CRA-Data-and-Statistics-Map]] | Public aggregate data and statistics |
+| [[Statistics and Evidence Map]] | Population → analytics → evidence → conclusion |
+| [[Population and Sampling Map]] | Intended/retrieved/frame; sampling methods |
+| [[Data Quality and Bias Map]] | Missingness, selection/survivorship bias |
+| [[Outliers and Trend Analysis Map]] | Unusual ≠ error; trend context checks |
+| [[Statistical Interpretation Map]] | Statistical vs operational significance |
+| [[Reproducible Analytics Map]] | Reproducibility ≠ validity |
+| [[Data and Statistics Onboarding Path]] | Ordered statistics-analytics IA learning sequence |
 | [[CRA-Technology-and-Risk-Map]] | Technology, cyber, fraud, BI themes from public IA reports |
 | [[Software and Controls Map]] | Access, automated controls, change, evidence paths |
 | [[Identity and Access Map]] | IAM, privileged access, approval vs periodic review |

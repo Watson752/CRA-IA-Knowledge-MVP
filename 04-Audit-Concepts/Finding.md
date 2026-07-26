@@ -49,7 +49,7 @@ An audit **finding** communicates a significant issue identified during the enga
 
 Common elements: **condition** (what was observed), **criteria** (expected state), **cause** (why, when known), and **effect** / [[Consequence or Impact]] (actual or potential impact). Some frameworks add recommendation within the finding; this vault often separates [[Recommendation]].
 
-Workflow: [[Evidence Evaluation]] → [[Audit Observation]] → (may become) Finding. Not every observation or [[Control Deficiency]] becomes a formal finding—immaterial exceptions may be noted to management without public report treatment. Aggregation matters.
+Workflow: [[Evidence Evaluation]] → [[Audit Observation]] → (may become) Finding. Not every observation or [[Control Deficiency]] becomes a formal finding—immaterial exceptions may be noted to management without public report treatment ([[Materiality]], [[Operational Significance]]). Aggregation matters. Report “significance” is not the same as [[Statistical Significance]].
 
 Findings should be fact-based, supported by [[Evidence]], and discussed with management when practicable. They differ from recommendations (proposed remedies) and from conclusions (overall engagement judgments). Historical public findings are period-bound—[[Interpreting Historical Public Audit Findings]].
 
@@ -57,6 +57,10 @@ In public sector reporting, findings may relate to compliance, value for money, 
 
 ## Related notes
 
+- [[Materiality]]
+- [[Operational Significance]]
+- [[Statistical Significance]]
+- [[Audit Conclusion]]
 - [[Criteria]]
 - [[Evidence]]
 - [[Recommendation]]

@@ -41,9 +41,11 @@ Source System Data
 → Reporting dataset
 → Management Reporting / report logic
 → Management review
-→ Evidence Reliability
-→ Audit conclusion
+→ [[Evidence Reliability]]
+→ [[Audit Conclusion]]
 ```
+
+Related: [[Statistics and Evidence Map]] · [[Reproducible Analytics Map]] · [[Population Completeness]] · [[Selection Bias]]
 
 ## Quality dimensions (keep distinct)
 

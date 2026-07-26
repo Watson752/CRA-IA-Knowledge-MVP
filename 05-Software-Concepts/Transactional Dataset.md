@@ -22,13 +22,17 @@ tags:
   - onboarding
 ---
 
-A **transactional dataset** holds event-level records (claims, payments, access events) used as pipeline inputs or audit populations. Structure enables [[Analytics]]; quality dimensions still apply ([[Data Quality]]).
+A **transactional dataset** holds event-level records (claims, payments, access events) used as pipeline inputs or as a candidate [[Retrieved Population]] for analysis. Structure enables [[Analytics]]; quality dimensions still apply ([[Data Quality]]).
+
+A received transactional extract is **not** automatically the [[Intended Population]] / [[Audit Population]]—assess [[Population Completeness]] and [[Inclusion and Exclusion Rules]] before drawing population-level conclusions.
 
 ## Related notes
 
 - [[Source System Data]]
 - [[Structured Data]]
 - [[Data Pipeline]]
+- [[Audit Population]]
+- [[Retrieved Population]]
 - [[Population Completeness]]
 
 ## Sources

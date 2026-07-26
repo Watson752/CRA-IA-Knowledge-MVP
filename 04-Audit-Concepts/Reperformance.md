@@ -32,6 +32,10 @@ tags:
 - [[Operating Effectiveness]]
 - [[Evidence]]
 - [[Evidence Hierarchy]]
+- [[Reproducibility]]
+- [[Analytical Validity]]
+- [[Analytics]]
+- [[Full-Population Analysis]]
 
 ## Sources
 

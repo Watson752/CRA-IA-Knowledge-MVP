@@ -58,6 +58,13 @@ Bridge concept linking [[Evidence Reliability]], [[Data Quality]], and [[Perform
 - [[Small-Cell Analysis]]
 - [[Performance Reporting]]
 - [[How Missing Data Limits Audit Assurance]]
+- [[Statistical Significance]]
+- [[Operational Significance]]
+- [[Confidence Interval]]
+- [[Effect Size]]
+- [[Materiality]]
+- [[Sensitivity Analysis]]
+- [[Statistical Interpretation Map]]
 
 ## Sources
 

@@ -28,9 +28,11 @@ tags:
 ```text
 [[Evidence]] (sufficient + appropriate)
 → [[Evidence Reliability]] / [[Evidence Hierarchy]]
-→ limitations ([[Missing Data]], [[Population Completeness]])
-→ conclusion strength ([[How Statistical Limitations Affect Audit Conclusions]])
+→ limitations ([[Missing Data]], [[Population Completeness]], [[Selection Bias]])
+→ conclusion strength ([[How Statistical Limitations Affect Audit Conclusions]], [[Audit Conclusion]])
 ```
+
+Analytics path: [[Statistics and Evidence Map]] · [[Reproducibility]] / [[Analytical Validity]] · [[Operational Significance]]
 
 ## Quality dimensions
 
@@ -53,4 +55,4 @@ tags:
 
 ## Related maps
 
-- [[Audit Methodology Map]] · [[Findings and Recommendations Map]] · [[CRA-Data-and-Statistics-Map]]
+- [[Audit Methodology Map]] · [[Findings and Recommendations Map]] · [[CRA-Data-and-Statistics-Map]] · [[Statistics and Evidence Map]] · [[Data and Statistics Onboarding Path]]
