@@ -37,21 +37,27 @@ related_methods: []
 tags: []
 ---
 
-**Tool deployment** covers installing, configuring, integrating, and releasing technology into production (or controlled pilot) environments. It includes change management, testing, rollback plans, identity provisioning, and documentation. Secure deployment applies hardening baselines, secrets management, and network placement consistent with [[Defence in Depth]].
+**Tool deployment** covers installing, configuring, integrating, and releasing technology into production (or controlled pilot) environments. It includes [[Change Management]], testing, rollback plans, identity provisioning, and documentation. Secure deployment applies hardening baselines, secrets management, and network placement consistent with [[Defence in Depth]].
 
-Weak deployment practices— excessive privileges, default credentials, missing logging, or unpatched dependencies— create immediate [[Risk]]. [[IT Controls]] over change and release management are standard audit focus areas.
+Weak deployment practices— [[Excessive Privileges]], default credentials, missing logging, or unpatched dependencies— create immediate [[Risk]]. [[IT Controls]] over change and release management are standard audit focus areas. [[Deployment Approval]] should be distinct from the builder; [[Code Review]] is a common quality gate.
 
-Deployment should follow outputs of [[Tool Acquisition]]: approved architecture, data flows, and operational runbooks. Post-deployment, [[Monitoring and Reporting]] validates availability and security signals.
+Deployment should follow outputs of [[Tool Acquisition]]: approved architecture, data flows, and operational runbooks. Post-deployment, [[Monitoring and Reporting]] / [[Control Ownership]] validate availability, security signals, and that controls still meet objectives—not only that the release succeeded.
 
-Agile and continuous delivery increase deployment frequency; governance shifts toward automated pipelines, policy-as-code, and segregation of duties in CI/CD.
+Agile and continuous delivery increase deployment frequency; governance shifts toward automated pipelines, policy-as-code, and [[Segregation of Duties]] in CI/CD.
 
 ## Related notes
 
 - [[Tool Acquisition]]
 - [[IT Controls]]
+- [[Change Management]]
+- [[Deployment Approval]]
+- [[Code Review]]
+- [[Excessive Privileges]]
 - [[Security Controls]]
 - [[Monitoring and Reporting]]
+- [[Control Ownership]]
 - [[Cybersecurity]]
+- [[Change Management Map]]
 
 ## Sources
 

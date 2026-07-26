@@ -23,17 +23,26 @@ tags:
   - onboarding
 ---
 
-**Control testing** is the set of procedures used to evaluate [[Design Effectiveness]], [[Control Implementation]], and [[Operating Effectiveness]]. Common procedures: [[Walkthrough]], [[Inquiry]], [[Observation (Procedure)]], [[Inspection]], [[Reperformance]], and data analysis ([[Analytics]]).
+**Control testing** is the set of procedures used to evaluate [[Design Effectiveness]], [[Control Implementation]], and [[Operating Effectiveness]]. Common procedures: [[Document Review]], [[Walkthrough]], [[Inquiry]], [[Observation (Procedure)]], [[Inspection]], [[Configuration Review]], [[Reperformance]], [[Exception Testing]], [[Sample Selection]], data analysis ([[Analytics]] / [[Full-Population Analysis]]).
 
-Select procedures based on control type ([[Manual Control]] vs [[Automated Control]]), frequency, risk, and available evidence. Always link tests to [[Control Objective]], [[Criteria]], and required [[Evidence]].
+Select procedures based on control type ([[Manual Control]] vs [[Automated Control]]), frequency, risk, and available evidence. Always link tests to [[Control Objective]], [[Criteria]], and required [[Evidence]]. For access controls see [[Access Review Testing]]; for pipelines see [[Data Reconciliation]] and source-to-report tracing.
 
 ## Related notes
 
 - [[Design Effectiveness]]
+- [[Control Implementation]]
 - [[Operating Effectiveness]]
+- [[Document Review]]
+- [[Walkthrough]]
+- [[Configuration Review]]
+- [[Exception Testing]]
+- [[Sample Selection]]
+- [[Full-Population Analysis]]
+- [[Access Review Testing]]
 - [[Methodology]]
 - [[Evidence]]
 - [[Audit Methodology Map]]
+- [[Automated Controls Map]]
 - [[Internal Audit - Enterprise Fraud Management System]]
 - [[Internal Audit - Charities Audit Process]]
 

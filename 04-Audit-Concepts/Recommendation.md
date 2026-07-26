@@ -41,7 +41,7 @@ Recommendations vary in urgency and may include short-term compensating actions 
 
 Internal audit standards emphasize that recommendations are advisory; implementation choices belong to management and governance. [[Follow-up]] audits verify whether agreed actions were implemented and whether risk was reduced as intended.
 
-Recommendations should avoid vague language (“improve monitoring”) in favor of measurable outcomes (“implement quarterly access reviews for privileged accounts with documented sign-off”).
+Recommendations should avoid vague language (“improve monitoring”) in favor of measurable outcomes (“implement quarterly access reviews for privileged accounts with documented sign-off”—see [[Periodic Access Review]]).
 
 ## Related notes
 
@@ -50,6 +50,8 @@ Recommendations should avoid vague language (“improve monitoring”) in favor 
 - [[Management Action Plan]]
 - [[Follow-up]]
 - [[Control Ownership]]
+- [[Periodic Access Review]]
+- [[Privileged Access]]
 - [[Risk Management]]
 - [[Root Cause Analysis]]
 - [[Consequence or Impact]]

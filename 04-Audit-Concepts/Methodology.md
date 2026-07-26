@@ -36,7 +36,7 @@ tags: []
 
 **Methodology** describes the audit approach: how planning, fieldwork, analysis, and reporting will achieve the [[Audit Objective]] within [[Scope]] against stated [[Criteria]]. It includes risk assessment procedures, control evaluation techniques, sampling or full-population testing choices, use of analytics, and quality assurance steps.
 
-Methodology should be proportionate to engagement risk and complexity. A compliance review may emphasize inspection of authorizations; an IT audit may include configuration review and vulnerability management testing; a performance audit may combine document review, interviews, and statistical analysis of [[Structured Data]].
+Methodology should be proportionate to engagement risk and complexity. A compliance review may emphasize inspection of authorizations; an IT audit may include [[Configuration Review]] and vulnerability management testing; a performance audit may combine [[Document Review]], interviews, and statistical analysis of [[Structured Data]].
 
 Documented methodology supports reproducibility, peer review, and defensibility of [[Evidence]] and [[Finding]]s. Changes during the engagement (e.g., expanded analytics after preliminary results) should be recorded. [[Sampling Risk]] and limitations from data cut-offs ([[Assessment Cut-Off Date]]) should be explicit in design.
 

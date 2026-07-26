@@ -24,18 +24,24 @@ tags:
   - onboarding
 ---
 
-**System-generated evidence** (reports, extracts, logs, dashboards) is not automatically reliable because it came from a system. Reliability depends on access controls, configuration, data lineage/extraction logic, change management, and completeness of feeds ([[Evidence Reliability]], [[IT Controls]], [[Tool Deployment]], [[Population Completeness]], [[Missing Data]]).
+**System-generated evidence** (reports, extracts, logs, dashboards) is not automatically reliable because it came from a system. Reliability depends on access controls, configuration, [[Data Lineage|data lineage]]/extraction logic, [[Change Management]], completeness of feeds, [[Time Synchronization]], and [[Identity Attribution]] ([[Evidence Reliability]], [[IT Controls]], [[Tool Deployment]], [[Population Completeness]], [[Missing Data]], [[Incomplete Audit Logging]]).
 
-Alert counts or dashboard figures alone may be insufficient ([[Internal Audit - Enterprise Fraud Management System]] teaching note in vault).
+Alert counts or dashboard figures alone may be insufficient ([[Internal Audit - Enterprise Fraud Management System]] teaching note in vault). Stage reconciliations of totals do not prove field-level [[Data Accuracy]] ([[Data Reconciliation]]).
 
 ## Related notes
 
 - [[Evidence]]
 - [[Evidence Reliability]]
 - [[Audit Logging]]
+- [[Application Logging]]
+- [[Data Lineage]]
+- [[Data Pipeline]]
+- [[Management Reporting]]
 - [[Structured Data]]
 - [[Monitoring and Reporting]]
 - [[Analytics]]
+- [[Time Synchronization]]
+- [[Identity Attribution]]
 
 ## Sources
 

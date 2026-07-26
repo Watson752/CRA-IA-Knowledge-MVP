@@ -62,13 +62,18 @@ Data owner / data-accountable role (e.g., CDO mandate; stewards per Data Governa
 Control owner (first line; sometimes split with technical custodians)
 → designs, operates, monitors, and remediates a specific control
 
+Change requester → Change approver → Deployment authority
+→ (derived teaching chain) initiate / authorize intent / authorize go-live
+→ see [[Change Requester]], [[Change Approval]], [[Deployment Approval]]
+→ technical implementers are not automatically approvers
+
 AERB (third line / IA & PE)
 → independently audits or evaluates
 → may judge whether MAPs are reasonable
 → does NOT own the business process, system, data, or corrective execution
 ```
 
-Management (not AERB) owns [[Management Response]] and [[Management Action Plan]] corrective action after [[Recommendation]]s.
+Management (not AERB) owns [[Management Response]] and [[Management Action Plan]] corrective action after [[Recommendation]]s. Ambiguous ownership is a control risk—see [[Unclear Accountability]].
 
 ## Content-class labels
 
@@ -106,6 +111,10 @@ Secondary illustration (split maintenance vs MAP lead): [[Internal Audit - Enter
 - [[Technical Support]]
 - [[Data Owner]]
 - [[Control Ownership]]
+- [[Change Requester]]
+- [[Change Approval]] (change approver)
+- [[Deployment Approval]] (deployment authority)
+- [[Unclear Accountability]]
 
 ### Audit and assurance roles
 
@@ -116,10 +125,13 @@ Secondary illustration (split maintenance vs MAP lead): [[Internal Audit - Enter
 ### Frameworks and related concepts
 
 - [[Three Lines Model]]
+- [[Change Management]]
 - [[Management Action Plan]]
 - [[Management Response]]
 - [[Data Governance]]
 - [[Scope]]
+- [[Change Management Map]]
+- [[Software and Data Onboarding Path]]
 
 ## Related organization navigation
 

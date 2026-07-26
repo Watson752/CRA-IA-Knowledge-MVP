@@ -49,6 +49,12 @@ Index: [[Public-Audit-Case-Library]]
 - [[Risk Management]] · [[Control Ownership]]
 - [[Missing Data]] · [[Data Quality]] · [[Evidence Reliability]] · [[Sampling Risk]] — when incomplete extracts or transfers weaken assurance (see [[How Missing Data Limits Audit Assurance]])
 
+## Software-data MOCs
+
+- [[Software and Controls Map]] · [[Identity and Access Map]] · [[Logging and Monitoring Map]]
+- [[Automated Controls Map]] · [[Data Pipeline and Reporting Map]] · [[Change Management Map]]
+- [[Software and Data Onboarding Path]]
+
 ## Demo journeys
 
 - Journey 2 (cyber): see [[Learning Path - Software Professional]]

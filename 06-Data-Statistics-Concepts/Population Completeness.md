@@ -40,17 +40,25 @@ tags: []
 
 [[Missing Data]] often produces those gaps: omitted segments, truncated extracts, missing time periods, or entire records never loaded. Completeness checks compare source counts, control totals, hash totals, or independent registers. Cut-off errors at an [[Assessment Cut-Off Date]] are a frequent cause of gaps between financial and operational data.
 
+**Access and pipeline examples:** [[User Access Dataset]] extracts must include nested groups, [[Service Accounts]], and [[Dormant Accounts]] still enabled; [[Data Pipeline]] filters/rejects can silently drop segments. Completeness is distinct from [[Data Accuracy]].
+
 In statistical agencies and large programs, completeness interacts with coverage studies and late-reported transactions. Auditors state when conclusions apply only to retrieved subsets. Link to [[Data Quality]] and [[Evidence Reliability]] when audit procedures depend on full population analytics.
 
 ## Related notes
 
 - [[Missing Data]]
 - [[Data Quality]]
+- [[Data Accuracy]]
 - [[Sampling Risk]]
 - [[Assessment Cut-Off Date]]
 - [[Evidence Reliability]]
 - [[Structured Data]]
 - [[Analytics]]
+- [[User Access Dataset]]
+- [[Access Review Testing]]
+- [[Data Pipeline]]
+- [[Rejected Records]]
+- [[Data Reconciliation]]
 
 ## Sources
 

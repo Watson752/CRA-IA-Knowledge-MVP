@@ -25,11 +25,17 @@ tags:
 
 **Control implementation** is whether the designed [[Control]] has been put in place (procedure issued, rule deployed, reviewer assigned, tool configured). Implementation sits between [[Design Effectiveness]] and [[Operating Effectiveness]]: a well-designed control that was never implemented cannot operate; an implemented control may still fail OE testing.
 
+For automated rules: approved requirement → build/[[Code Review]] → [[Deployment Approval]] → production [[System Configuration]]. **Pre-production test evidence (UAT/SIT) supports implementation readiness but does not demonstrate [[Operating Effectiveness]] in production throughout the [[Audit Period]].**
+
 ## Related notes
 
 - [[Design Effectiveness]]
 - [[Operating Effectiveness]]
 - [[Tool Deployment]]
+- [[Deployment Approval]]
+- [[System Configuration]]
+- [[Automated Control]]
+- [[Change Management]]
 - [[Control]]
 
 ## Sources

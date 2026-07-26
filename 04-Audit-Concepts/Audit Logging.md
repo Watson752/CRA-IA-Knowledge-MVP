@@ -2,7 +2,6 @@
 title: "Audit Logging"
 aliases:
   - Audit Trail
-  - System Logs
 note_type: audit-concept
 primary_domain: audit
 domains:
@@ -24,18 +23,32 @@ tags:
   - onboarding
 ---
 
-**Audit logging** records security- or control-relevant events (access, changes, alerts). Logs can be strong [[System-Generated Evidence]] when protected from tampering, retained appropriately, and complete enough for the assertion. Gaps, weak access to logs, or unknown retention reduce [[Evidence Reliability]].
+**Audit logging** records security- or control-relevant events (access, changes, privileged activity, control-relevant alerts) into an **audit trail**. Distinct from [[Application Logging]] (business/transaction events) and from [[Security Logging]] when the latter is used only for tool telemetry—though they overlap in practice.
 
-Related operational concept: [[Monitoring and Reporting]].
+Logs can be strong [[System-Generated Evidence]] only when protected from tampering, retained appropriately ([[Data Retention]]), complete enough for the assertion, time-consistent ([[Time Synchronization]]), and attributable ([[Identity Attribution]]). Gaps, weak access to logs, or unknown retention reduce [[Evidence Reliability]]. **Do not** treat system-generated logs as complete without validation ([[Incomplete Audit Logging]], [[Population Completeness]]).
+
+**Generation ≠ review:** configuring logging is not the same control as [[Log Review]] or [[Monitoring and Alerting]]. Related broader concept: [[Monitoring and Reporting]].
 
 ## Related notes
 
+- [[Application Logging]]
+- [[Security Logging]]
+- [[Incomplete Audit Logging]]
+- [[Audit Log Dataset]]
+- [[Log Review]]
+- [[Data Retention]]
+- [[Time Synchronization]]
+- [[Identity Attribution]]
+- [[Monitoring and Alerting]]
 - [[System-Generated Evidence]]
 - [[Evidence Reliability]]
+- [[Privileged Access]]
 - [[IT Controls]]
 - [[Security Controls]]
 - [[Cybersecurity]]
 - [[Monitoring and Reporting]]
+- [[Internal Audit - Enterprise Fraud Management System]]
+- [[Logging and Monitoring Map]]
 
 ## Sources
 

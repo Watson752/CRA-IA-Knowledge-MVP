@@ -81,7 +81,7 @@ Use [[Missing Data]] for definitions, then read historical public cases for exam
 
 - No numeric threshold for when missingness forces a qualification
 - No CRA-specific sampling formulas tied to missing rates
-- No dedicated procedure notes for reconciliation or profiling (described under related concepts only)
+- Dedicated [[Data Reconciliation]] and pipeline notes now exist; full CRA procedure manuals are still intentionally out of scope
 
 ## RAG / retrieval implication
 

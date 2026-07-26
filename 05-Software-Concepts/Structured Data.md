@@ -37,7 +37,7 @@ tags: []
 
 **Structured data** is information organized in defined fields and records— relational tables, spreadsheets with consistent columns, JSON with schemas, or log formats— suitable for querying, joining, and automated analysis. Structure enables [[Analytics]], population testing, and validation rules that support [[Evidence]] in audits.
 
-Quality dimensions ([[Data Quality]], completeness, timeliness) still apply; structure does not imply accuracy. Lineage from source systems through ETL to reporting layers affects [[Evidence Reliability]]. Auditors often request extracts with documented definitions and [[Assessment Cut-Off Date]] alignment.
+Quality dimensions ([[Data Quality]], completeness, timeliness) still apply; structure does not imply [[Data Accuracy|accuracy]]. [[Data Lineage|Lineage]] from source systems through [[Data Pipeline|ETL]] to reporting layers affects [[Evidence Reliability]]. Auditors often request extracts with documented definitions and [[Assessment Cut-Off Date]] alignment.
 
 Structured data contrasts with [[Unstructured Information]] (narrative documents, email bodies, images), which may require text mining or manual review. Many audits combine both.
 
@@ -47,11 +47,16 @@ Governance under [[Data Governance]] and [[Information and Data Strategy]] defin
 
 - [[Unstructured Information]]
 - [[Data Quality]]
+- [[Data Pipeline]]
+- [[Data Lineage]]
+- [[Transactional Dataset]]
 - [[Analytics]]
 - [[Evidence Reliability]]
 - [[Business Intelligence Tools]]
+- [[Management Reporting]]
 - [[IT Controls]]
 - [[Sampling Risk]]
+- [[Data Pipeline and Reporting Map]]
 
 ## Sources
 

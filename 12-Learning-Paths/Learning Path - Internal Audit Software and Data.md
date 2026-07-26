@@ -47,16 +47,18 @@ AERB
 ```
 
 1. [[Audit, Evaluation, and Risk Branch|AERB]] · [[Internal Audit and Program Evaluation]] · [[Internal Audit Independence]]
-2. [[Information Technology Branch|ITB]] · [[Technical Support]] · [[CRA-Technology-and-Risk-Map]]
-3. [[Service, Innovation, and Integration Branch|SIIB]] · [[Chief Data Officer]] · [[Data Owner]] · [[CRA-Data-and-Statistics-Map]]
-4. [[Security Branch]] · [[Cybersecurity]] · [[Three Lines Model]]
+2. [[Information Technology Branch|ITB]] · [[Technical Support]] · [[CRA-Technology-and-Risk-Map]] · [[Software and Controls Map]]
+3. [[Service, Innovation, and Integration Branch|SIIB]] · [[Chief Data Officer]] · [[Data Owner]] · [[CRA-Data-and-Statistics-Map]] · [[Data Pipeline and Reporting Map]]
+4. [[Security Branch]] · [[Cybersecurity]] · [[Three Lines Model]] · [[Identity and Access Map]] · [[Logging and Monitoring Map]]
 5. Pick **one** engagement program branch + case:
    - [[Collections and Verification Branch|CVB]] + [[Internal Audit - Accounts Receivable National Inventory]]
    - [[Legislative Policy and Regulatory Affairs Branch|LPRAB]] + [[Internal Audit - Charities Audit Process]]
    - [[Compliance Programs Branch|CPB]] + [[Evaluation - Audit Yield]]
 6. [[Digital Transformation Program Branch|DTPB]] — corporate branch despite “Program” in the name
 7. Capstone: [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] · [[Public-Audit-Case-Map]]
-8. Optional: [[Internal Audit - Specific Cyber Security Controls]] or [[Internal Audit - Enterprise Fraud Management System]]
+8. Optional: [[Internal Audit - Specific Cyber Security Controls]] or [[Internal Audit - Enterprise Fraud Management System]] · [[Automated Controls Map]] · [[Change Management Map]]
+
+Concept deep-dive order: [[Software and Data Onboarding Path]].
 
 ## Discipline reminders
 
@@ -64,6 +66,8 @@ AERB
 - Do not treat ABS as a current branch acronym ([[CRA-Acronym-Dictionary]] — verification required).
 - 2025 org-chart people are historical snapshots ([[CRA-Organizational-Overview]]).
 - Management owns corrective action ([[Management Action Plan Owner]]); AERB assures.
+- System-generated evidence is not automatically reliable ([[System-Generated Evidence]]).
+- Access approval ≠ periodic access review; logging ≠ monitoring; overrides may be legitimate.
 
 ## Related paths
 
@@ -71,3 +75,4 @@ AERB
 - [[Learning Path - Software Professional]]
 - [[Learning Path - Data and Statistics Professional]]
 - [[Learning Path - Auditor]]
+- [[Software and Data Onboarding Path]]

@@ -65,6 +65,13 @@ Welcome to a personal Obsidian vault for learning **Canada Revenue Agency intern
 | [[Ownership and Assurance Roles]] | Business / IT / data / control ownership vs AERB assurance |
 | [[CRA-Data-and-Statistics-Map]] | Public aggregate data and statistics (planned notes) |
 | [[CRA-Technology-and-Risk-Map]] | Technology, cyber, fraud, BI themes from public IA reports |
+| [[Software and Controls Map]] | Access, automated controls, change, evidence paths |
+| [[Identity and Access Map]] | IAM, privileged access, approval vs periodic review |
+| [[Logging and Monitoring Map]] | Application/security/audit logs vs monitoring/alerts |
+| [[Automated Controls Map]] | Business rules, overrides, FP/FN, OE testing |
+| [[Data Pipeline and Reporting Map]] | Source → pipeline → reconciliation → report reliance |
+| [[Change Management Map]] | Requester / approver / deployment authority |
+| [[Software and Data Onboarding Path]] | Ordered software-data IA learning sequence |
 | [[Public-Audit-Case-Library]] | Published CRA internal audit reports indexed as case studies |
 | [[Public-Audit-Case-Map]] | Branch×case matrix (official relationships only) |
 | [[Internal Audit Onboarding Path]] | Ordered IA methodology + independence + historical reading path |

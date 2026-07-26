@@ -81,10 +81,14 @@ This vault interprets the loading/re-ingestion finding through [[Defence in Dept
 ## Reusable concepts and connections
 
 - [[Cybersecurity]] and [[Defence in Depth]] — audit trails, detection, and timely monitoring.
+- [[Unauthorized Access]] · [[Audit Logging]] · [[Monitoring and Alerting]] — detective monitoring themes (not an entitlement-provisioning audit).
+- [[Automated Business Rules]] · [[Change Management]] · [[False Positives]] — rule governance and outcome quality.
 - [[Data Governance]] — ownership, formal changes, and standardized definitions.
-- [[Evidence Reliability]], [[Data Quality]], and [[Missing Data]] — record completeness, timeliness, and traceable rule history.
+- [[Evidence Reliability]], [[Data Quality]], [[Missing Data]], [[Rejected Records]] — record completeness, timeliness, and traceable rule history.
+- [[System-Generated Evidence]] — alert counts/dashboards alone may be insufficient.
 - [[Performance Reporting]] — indicators must support decisions, not merely describe volume.
 - [[Three Lines Model]] — a general framework for separating system operation, oversight, and assurance.
+- Maps: [[Logging and Monitoring Map]] · [[Automated Controls Map]]
 
 ## Software, statistics, and organizational connections
 

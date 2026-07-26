@@ -39,20 +39,27 @@ tags: []
 
 **Monitoring and reporting** in IT and security contexts means continuous or periodic observation of systems, controls, and events, followed by analysis and communication to stakeholders. Security monitoring includes log aggregation, SIEM correlation, vulnerability scanning, and threat intelligence. Operational monitoring covers performance, availability, and capacity.
 
-Effective monitoring defines what to measure, thresholds, escalation paths, and retention aligned with [[Criteria]] and policy. Reporting translates metrics and incidents into governance-ready information— dashboards, exception reports, and post-incident reviews. Without actionable reporting, monitoring becomes noise.
+For onboarding clarity: [[Audit Logging|log generation]] ≠ [[Monitoring and Alerting|alerting]] ≠ [[Log Review|periodic log review]] ≠ [[Exception Report Review]]. Effective monitoring defines what to measure, thresholds, escalation paths, and [[Data Retention|retention]] aligned with [[Criteria]] and policy. Reporting translates metrics and incidents into governance-ready information— dashboards, exception reports, and post-incident reviews. Without actionable reporting, monitoring becomes noise.
 
-Auditors examine whether monitoring covers critical assets and privileged activity, whether alerts are triaged timely, and whether reports reach accountable roles. Gaps often appear in cloud workloads, legacy apps, or [[Unstructured Information]] stores.
+Auditors examine whether monitoring covers critical assets and [[Privileged Access Monitoring|privileged activity]], whether alerts are triaged timely, and whether reports reach accountable roles. Gaps often appear in cloud workloads, legacy apps, or [[Unstructured Information]] stores.
 
 Monitoring supports [[Cybersecurity]] detect/respond functions and feeds [[Performance Reporting]] and [[Business Intelligence]] when operational data is reused for management insight.
 
 ## Related notes
 
+- [[Monitoring and Alerting]]
+- [[Log Review]]
+- [[Exception Report Review]]
+- [[Audit Logging]]
+- [[Privileged Access Monitoring]]
 - [[Cybersecurity]]
 - [[Security Controls]]
 - [[IT Controls]]
 - [[Performance Reporting]]
+- [[Management Reporting]]
 - [[Business Intelligence Tools]]
 - [[Evidence]]
+- [[Logging and Monitoring Map]]
 
 ## Sources
 

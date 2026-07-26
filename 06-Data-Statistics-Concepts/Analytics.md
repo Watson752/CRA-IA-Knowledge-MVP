@@ -55,6 +55,12 @@ Auditors performing analytics document data sources, scripts, and limitations ([
 - [[Risk Algorithms]]
 - [[Continuous Improvement]]
 - [[Structured Data]]
+- [[Full-Population Analysis]]
+- [[Sample Selection]]
+- [[False Positives]]
+- [[False Negatives]]
+- [[User Access Dataset]]
+- [[Audit Log Dataset]]
 
 ## Sources
 

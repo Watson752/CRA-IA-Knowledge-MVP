@@ -25,9 +25,17 @@ tags:
 
 A **manual control** is performed by people (reviews, approvals, reconciliations, access certifications). OE evidence often includes signed worksheets, tickets, and reviewer identity. Manual controls are prone to inconsistency; over-reliance without monitoring is a common review theme ([[Control]]).
 
+Access examples: [[Access Approval]] (at grant) vs [[Periodic Access Review]] / access certification (recurring). Also [[Log Review]], [[Exception Report Review]], and [[Manual Override Approval]].
+
 ## Related notes
 
 - [[Automated Control]]
+- [[Access Approval]]
+- [[Periodic Access Review]]
+- [[Log Review]]
+- [[Exception Report Review]]
+- [[Manual Override Approval]]
+- [[Data Reconciliation]]
 - [[Operating Effectiveness]]
 - [[Control Ownership]]
 - [[Control Testing]]

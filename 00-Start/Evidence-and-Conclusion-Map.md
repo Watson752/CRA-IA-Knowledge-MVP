@@ -36,8 +36,9 @@ tags:
 
 - Sufficiency (quantity/coverage) and appropriateness (relevance + reliability) — [[Evidence]]
 - Corroboration; no universal threshold — [[Missing Data]]
-- System-generated evidence needs lineage/ITGCs — [[System-Generated Evidence]], [[IT Controls]]
-- Logs — [[Audit Logging]]
+- System-generated evidence needs lineage/ITGCs — [[System-Generated Evidence]], [[IT Controls]] (not automatically reliable)
+- Logs — [[Audit Logging]] · [[Application Logging]] · [[Logging and Monitoring Map]]
+- Pipelines — [[Data Pipeline and Reporting Map]] · [[Data Lineage]] · [[Data Reconciliation]]
 
 ## Procedures generating evidence
 
