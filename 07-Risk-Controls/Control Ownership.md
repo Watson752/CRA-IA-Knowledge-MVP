@@ -49,9 +49,12 @@ IT and security controls often split ownership between business process owners a
 
 Auditors test whether stated owners understand their controls and evidence operation— a common source of [[Finding]]s when documentation exists but practice differs.
 
+Control ownership commonly spans access ([[Access Approval]], [[Periodic Access Review]]), automated rules and overrides ([[Manual Override Approval]], [[Exception Report Review]]), change ([[Change Approval]]), and reporting reconciliations ([[Data Reconciliation]], [[Management Review]]).
+
 ## Related notes
 
 - [[Ownership and Assurance Roles]]
+- [[Business Process Owner]]
 - [[Control]]
 - [[Roles and Responsibilities]]
 - [[Risk Management]]
@@ -59,6 +62,12 @@ Auditors test whether stated owners understand their controls and evidence opera
 - [[IT Controls]]
 - [[Governance]]
 - [[Three Lines Model]]
+- [[Access Approval]]
+- [[Periodic Access Review]]
+- [[Manual Override Approval]]
+- [[Exception Report Review]]
+- [[Change Approval]]
+- [[Management Review]]
 - [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 - [[Internal Audit - Enterprise Fraud Management System]]
 

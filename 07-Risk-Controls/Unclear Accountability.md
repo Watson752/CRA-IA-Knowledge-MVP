@@ -27,9 +27,9 @@ tags:
 
 **Content class:** general professional failure-mode concept.
 
-**Unclear accountability** exists when decision authority, control ownership, or incident response responsibility is ambiguous—so issues fall between [[Business Process Owner]], [[System Owner]], [[Technical Support]], and [[Data Owner]]. Consequences: controls without owners, unapproved rule changes, incomplete post-deployment monitoring ([[Control Ownership]], [[Ownership and Assurance Roles]]).
+**Unclear accountability** exists when decision authority, control ownership, or incident response responsibility is ambiguous—so issues fall between [[Business Process Owner]], [[System Owner]], [[Technical Support]], and [[Data Owner]]. Consequences: controls without owners, unapproved rule changes, incomplete post-deployment monitoring, incidents passed between teams without a resolver, duplicated or missing controls, and [[Management Action Plan]] items without accountable owners ([[Control Ownership]], [[Ownership and Assurance Roles]]).
 
-Do not invent CRA reporting lines; label case-specific OPI/MAP facts separately from this general concept.
+Do not invent CRA reporting lines; label case-specific OPI/MAP facts separately from this general concept. Branch notes below are **illustration targets** for mandate literacy—not proof of reporting lines or of current control failures.
 
 ## Related notes
 
@@ -38,8 +38,15 @@ Do not invent CRA reporting lines; label case-specific OPI/MAP facts separately 
 - [[Business Process Owner]]
 - [[System Owner]]
 - [[Technical Support]]
+- [[Data Owner]]
 - [[Change Approval]]
+- [[Monitoring and Alerting]]
 - [[Internal Audit Independence]]
+- [[How Organizational Ownership Affects System Accountability]]
+- [[Information Technology Branch]]
+- [[Service, Innovation, and Integration Branch]]
+- [[Security Branch]]
+- [[Audit, Evaluation, and Risk Branch]]
 
 ## Sources
 

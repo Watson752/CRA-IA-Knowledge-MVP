@@ -37,6 +37,8 @@ Enterprise **CDO** mandate ≠ sole “data owner” of every analytical dataset
 
 Auditors test whether ownership is operational (documented decisions, quality fixes) or nominal (policy only)— a common theme in data-heavy [[Finding]]s.
 
+For decision and reporting processes, data ownership should cover critical input fields, reference data, outcome/disposition data, and—where overrides exist—override-event meaning and quality expectations ([[Reference Data]], [[Manual Overrides]], [[Management Reporting]]). Enterprise CDO mandate ≠ owner of every program dataset.
+
 ## Related notes
 
 - [[Ownership and Assurance Roles]]
@@ -45,6 +47,10 @@ Auditors test whether ownership is operational (documented decisions, quality fi
 - [[Service, Innovation, and Integration Branch]]
 - [[Technical Support]]
 - [[Business Process Owner]]
+- [[Reference Data]]
+- [[Management Reporting]]
+- [[Manual Overrides]]
+- [[Data Quality]]
 - [[Evidence Reliability]]
 
 ## Sources

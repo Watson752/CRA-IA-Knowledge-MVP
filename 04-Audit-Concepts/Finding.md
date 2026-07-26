@@ -53,6 +53,8 @@ Workflow: [[Evidence Evaluation]] → [[Audit Observation]] → (may become) Fin
 
 Findings should be fact-based, supported by [[Evidence]], and discussed with management when practicable. They differ from recommendations (proposed remedies) and from conclusions (overall engagement judgments). Historical public findings are period-bound—[[Interpreting Historical Public Audit Findings]].
 
+**Inquiry discipline:** a risk indicator or line of inquiry is not a finding. Path before elevation: risk indicator → inquiry → evidence request → procedure → analysis → possible observation—only then condition vs [[Criteria]] ([[Cross-Domain Audit Map]], [[Grounded-Audit-Inquiry-Guidelines]], [[Professional Judgment]]).
+
 In public sector reporting, findings may relate to compliance, value for money, governance, or program results. Case studies in this vault may link specific published reports to these general elements without inventing organization-specific content in concept notes.
 
 ## Related notes
@@ -75,6 +77,9 @@ In public sector reporting, findings may relate to compliance, value for money, 
 - [[Evidence Evaluation]]
 - [[Control Deficiency]]
 - [[Interpreting Historical Public Audit Findings]]
+- [[Cross-Domain Audit Map]]
+- [[Grounded-Audit-Inquiry-Guidelines]]
+- [[Professional Judgment]]
 - [[Findings and Recommendations Map]]
 - [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 

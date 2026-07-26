@@ -47,6 +47,8 @@ tags:
 
 Mitigations: [[Data Reconciliation]] · [[Sensitivity Analysis]] · document exclusions · alternative evidence
 
-Bridge: [[How Missing Data Limits Audit Assurance]]
+Bridges: [[How Missing Data Limits Audit Assurance]] · [[How Statistical Bias Can Mislead an Audit]] · [[How Data Quality Affects Management Reporting]]
+
+Path: [[Data-Quality Engagement Path]] · [[Integrated Knowledge Map]]
 
 [[Statistics and Evidence Map]] · [[Data and Statistics Onboarding Path]]

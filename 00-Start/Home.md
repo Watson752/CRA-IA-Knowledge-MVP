@@ -79,6 +79,12 @@ Welcome to a personal Obsidian vault for learning **Canada Revenue Agency intern
 | [[Data Pipeline and Reporting Map]] | Source → pipeline → reconciliation → report reliance |
 | [[Change Management Map]] | Requester / approver / deployment authority |
 | [[Software and Data Onboarding Path]] | Ordered software-data IA learning sequence |
+| [[Integrated Knowledge Map]] | Multidisciplinary hub: bridges, paths, AI inquiry |
+| [[Cross-Domain Audit Map]] | Finding lifecycle + inquiry path (indicator ≠ finding) |
+| [[Public Case Comparison Map]] | Theme comparison across public IA/evaluation cases |
+| [[Technology-Enabled Process Audit Path]] | Ownership → rules → monitoring → evidence inquiry path |
+| [[Data-Quality Engagement Path]] | Scoping DQ using public-case lessons |
+| [[Access-Control Audit Path]] | Privileged access, SoD, review OE |
 | [[Public-Audit-Case-Library]] | Published CRA internal audit reports indexed as case studies |
 | [[Public-Audit-Case-Map]] | Branch×case matrix (official relationships only) |
 | [[Internal Audit Onboarding Path]] | Ordered IA methodology + independence + historical reading path |
@@ -96,6 +102,10 @@ Welcome to a personal Obsidian vault for learning **Canada Revenue Agency intern
 - [[12-Learning-Paths/Learning Path - Data and Statistics Professional]]
 - [[12-Learning-Paths/Learning Path - Auditor]]
 - [[12-Learning-Paths/Learning Path - Manager]]
+- [[12-Learning-Paths/Integrated Cross-Domain Path]]
+- [[Integrated Demo Walkthrough]]
+- [[AI Retrieval Demonstration]]
+- [[Grounded-Audit-Inquiry-Guidelines]]
 
 ## Demonstration journeys and synthetic demo
 
@@ -107,11 +117,24 @@ Synthetic exercise (clearly labelled non-official): [[14-Synthetic-Demos/Synthet
 
 - [[How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept]] (derived analysis)
 - [[How Missing Data Limits Audit Assurance]] (derived analysis)
+- [[How Automated Controls Are Audited]]
+- [[How Manual Overrides Weaken Automated Controls]]
+- [[How Access Control Relates to Segregation of Duties]]
+- [[How Logging Supports Audit Evidence]]
+- [[How Data Pipelines Affect Evidence Reliability]]
+- [[How Statistical Bias Can Mislead an Audit]]
+- [[How Organizational Ownership Affects System Accountability]]
+- [[How Software Changes Create Compliance Risk]]
+- [[How Data Quality Affects Management Reporting]]
+- [[How Public Audit Cases Inform Future Scoping]]
+- [[How Historical Findings Should Be Used as Precedent]]
+- Full index: [[Integrated Knowledge Map]]
 
 ## Governance and future RAG
 
 - [[Content-Classification-Model]]  
 - [[Public-Source-RAG-Grounding]]  
+- [[Grounded-Audit-Inquiry-Guidelines]]  
 
 ## Project context
 

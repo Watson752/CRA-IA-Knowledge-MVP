@@ -85,6 +85,7 @@ This vault also interprets the DSS finding through [[Business Intelligence]], [[
 - [[Business Intelligence]] and [[Data Governance]] — DSS data ownership, permitted use, and feedback.
 - [[Data Quality]], [[Missing Data]], and [[Evidence Reliability]] — completeness of movement, payment, and allocation records.
 - [[Population Completeness]] — include assigned/unassigned, transferred, and collapsed inventory views where relevant.
+- Bridges: [[How Data Quality Affects Management Reporting]] · [[How Data Pipelines Affect Evidence Reliability]] · [[How Public Audit Cases Inform Future Scoping]] · [[How Historical Findings Should Be Used as Precedent]]
 
 ## Software, statistics, and organizational connections
 

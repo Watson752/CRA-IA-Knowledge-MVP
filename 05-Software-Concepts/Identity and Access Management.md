@@ -3,6 +3,8 @@ title: "Identity and Access Management"
 aliases:
   - "IAM"
   - "Identity Management"
+  - "Access Controls"
+  - "Access Control"
 note_type: software-concept
 primary_domain: software-data
 domains:

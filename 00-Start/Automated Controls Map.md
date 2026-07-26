@@ -32,17 +32,18 @@ Derived map for automated rules, overrides, and OE testing.
 ## Chain
 
 ```text
-Business requirement / Criteria
-→ Automated Business Rules
-→ Technical implementation / System Configuration
-→ Code Review / Deployment Approval
-→ Operating Effectiveness (period + changes)
-→ Manual Overrides (may be legitimate)
-→ Manual Override Approval
-→ Application Logging / Audit Logging
-→ Exception Report Review
-→ False Positives / False Negatives
-→ Evidence
+[[Business Process Owner]] / business requirement / [[Criteria]]
+→ [[Automated Business Rules]]
+→ Technical implementation / [[System Configuration]]
+→ [[Code Review]] / [[Deployment Approval]]
+→ [[Operating Effectiveness]] (period + changes)
+→ [[Manual Overrides]] (may be legitimate)
+→ [[Manual Override Approval]]
+→ [[Application Logging]] / [[Audit Logging]]
+→ [[Exception Report Review]]
+→ [[Override Population Analytics]] / [[False Positives]] / [[False Negatives]]
+→ [[Evidence]]
+→ [[Finding]] (only if condition vs criteria supported)
 ```
 
 ## Procedures
@@ -56,6 +57,11 @@ Business requirement / Criteria
 - One success ≠ whole period ([[Operating Effectiveness]])
 - Pre-production tests ≠ production OE ([[Control Implementation]])
 
+## Bridges
+
+- [[How Automated Controls Are Audited]]
+- [[How Manual Overrides Weaken Automated Controls]]
+
 ## Cases (bounded)
 
 - [[Internal Audit - Enterprise Fraud Management System]] — business rules, change history, false positives
@@ -63,4 +69,4 @@ Business requirement / Criteria
 
 ## Related
 
-- [[Software and Controls Map]] · [[Change Management Map]] · [[Risk and Control Map]]
+- [[Software and Controls Map]] · [[Change Management Map]] · [[Risk and Control Map]] · [[Technology-Enabled Process Audit Path]] · [[Integrated Knowledge Map]]

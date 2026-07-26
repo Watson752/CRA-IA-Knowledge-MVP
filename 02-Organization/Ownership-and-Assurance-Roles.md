@@ -101,6 +101,28 @@ This case shows why “BI involves technology” must not collapse into “ITB o
 
 Secondary illustration (split maintenance vs MAP lead): [[Internal Audit - Enterprise Fraud Management System]] — [[Security Branch]] MAP owner; [[Information Technology Branch|ITB]] co-named for selected actions; AERB publishes assurance.
 
+### Worked example — ARNI (program branch OPI/MAP)
+
+| Role in the model | Who in this case (vault-supported) | Class |
+|---|---|---|
+| Program / business ownership | [[Collections and Verification Branch|CVB]] — OPI / MAP owner for ARNI | Official case-specific |
+| Technical / decision-support context | DSS and related systems discussed under CVB program context; enterprise BI use constrained (report themes) | Official case-specific themes |
+| Regional delivery | Four regions in scope for workload controls | Official case-specific |
+| Independent assurance | [[Audit, Evaluation, and Risk Branch|AERB]] — publishing branch | Official case-specific |
+
+### Reporting accountability chain (derived teaching)
+
+```text
+Report / process owner (business outcome)
+→ Data owner (definitions & quality)
+→ Technical support (pipeline/platform)
+→ Report-logic / change approver
+→ Management Review (challenge before reliance)
+→ AERB (independent assurance — not report owner)
+```
+
+See [[Management Reporting]], [[Management Review]], [[How Data Quality Affects Management Reporting]].
+
 ## Concept notes (ownership taxonomy)
 
 ### Risk and control roles

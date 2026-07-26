@@ -50,6 +50,10 @@ See [[08-Cases/README]] and case “Follow-up evidence in vault” sections.
 - [[Internal Audit Independence]]
 - [[Public-Audit-Case-Library]]
 - [[Audit Lifecycle Map]]
+- [[How Historical Findings Should Be Used as Precedent]]
+- [[How Public Audit Cases Inform Future Scoping]]
+- [[Grounded-Audit-Inquiry-Guidelines]]
+- [[Public Case Comparison Map]]
 
 ## Sources
 

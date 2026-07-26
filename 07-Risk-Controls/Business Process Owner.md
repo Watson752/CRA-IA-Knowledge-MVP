@@ -36,15 +36,28 @@ In public-sector internal audit, the “owner” may be a branch, director gener
 
 Worked pattern (case-specific, not a universal CRA rule): [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] names [[Service, Innovation, and Integration Branch|SIIB]] as holding BI activity responsibility and MAP lead, while [[Information Technology Branch|ITB]] delivers BI services— illustrating process accountability separate from technical delivery.
 
+For technology-enabled processes, process owners typically set business requirements and exception/override **policy**, accept residual risk, and ensure monitoring ownership is named—without owning independent assurance ([[How Organizational Ownership Affects System Accountability]]). They do not automatically administer systems ([[System Owner]], [[Technical Support]]) or execute AERB remediation.
+
 ## Related notes
 
 - [[Ownership and Assurance Roles]]
 - [[Program Owner]]
+- [[System Owner]]
 - [[Technical Support]]
+- [[Data Owner]]
 - [[Control Ownership]]
+- [[Automated Business Rules]]
+- [[Manual Overrides]]
+- [[Exception Report Review]]
+- [[Role-Based Access Control]]
+- [[Access Approval]]
+- [[Periodic Access Review]]
+- [[Management Reporting]]
+- [[Management Review]]
 - [[Audit Client]]
 - [[Management Action Plan Owner]]
 - [[Roles and Responsibilities]]
+- [[How Organizational Ownership Affects System Accountability]]
 
 ## Sources
 

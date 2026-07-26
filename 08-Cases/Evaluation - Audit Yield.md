@@ -183,6 +183,7 @@ Audit yield complements fiscal impact with a more fulsome cash outcome story; ma
 - [[Performance Reporting]] · [[Evidence Reliability]]
 - [[Population Completeness]] · [[Data Quality]] · [[Missing Data]]
 - Evaluation issues: outcomes after audit close; impact on monitoring assumptions (Appendix A)
+- Bridges: [[How Data Pipelines Affect Evidence Reliability]] · [[How Public Audit Cases Inform Future Scoping]] · [[How Historical Findings Should Be Used as Precedent]]
 
 ## Statistics connections
 
@@ -225,7 +226,7 @@ Audit yield complements fiscal impact with a more fulsome cash outcome story; ma
 
 > **Derived analysis** — not a CRA conclusion.
 
-This vault interprets audit yield as an **integrated outcome metric** requiring explicit definitions, timing, exclusions (non-cash fiscal impact), and cross-system lineage. A performance dashboard cannot be treated as reliable without documented match rates, exception handling, and stated confidence bounds (the **95%** statement applies to the report’s specified income-tax sample segment).
+This vault interprets audit yield as an **integrated outcome metric** requiring explicit definitions, timing, exclusions (non-cash fiscal impact), and cross-system lineage. A performance dashboard cannot be treated as reliable without documented match rates, exception handling, and stated confidence bounds (the **95%** statement applies to the report’s specified income-tax sample segment). See [[How Data Pipelines Affect Evidence Reliability]], [[How Public Audit Cases Inform Future Scoping]], and [[How Historical Findings Should Be Used as Precedent]].
 
 Linking audit files to reassessments to accounting transactions is a **data governance** and **evidence reliability** problem, not only a reporting formula problem—consistent with themes in the BI internal audit case. Unmatched identifiers and snapshot/population limits are interpreted here as [[Missing Data]] and [[Population Completeness]] constraints that narrow how strongly agency-wide recovery conclusions can be stated; see [[How Missing Data Limits Audit Assurance]]. Teaching links: [[Data Pipeline]] · [[Data Lineage]] · [[Data Reconciliation]] · [[Management Reporting]] · [[Data Pipeline and Reporting Map]] · [[Stratified Sampling]]. The evaluation period and July 2019 snapshot are historical.
 

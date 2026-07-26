@@ -89,6 +89,7 @@ This vault interprets the loading/re-ingestion finding through [[Defence in Dept
 - [[Performance Reporting]] — indicators must support decisions, not merely describe volume.
 - [[Three Lines Model]] — a general framework for separating system operation, oversight, and assurance.
 - Maps: [[Logging and Monitoring Map]] · [[Automated Controls Map]]
+- Bridges: [[How Automated Controls Are Audited]] · [[How Logging Supports Audit Evidence]] · [[How Software Changes Create Compliance Risk]] · [[How Historical Findings Should Be Used as Precedent]]
 
 ## Software, statistics, and organizational connections
 

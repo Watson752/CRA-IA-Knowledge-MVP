@@ -53,6 +53,22 @@ tags:
 
 > **Derived analysis:** This note synthesizes cross-domain consequences for learning. It is not a CRA position. Definitions live in [[Missing Data]]; this bridge explains why those gaps matter across data, statistics, evidence, conclusions, and business use of audit results.
 
+## Content classes
+
+| Class | Use in this note |
+|---|---|
+| **Official public facts** | Only where a linked case or org note states them |
+| **General professional knowledge** | Linked concept definitions |
+| **Derived interpretation** | This bridge’s cross-domain synthesis |
+| **Synthetic examples** | Teaching scenarios—not CRA operational claims |
+
+
+## Related bridges
+
+- [[How Statistical Bias Can Mislead an Audit]]
+- [[How Data Quality Affects Management Reporting]]
+- [[How Public Audit Cases Inform Future Scoping]]
+
 ## Cross-domain chain
 
 | Domain | Consequence when expected data is absent |

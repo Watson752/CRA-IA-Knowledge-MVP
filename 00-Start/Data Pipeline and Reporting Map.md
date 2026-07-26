@@ -33,19 +33,20 @@ Derived map for multi-source report reliance.
 ## Path
 
 ```text
-Source System Data
-→ Data Pipeline (API Integration / Batch Processing)
-→ Data Transformation / Field Mapping
-→ Rejected Records / Record Uniqueness checks
-→ Data Reconciliation
-→ Reporting dataset
-→ Management Reporting / report logic
-→ Management review
+[[Business Process Owner]] / report owner
+→ [[Source System Data]]
+→ [[Data Pipeline]] ([[API Integration]] / [[Batch Processing]])
+→ [[Data Transformation]] / [[Field Mapping]]
+→ [[Rejected Records]] / [[Record Uniqueness]] checks
+→ [[Data Reconciliation]]
+→ Reporting dataset / presentation
+→ [[Management Reporting]] / report logic
+→ [[Management Review]]
 → [[Evidence Reliability]]
 → [[Audit Conclusion]]
 ```
 
-Related: [[Statistics and Evidence Map]] · [[Reproducible Analytics Map]] · [[Population Completeness]] · [[Selection Bias]]
+Related: [[Statistics and Evidence Map]] · [[Reproducible Analytics Map]] · [[Population Completeness]] · [[Selection Bias]] · [[How Data Pipelines Affect Evidence Reliability]] · [[How Data Quality Affects Management Reporting]]
 
 ## Quality dimensions (keep distinct)
 
@@ -65,4 +66,4 @@ Related: [[Statistics and Evidence Map]] · [[Reproducible Analytics Map]] · [[
 
 ## Related
 
-- [[CRA-Data-and-Statistics-Map]] · [[Evidence and Conclusion Map]] · [[Software and Controls Map]]
+- [[CRA-Data-and-Statistics-Map]] · [[Evidence and Conclusion Map]] · [[Software and Controls Map]] · [[Data-Quality Engagement Path]] · [[Integrated Knowledge Map]]

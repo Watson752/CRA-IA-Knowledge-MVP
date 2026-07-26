@@ -84,6 +84,7 @@ This vault interprets the report’s limited/incomplete data dispersed across so
 - [[Evidence Reliability]] — documented decisions, retained work, and review trails.
 - [[Performance Reporting]] — operational counts alone may not evidence impartiality.
 - [[Three Lines Model]] — a general lens for operational controls, monitoring, and assurance.
+- Bridges: [[How Data Quality Affects Management Reporting]] · [[How Statistical Bias Can Mislead an Audit]] · [[How Historical Findings Should Be Used as Precedent]]
 
 ## Software, statistics, and organizational connections
 

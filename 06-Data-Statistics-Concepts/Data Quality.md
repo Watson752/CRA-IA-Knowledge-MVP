@@ -24,7 +24,12 @@ owner: MVP-Author
 review_status: unreviewed
 approved_for_ai_retrieval: false
 related_sources: []
-related_cases: []
+related_cases:
+  - "[[Evaluation - Audit Yield]]"
+  - "[[Internal Audit - Accounts Receivable National Inventory]]"
+  - "[[Internal Audit - Charities Audit Process]]"
+  - "[[Internal Audit - Enterprise Fraud Management System]]"
+  - "[[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]"
 related_processes: []
 related_organizations: []
 related_systems: []
@@ -56,9 +61,18 @@ Related concepts include [[Population Completeness]], [[Initial Assessment Data]
 - [[Data Pipeline]]
 - [[Data Governance]]
 - [[Structured Data]]
+- [[Management Reporting]]
 - [[How Statistical Limitations Affect Audit Conclusions]]
+- [[How Missing Data Limits Audit Assurance]]
+- [[How Data Quality Affects Management Reporting]]
 - [[Analytics]]
 - [[Data Pipeline and Reporting Map]]
+- [[Data-Quality Engagement Path]]
+- [[Evaluation - Audit Yield]]
+- [[Internal Audit - Accounts Receivable National Inventory]]
+- [[Internal Audit - Charities Audit Process]]
+- [[Internal Audit - Enterprise Fraud Management System]]
+- [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]
 
 ## Sources
 

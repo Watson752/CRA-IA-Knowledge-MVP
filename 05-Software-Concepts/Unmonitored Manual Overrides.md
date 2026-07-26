@@ -23,15 +23,18 @@ tags:
   - onboarding
 ---
 
-**Unmonitored manual overrides** are the risk state when override capability exists without effective approval, logging, or [[Exception Report Review]]. Concentration by user/unit/rule can go undetected. Analyze frequency, reasons, and outcomes with [[Analytics]] / [[Population Completeness]].
+**Unmonitored manual overrides** are the risk state when override capability exists without effective approval, logging, or [[Exception Report Review]]. Concentration by user/unit/rule can go undetected. Analyze frequency, reasons, and outcomes with [[Override Population Analytics]] / [[Analytics]] / [[Population Completeness]].
 
 ## Related notes
 
 - [[Manual Overrides]]
 - [[Manual Override Approval]]
 - [[Exception Report Review]]
+- [[Override Population Analytics]]
+- [[Eligibility Decision Risks]]
 - [[Access Review Testing]]
 - [[Control Deficiency]]
+- [[How Manual Overrides Weaken Automated Controls]]
 
 ## Sources
 

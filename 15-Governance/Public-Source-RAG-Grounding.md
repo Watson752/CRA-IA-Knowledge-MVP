@@ -94,9 +94,12 @@ Apply filters at index time and query time:
 - **Finding question:** "According to [Report title, date, URL], for the audit period [X], the report states… Management agreed/disagreed as published… This may not reflect current state."
 - **Current operations question:** Ground in Departmental Plan / Results Report / org page with access date; avoid extrapolating from old IA reports.
 - **Concept question:** Allow Class C with framework attribution; do not attribute generic controls to CRA without Class A.
+- **Inquiry / symptom question:** Follow [[Grounded-Audit-Inquiry-Guidelines]] — propose lines of inquiry, not findings; distinguish precedent from proof.
 
 ## Related vault artifacts
 
 - Register: [[99-Sources/CRA-Public-Source-Register]]
 - Classification: [[Content-Classification-Model]]
+- Inquiry guardrails: [[Grounded-Audit-Inquiry-Guidelines]]
+- Demo prompts: [[AI Retrieval Demonstration]]
 - Entry point: [[00-Start/Home]]

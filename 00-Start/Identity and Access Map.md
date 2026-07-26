@@ -42,15 +42,22 @@ Derived access-control onboarding map. General professional concepts unless a ca
 ## Path
 
 ```text
-Privileged Access
-→ Excessive Privileges / Unauthorized Access
-→ Inadequate Segregation of Duties (risk)
-→ Access Approval
-→ Periodic Access Review
-→ Privileged Access Monitoring
-→ Access Review Testing
-→ Evidence ([[Evidence]])
+[[Business Process Owner]] / [[Control Ownership]]
+→ [[Role-Based Access Control]]
+→ [[Privileged Access]]
+→ [[Excessive Privileges]] / [[Unauthorized Access]] (keep distinct)
+→ [[Inadequate Segregation of Duties]] (risk)
+→ [[Access Approval]] / [[Joiner-Mover-Leaver]]
+→ [[Periodic Access Review]]
+→ [[Privileged Access Monitoring]]
+→ [[User Access Dataset]] + [[Population Completeness]]
+→ [[Access Review Testing]]
+→ [[Evidence]]
 ```
+
+## Bridge
+
+- [[How Access Control Relates to Segregation of Duties]]
 
 ## Case (bounded)
 
@@ -58,4 +65,4 @@ Privileged Access
 
 ## Related
 
-- [[Software and Controls Map]] · [[Logging and Monitoring Map]] · [[IT Controls]]
+- [[Software and Controls Map]] · [[Logging and Monitoring Map]] · [[IT Controls]] · [[Access-Control Audit Path]] · [[Integrated Knowledge Map]]

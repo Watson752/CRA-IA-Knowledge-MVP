@@ -199,6 +199,7 @@ No major ATIP-style redaction blocks were noted in the HTML report as verified 2
 - [[Audit Objective]] · [[Scope]] · [[Criteria]] · [[Methodology]]
 - [[Finding]] · [[Recommendation]] · [[Management Response]] · [[Management Action Plan]]
 - [[Business Intelligence Governance]] · [[Horizontal Collaboration]] · [[Continuous Improvement]]
+- Bridges: [[How Organizational Ownership Affects System Accountability]] · [[How Public Audit Cases Inform Future Scoping]] · [[How Historical Findings Should Be Used as Precedent]]
 
 ## Software connections
 
