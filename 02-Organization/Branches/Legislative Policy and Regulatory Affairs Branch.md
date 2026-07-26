@@ -87,7 +87,7 @@ LPRAB explains why charities, rulings, and legislative interpretation appear in 
 
 > These connections are vault onboarding aids. They are **not** official CRA reporting lines.
 
-- Charities compliance work is distinct from general [[Compliance Programs Branch]] audit programs even though both support tax-system integrity (derived clarification).
+- Charities compliance work is distinct from general [[02-Organization/Branches/Compliance Programs Branch|CPB]] audit programs even though both support tax-system integrity (derived clarification).
 
 ## Related public audit and evaluation cases
 

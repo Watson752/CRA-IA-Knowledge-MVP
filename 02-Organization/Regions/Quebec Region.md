@@ -76,7 +76,7 @@ Do not infer staffing structures beyond this public listing.
 > Not an official reporting-line diagram.
 
 - Headquarters program branches set national program frameworks; regions execute workload through TSOs, TCs, NVCCs, and contact centres.
-- Corporate branches (for example [[Information Technology Branch|ITB]] and [[Security Branch]]) support enterprise capabilities used in regional delivery.
+- Corporate branches (for example [[Information Technology Branch|ITB]] and [[02-Organization/Branches/Security Branch]]) support enterprise capabilities used in regional delivery.
 
 
 ## Relevant public audits or evaluations

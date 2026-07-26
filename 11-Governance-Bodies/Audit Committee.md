@@ -31,7 +31,7 @@ related_cases: []
 related_processes: []
 related_organizations:
   - "[[Board of Management]]"
-  - "[[Audit Evaluation and Risk Branch]]"
+  - "[[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]]"
 related_systems: []
 related_datasets: []
 related_risks: []

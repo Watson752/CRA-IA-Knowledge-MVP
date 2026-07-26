@@ -62,9 +62,9 @@ Vault baseline cases inspected: all six notes in [[Public-Audit-Case-Library]]. 
 | [[Compliance Programs Branch\|CPB]] | [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] | Named in report: selected CPB teams using BI; stakeholders interviewed (not MAP lead) | Official (case-specific) | Case org section; CPB related cases | [[99-Sources/source-notes/SRC-CRA-IA-BI-2024]] | **Supported** |
 | [[Service, Innovation, and Integration Branch\|SIIB]] | [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] | Primary BI responsibility / MAP lead; BI since 2011; CDO is SIIB AC; BIDGSC co-chair with ITB | Official (case-specific) | Case org section; SIIB related cases | [[99-Sources/source-notes/SRC-CRA-IA-BI-2024]] | **Supported** |
 | [[Service, Innovation, and Integration Branch\|SIIB]] | [[Evaluation - Audit Yield]] | MAP / management-action responsibility (with CPB and others): integrated cash-collected measure | Official (case-specific) | Case org section; SIIB related cases | [[99-Sources/source-notes/SRC-CRA-Eval-Audit-Yield-2020]] | **Supported** |
-| [[Security Branch]] | [[Internal Audit - Specific Cyber Security Controls]] | MAP / management response owner; named throughout; CISD first-line context in report | Official (case-specific) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-Cyber-2023]] | **Supported** |
-| [[Security Branch]] | [[Internal Audit - Enterprise Fraud Management System]] | Primary management respondent / MAP owner (IFMS); jointly with ITB on selected action | Official (case-specific) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-EFMS-2026]] | **Supported** |
-| [[Security Branch]] | [[Internal Audit - Charities Audit Process]] | Contextual / methodology mention: meetings coordinated with Security Branch (not OPI/MAP) | Official (case-specific, contextual) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-Charities-2025]] | **Supported** (contextual only) |
+| [[02-Organization/Branches/Security Branch]] | [[Internal Audit - Specific Cyber Security Controls]] | MAP / management response owner; named throughout; CISD first-line context in report | Official (case-specific) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-Cyber-2023]] | **Supported** |
+| [[02-Organization/Branches/Security Branch]] | [[Internal Audit - Enterprise Fraud Management System]] | Primary management respondent / MAP owner (IFMS); jointly with ITB on selected action | Official (case-specific) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-EFMS-2026]] | **Supported** |
+| [[02-Organization/Branches/Security Branch]] | [[Internal Audit - Charities Audit Process]] | Contextual / methodology mention: meetings coordinated with Security Branch (not OPI/MAP) | Official (case-specific, contextual) | Case org section; Security Branch related cases | [[99-Sources/source-notes/SRC-CRA-IA-Charities-2025]] | **Supported** (contextual only) |
 
 ### No supported case relationship found
 
@@ -83,9 +83,9 @@ For the five queried branches, the vault does **not** support official involveme
 | [[Service, Innovation, and Integration Branch\|SIIB]] | [[Internal Audit - Enterprise Fraud Management System]] | No supported relationship |
 | [[Service, Innovation, and Integration Branch\|SIIB]] | [[Internal Audit - Accounts Receivable National Inventory]] | No supported relationship |
 | [[Service, Innovation, and Integration Branch\|SIIB]] | [[Internal Audit - Charities Audit Process]] | No supported SIIB role; BI/systems improvements assigned to LPRAB in report summary — do not infer SIIB participation from “BI” theme alone |
-| [[Security Branch]] | [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] | No supported relationship |
-| [[Security Branch]] | [[Evaluation - Audit Yield]] | No supported relationship |
-| [[Security Branch]] | [[Internal Audit - Accounts Receivable National Inventory]] | No supported relationship |
+| [[02-Organization/Branches/Security Branch]] | [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] | No supported relationship |
+| [[02-Organization/Branches/Security Branch]] | [[Evaluation - Audit Yield]] | No supported relationship |
+| [[02-Organization/Branches/Security Branch]] | [[Internal Audit - Accounts Receivable National Inventory]] | No supported relationship |
 
 ### Quick matrix (official case-specific only)
 
@@ -114,10 +114,10 @@ For the five queried branches, the vault does **not** support official involveme
 ### Branches
 
 - [[Audit, Evaluation, and Risk Branch]]
-- [[Information Technology Branch]]
-- [[Compliance Programs Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
 - [[Service, Innovation, and Integration Branch]]
-- [[Security Branch]]
+- [[02-Organization/Branches/Security Branch]]
 - [[CRA-Branch-Relationship-Map]]
 
 ### Source notes
@@ -157,7 +157,7 @@ For the five queried branches, the vault does **not** support official involveme
 ## Missing bidirectional links
 
 1. [[Internal Audit - Specific Cyber Security Controls]], [[Internal Audit - Enterprise Fraud Management System]], [[Internal Audit - Accounts Receivable National Inventory]], and [[Internal Audit - Charities Audit Process]] lack `related_organizations` (and often `related_sources`) frontmatter present on BI/Audit Yield.
-2. [[Public-Audit-Case-Library]] `related_organizations` links [[01-Organization/Audit Evaluation and Risk Branch]] rather than canonical [[Audit, Evaluation, and Risk Branch]].
+2. [[Public-Audit-Case-Library]] `related_organizations` links [[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]] rather than canonical [[Audit, Evaluation, and Risk Branch]].
 3. AERB note body highlights only cyber + BI under detailed bullets while `related_cases` lists all six — retrieval works via frontmatter, but prose completeness is uneven.
 4. Cyber case does not put [[Information Technology Branch|ITB]] in `related_organizations` (correct if excluding derived links) while ITB note still lists the cyber case — asymmetric.
 
@@ -189,7 +189,7 @@ Do **not** implement in this test. Suggested later work:
 
 1. Add consistent `related_organizations` and `related_sources` frontmatter to Cyber, EFMS, ARNI, and Charities case notes, matching their labeled org sections.
 2. Retarget [[Public-Audit-Case-Library]] organization link to [[Audit, Evaluation, and Risk Branch|AERB]].
-3. On [[Information Technology Branch]], qualify the cyber case bullet: “derived onboarding / no ITB MAP in published report.”
+3. On [[02-Organization/Branches/Information Technology Branch|ITB]], qualify the cyber case bullet: “derived onboarding / no ITB MAP in published report.”
 4. Expand AERB “Related public audit…” bullets to name all six publishing relationships explicitly (publisher vs third-line vs MAP judge).
 5. Optional retrieval aid: a small branch×case matrix note generated from labeled org sections only (no thematic inference).
 

@@ -1,7 +1,7 @@
 ---
 title: "Test-03: Privileged Access and Incomplete Reviews (Post-Fix)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - organization

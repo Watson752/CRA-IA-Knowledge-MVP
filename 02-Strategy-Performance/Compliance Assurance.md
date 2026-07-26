@@ -30,7 +30,7 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Compliance Programs Branch]]"
+  - "[[02-Organization/Branches/Compliance Programs Branch|CPB]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -52,7 +52,7 @@ CRA’s mission includes **ensuring compliance** on behalf of governments across
 
 ## Organizational link
 
-[[Compliance Programs Branch]] is a named HQ program branch; detailed compliance strategies are in the departmental plan, not reproduced in full here.
+[[02-Organization/Branches/Compliance Programs Branch|CPB]] is a named HQ program branch; detailed compliance strategies are in the departmental plan, not reproduced in full here.
 
 ## Sources
 

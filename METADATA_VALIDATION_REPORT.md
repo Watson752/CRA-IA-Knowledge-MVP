@@ -1,133 +1,96 @@
 ---
-title: METADATA_VALIDATION_REPORT
-note_type: governance
+title: "Metadata Validation Report"
+note_type: report
 primary_domain: governance
 domains:
   - governance
   - source
-  - audit
 classification: public
 content_origin: derived-analysis
 authoritative: false
-as_of_date: 2026-07-24
-last_verified: 2026-07-24
-owner: MVP-Author
-review_status: source-verified
+official_source: false
+review_status: analytical-draft
 approved_for_ai_retrieval: false
-tags:
-  - metadata
-  - validation
-  - graph-view
 ---
 
-# METADATA_VALIDATION_REPORT
+# Metadata Validation Report
 
-**Generated:** 2026-07-24
+Generated from `python scripts/validate_vault.py` on 2026-07-26. The validator is local and network-free; the companion machine-readable result is `16-Testing/Consistency/Reports/AUTOMATED_VALIDATION.json`.
 
-Standardization of `primary_domain`, `domains`, and preferred `note_type` values for Obsidian Graph View grouping.
+## Current counts
 
-## Summary
+| Metric | Count |
+|---|---:|
+| Markdown files | 444 |
+| Substantive knowledge notes | 289 |
+| Infrastructure files | 155 |
+| Files missing YAML | 1 (`README.md`, intentionally project documentation) |
+| Malformed YAML files | 0 |
+| Invalid substantive primary domains | 0 |
+| Substantive notes missing domains arrays | 0 |
+| Invalid substantive domain values | 0 |
+| Unresolved or ambiguous Wikilinks | 0 |
+| Substantive orphan notes | 0 |
+| Duplicate titles | 0 |
+| Alias conflicts | 0 |
 
-- Total Markdown files inspected: **150**
-- Files updated: **150**
-- Files skipped: **0**
-- Files without YAML frontmatter (before fix): **3** (`PROJECT_PLAN.md`, `VALIDATION_REPORT.md`, `MVP_REPORT.md`; frontmatter added)
-- Files with malformed YAML: **0**
-- Files with invalid `primary_domain` after fix: **0**
-- Files missing/invalid `domains` after fix: **0**
-- Duplicate YAML keys found: **0**
-- Notes whose folder default and `primary_domain` disagree: **12** (intentional overrides)
-- Files still without frontmatter: **0**
-- Unresolved issues: **0**
+## Files by primary domain
 
-## Counts by `primary_domain`
+| Primary domain | Files |
+|---|---:|
+| audit | 67 |
+| bridge | 13 |
+| case | 7 |
+| governance | 35 |
+| navigation | 43 |
+| organization-business | 75 |
+| risk-control | 15 |
+| software-data | 97 |
+| source | 20 |
+| statistics-analytics | 71 |
 
-- `audit`: 13
-- `bridge`: 1
-- `case`: 7
-- `governance`: 7
-- `navigation`: 13
-- `organization-business`: 32
-- `risk-control`: 6
-- `software-data`: 30
-- `source`: 18
-- `statistics-analytics`: 23
-- `template`: 0
+## Files by note type
 
-## Counts by `note_type`
+The live vault uses 20 note types. The largest groups are `testing` (70), `software-concept` (62), `organization` (54), `statistical-method` (52), `audit-concept` (50), and `navigation` (44). The authoritative complete counts are generated in `AUTOMATED_VALIDATION.md`.
 
-- `organization`: 22
-- `statistical-method`: 19
-- `data-concept`: 19
-- `source`: 18
-- `navigation`: 13
-- `audit-concept`: 11
-- `software-concept`: 11
-- `business-process`: 10
-- `case`: 7
-- `governance`: 7
-- `dataset`: 4
-- `risk`: 4
-- `control`: 2
-- `evidence`: 1
-- `finding`: 1
-- `bridge-note`: 1
+## Files by folder
 
-## Folder → primary_domain mapping used (actual vault folders)
+The authoritative folder census is generated in `AUTOMATED_VALIDATION.md`. The live architecture includes `00-Start`, legacy `01-Organization`, canonical `02-Organization`, `02-Strategy-Performance`, `03-Statistics`, `04-Audit-Concepts`, `05-Software-Concepts`, `06-Data-Statistics-Concepts`, `07-Risk-Controls`, `08-Cases`, `11-Governance-Bodies`, `12-Learning-Paths`, `13-Bridge-Notes`, `14-Synthetic-Demos`, `15-Governance`, `16-Testing`, and `99-Sources`.
 
-The instruction’s example folder names differ from this vault; mapping applied:
+## Domain rules
 
-| Folder | primary_domain |
-|--------|----------------|
-| `00-Start/` | `navigation` |
-| `01-Organization/` | `organization-business` |
-| `02-Strategy-Performance/` | `organization-business` |
-| `03-Statistics/` | `statistics-analytics` |
-| `04-Audit-Concepts/` | `audit` |
-| `05-Software-Concepts/` | `software-data` |
-| `06-Data-Statistics-Concepts/` | `software-data` (default) |
-| `07-Risk-Controls/` | `risk-control` |
-| `08-Cases/` | `case` |
-| `09-Processes/` | `organization-business` |
-| `10-Systems/` | `software-data` |
-| `11-Governance-Bodies/` | `organization-business` |
-| `12-Learning-Paths/` | `navigation` |
-| `13-Bridge-Notes/` | `bridge` |
-| `14-Synthetic-Demos/` | `case` |
-| `15-Governance/` | `governance` |
-| `99-Sources/` | `source` |
-| *(root project files)* | `governance` |
+Substantive knowledge notes use exactly one allowed `primary_domain`:
 
-### Content-based overrides
+```text
+case | bridge | audit | risk-control | software-data |
+statistics-analytics | organization-business
+```
 
-- `04-Audit-Concepts/Control.md`, `Risk.md` → `risk-control`
-- Selected statistical-method notes in `06-Data-Statistics-Concepts/` → `statistics-analytics`
-- `08-Cases/README.md` → `navigation`
+Infrastructure uses `source`, `governance`, `navigation`, or `template` where appropriate. `domains` is a focused related-topic list using only:
 
-## Folder / primary_domain disagreements
+```text
+audit | organization | business | software | data | statistics |
+risk | control | governance | case | source | ai
+```
 
-These are intentional content-priority overrides (not errors):
+`primary_domain` drives Graph View grouping. Legacy singular `domain` properties may remain for historical compatibility but are not used by validation or graph grouping.
 
-- `04-Audit-Concepts/Control.md`: folder default `audit` vs assigned `risk-control`
-- `04-Audit-Concepts/Risk.md`: folder default `audit` vs assigned `risk-control`
-- `06-Data-Statistics-Concepts/Assessment Cut-Off Date.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Comparability Across Editions.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Data Suppression.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/How Statistical Limitations Affect Audit Conclusions.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Initial Assessment Data.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Population Completeness.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Reassessment Data.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Rounding.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Small-Cell Analysis.md`: folder default `software-data` vs assigned `statistics-analytics`
-- `06-Data-Statistics-Concepts/Statistical Revision.md`: folder default `software-data` vs assigned `statistics-analytics`
+## Consistency repairs included
 
-## Unresolved issues
+- removed four zero-byte duplicate shadows after recording their paths in `16-Testing/Consistency/Backups/Backup Record — Removed Empty Notes.md`;
+- classified that backup-record note as infrastructure (`note_type: report`, `content_role: report`, `include_in_graph: false`, `include_in_retrieval: false`);
+- distinguished seven general analytics application notes from canonical public-statistics filenames;
+- renamed legacy organization redirects so they do not compete with canonical filenames;
+- canonicalized verified organization links and repaired remaining path/folder Wikilinks;
+- added the substantive general-professional [[Substantive Testing]] concept required by the statistics diagnostics;
+- corrected testing infrastructure domain metadata and bridge-note domain lists;
+- rebuilt README and consistency reports from local calculated state.
 
-- None. All substantive notes have valid `primary_domain` and non-empty `domains`.
+## Citation and content safeguards
 
-## Obsidian Graph View group queries
+No published CRA findings, recommendations, report dates, audit periods, management responses, or citation URLs were changed by this metadata repair. Historical and synthetic-content guardrails remain represented by the existing audit and integrated validation suites.
 
-In **Graph View → Settings → Groups**, create one coloured group per line. Use these exact queries:
+## Graph View group queries
 
 ```text
 primary_domain:case
@@ -143,18 +106,8 @@ primary_domain:navigation
 primary_domain:template
 ```
 
-| Colour group | Query |
-|--------------|-------|
-| Case | `primary_domain:case` |
-| Bridge | `primary_domain:bridge` |
-| Audit | `primary_domain:audit` |
-| Risk & control | `primary_domain:risk-control` |
-| Software & data | `primary_domain:software-data` |
-| Statistics & analytics | `primary_domain:statistics-analytics` |
-| Organization & business | `primary_domain:organization-business` |
-| Source | `primary_domain:source` |
-| Governance | `primary_domain:governance` |
-| Navigation | `primary_domain:navigation` |
-| Template | `primary_domain:template` |
+## Remaining manual-review items
 
-`primary_domain` drives the colour. `domains` remains a multi-value related-topic list and is not required for Graph groups.
+- Most low-word concept stubs are intentional onboarding-depth Class C notes; they need subject-matter review before expansion, not generic rewriting.
+- `README.md` intentionally has no YAML frontmatter.
+- A formal RAG implementation still requires corpus curation, source-ranking, citation enforcement, access controls, evaluation, and human governance.

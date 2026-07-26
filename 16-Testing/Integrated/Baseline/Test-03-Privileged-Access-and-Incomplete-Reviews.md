@@ -1,7 +1,7 @@
 ---
 title: "Test-03: Privileged Access and Incomplete Reviews (Integrated Baseline)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - business
@@ -74,10 +74,10 @@ How should Internal Audit examine a system where users may have excessive privil
 | **System administration** | Provisioning/deprovisioning, role assignment, admin of the system of entitlements | [[System Owner]], [[Technical Support]], [[Identity and Access Management]] | General professional |
 | **Identity-management support** | Directory/IAM lifecycle (joiners–movers–leavers), unique attributable identities | [[Identity and Access Management]], [[IT Controls]] | General professional; do not invent CRA IAM product names |
 | **Control ownership** | Named owner for access approval, periodic review, monitoring, and remediation | [[Control Ownership]] (notes reviews lapse without ownership) | General professional |
-| **Security monitoring** | Detective monitoring of privileged/suspicious use; escalation | [[Privileged Access Monitoring]], [[Audit Logging]], [[Security Branch]] (EFMS MAP/operations context) | Mixed: monitoring concepts = general; EFMS Security Branch role = **official case-specific** |
+| **Security monitoring** | Detective monitoring of privileged/suspicious use; escalation | [[Privileged Access Monitoring]], [[Audit Logging]], [[02-Organization/Branches/Security Branch]] (EFMS MAP/operations context) | Mixed: monitoring concepts = general; EFMS Security Branch role = **official case-specific** |
 | **Independent audit** | Third-line assurance; does not own provisioning or remediation execution | [[Three Lines Model]], [[Audit, Evaluation, and Risk Branch]], [[Ownership and Assurance Roles]] | Official for AERB mandate; Three Lines = general / case-described |
 
-**ITB / Security Branch (bounded):** [[Information Technology Branch]] supports technology; [[Security Branch]] appears in EFMS as MAP owner / IFMS maintenance and in the cyber case for second-line cyber governance themes. Neither case is a public privileged-access **provisioning** audit. Do not invent reporting lines or current entitlement weaknesses.
+**ITB / Security Branch (bounded):** [[02-Organization/Branches/Information Technology Branch|ITB]] supports technology; [[02-Organization/Branches/Security Branch]] appears in EFMS as MAP owner / IFMS maintenance and in the cyber case for second-line cyber governance themes. Neither case is a public privileged-access **provisioning** audit. Do not invent reporting lines or current entitlement weaknesses.
 
 ---
 
@@ -201,7 +201,7 @@ Business Process Owner / Control Owner (access need + review ownership)
 
 - [[Business Process Owner]] · [[System Owner]] · [[Control Ownership]] · [[Technical Support]]
 - [[Ownership and Assurance Roles]] · [[Roles and Responsibilities]] · [[Three Lines Model]]
-- [[Information Technology Branch]] · [[Security Branch]] · [[Audit, Evaluation, and Risk Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]] · [[02-Organization/Branches/Security Branch]] · [[Audit, Evaluation, and Risk Branch]]
 
 ### Access / software / control
 

@@ -50,4 +50,4 @@ Program ownership is related to but not identical to [[Business Process Owner]]:
 
 ## Sources
 
-General professional knowledge; CRA branch split from [[CRA-Organizational-Overview]] and [[99-Sources/source-notes/SRC-CRA-Org-2025]]. Case OPI/MAP labels: individual [[08-Cases]] org sections.
+General professional knowledge; CRA branch split from [[CRA-Organizational-Overview]] and [[99-Sources/source-notes/SRC-CRA-Org-2025]]. Case OPI/MAP labels: individual [[Public-Audit-Case-Library]] organizational sections.

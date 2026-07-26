@@ -28,7 +28,7 @@ related_sources:
   - "[[99-Sources/source-notes/SRC-CRA-IA-ARNI-2026]]"
 related_organizations:
   - "[[Audit, Evaluation, and Risk Branch]]"
-  - "[[Collections and Verification Branch]]"
+  - "[[02-Organization/Branches/Collections and Verification Branch|CVB]]"
   - "[[Atlantic Region]]"
   - "[[Quebec Region]]"
   - "[[Ontario Region]]"

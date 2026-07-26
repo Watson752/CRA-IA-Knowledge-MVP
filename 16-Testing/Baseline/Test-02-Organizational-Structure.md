@@ -128,12 +128,12 @@ Public audit case
 
 1. [[Audit, Evaluation, and Risk Branch|AERB]]
 2. [[Digital Transformation Program Branch|DTPB]]
-3. [[Finance and Administration Branch]]
+3. [[02-Organization/Branches/Finance and Administration Branch]]
 4. [[Human Resources Branch|HRB]]
 5. [[Information Technology Branch|ITB]]
 6. [[Legal Services Branch]]
 7. [[Public Affairs Branch]]
-8. [[Security Branch]]
+8. [[02-Organization/Branches/Security Branch]]
 
 #### Other organizational component (not a branch)
 
@@ -161,12 +161,12 @@ Public audit case
 - [[Organizational-Onboarding-Path]]
 - [[CRA-Acronym-Dictionary]]
 - [[CRA Headquarters Branches]]
-- [[01-Organization/CRA Regions]]
+- [[02-Organization/CRA-Regions]]
 - [[Corporate Secretariat]]
 - [[Audit, Evaluation, and Risk Branch]]
-- [[Information Technology Branch]]
-- [[Collections and Verification Branch]] (example program branch)
-- [[Compliance Programs Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]] (example program branch)
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
 - [[Service, Innovation, and Integration Branch]]
 - [[Ontario Region]] (example region note)
 - [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]

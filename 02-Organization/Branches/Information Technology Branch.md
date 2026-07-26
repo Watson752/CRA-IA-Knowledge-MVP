@@ -3,7 +3,6 @@ title: Information Technology Branch
 aliases:
   - ITB
   - Information Technology
-  - 01-Organization/Information Technology Branch
 note_type: organization
 primary_domain: organization-business
 domains:
@@ -96,7 +95,7 @@ ITB is the public enterprise IT owner/operator. Cyber, EFMS, BI service delivery
 
 - [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] — BI service delivery by ITB; co-chair BIDGSC with SIIB.
 - [[Internal Audit - Enterprise Fraud Management System]] — ITB Enterprise Fraud Management Services Section maintains EFMS; jointly named for selected MAP actions.
-- [[Internal Audit - Specific Cyber Security Controls]] — **Derived onboarding only:** enterprise IT/cyber themes often involve ITB in learning paths; the published report does **not** support inventing ITB MAP ownership (protected content). Prefer [[Security Branch]] as management response owner.
+- [[Internal Audit - Specific Cyber Security Controls]] — **Derived onboarding only:** enterprise IT/cyber themes often involve ITB in learning paths; the published report does **not** support inventing ITB MAP ownership (protected content). Prefer [[02-Organization/Branches/Security Branch]] as management response owner.
 - [[Evaluation - Audit Yield]] — ITB referenced for data-gap plans.
 
 ## Related knowledge domains

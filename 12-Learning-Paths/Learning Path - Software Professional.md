@@ -29,7 +29,7 @@ Connect public CRA digital and cyber cases to software and control concepts.
 ## Organization anchors (read alongside concepts)
 
 - [[Information Technology Branch|ITB]] — enterprise IT; technical support ≠ business ownership
-- [[Security Branch]] — cyber / EFMS management response context
+- [[02-Organization/Branches/Security Branch]] — cyber / EFMS management response context
 - [[Digital Transformation Program Branch|DTPB]] — corporate branch despite “Program” in the name
 - [[Ownership and Assurance Roles]] · [[Public-Audit-Case-Map]]
 

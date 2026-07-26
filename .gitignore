@@ -1,50 +1,37 @@
-# Obsidian local workspace state
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
-.obsidian/plugins/*/data.json
-
-# Obsidian trash
-.trash/
-
-# Operating-system files
-.DS_Store
-Thumbs.db
-
-# Environment variables and secrets
+# Secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
 
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Node.js
-node_modules/
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-
-# Graph databases and generated indexes
-data/private/
-data/raw/
-storage/
-indexes/
-vector_store/
-graph_store/
+# Generated RAG artifacts
+data/indexes/
+data/embeddings/
+data/vector-store/
 *.db
 *.sqlite
 *.sqlite3
 
-# Logs and temporary files
-logs/
-tmp/
-temp/
-*.log
+# Obsidian local UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
 
-# IDE settings
+# Cursor/local editor state
+.cursor/
 .vscode/
-.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

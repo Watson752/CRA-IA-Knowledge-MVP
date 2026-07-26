@@ -30,7 +30,7 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Finance and Administration Branch]]"
+  - "[[02-Organization/Branches/Finance and Administration Branch]]"
 related_systems: []
 related_datasets: []
 related_risks: []

@@ -84,21 +84,21 @@ Split:
 
 1. [[Appeals Branch]]
 2. [[Assessment, Benefit, and Service Branch]]
-3. [[Collections and Verification Branch]]
-4. [[Compliance Programs Branch]]
+3. [[02-Organization/Branches/Collections and Verification Branch|CVB]]
+4. [[02-Organization/Branches/Compliance Programs Branch|CPB]]
 5. [[Legislative Policy and Regulatory Affairs Branch]]
 6. [[Service, Innovation, and Integration Branch]]
 
 ### Corporate branches (exact branch-section headings)
 
 1. [[Audit, Evaluation, and Risk Branch]]
-2. [[Digital Transformation Program Branch]]
-3. [[Finance and Administration Branch]]
+2. [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]
+3. [[02-Organization/Branches/Finance and Administration Branch]]
 4. [[Human Resources Branch]]
-5. [[Information Technology Branch]]
+5. [[02-Organization/Branches/Information Technology Branch|ITB]]
 6. [[Legal Services Branch]]
 7. [[Public Affairs Branch]]
-8. [[Security Branch]]
+8. [[02-Organization/Branches/Security Branch]]
 
 ## Governance anchors
 

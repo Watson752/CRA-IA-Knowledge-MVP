@@ -68,7 +68,7 @@ A [[Business Process Owner]] is accountable for a defined end-to-end **process a
 | BI activities | [[Service, Innovation, and Integration Branch|SIIB]] responsibility / MAP lead | BI audit |
 | Collections inventory (ARNI) | [[Collections and Verification Branch|CVB]] OPI/MAP pattern | ARNI |
 | Charities audit process | Program branch as MAP owner (LPRAB) | Charities |
-| EFMS remediation | [[Security Branch]] MAP owner; ITB jointly named for selected items | EFMS |
+| EFMS remediation | [[02-Organization/Branches/Security Branch]] MAP owner; ITB jointly named for selected items | EFMS |
 
 #### System ownership
 
@@ -175,7 +175,7 @@ Internal Audit
 - [[Data Owner]] · [[Control Ownership]] · [[Management Action Plan Owner]]
 - [[Ownership and Assurance Roles]] · [[Roles and Responsibilities]] · [[Three Lines Model]]
 - [[Internal Audit Independence]] · [[Management Action Plan]] · [[Management Response]]
-- [[Information Technology Branch]] · [[Service, Innovation, and Integration Branch]] · [[Audit, Evaluation, and Risk Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]] · [[Service, Innovation, and Integration Branch]] · [[Audit, Evaluation, and Risk Branch]]
 - [[CRA-Program-Branches]] · [[CRA-Corporate-Branches]] · [[Chief Data Officer]]
 - [[IT Controls]] · [[Tool Deployment]] · [[Monitoring and Reporting]] · [[Automated Control]]
 - [[Data Governance]] · [[Governance]] · [[Risk Management]]

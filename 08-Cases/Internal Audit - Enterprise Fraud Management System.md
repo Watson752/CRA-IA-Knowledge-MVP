@@ -30,8 +30,8 @@ related_sources:
   - "[[99-Sources/source-notes/SRC-CRA-IA-EFMS-2026]]"
 related_organizations:
   - "[[Audit, Evaluation, and Risk Branch]]"
-  - "[[Security Branch]]"
-  - "[[Information Technology Branch]]"
+  - "[[02-Organization/Branches/Security Branch]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
 related_cases: []
 tags:
   - case-study
@@ -100,7 +100,7 @@ This vault interprets the loading/re-ingestion finding through [[Defence in Dept
 ### Official case-specific relationship
 
 - **Publishing assurance branch:** [[Audit, Evaluation, and Risk Branch|AERB]]
-- **Primary management respondent / MAP owner:** [[Security Branch]] (IFMS Section maintains/enhances EFMS; agreed to action plans)
+- **Primary management respondent / MAP owner:** [[02-Organization/Branches/Security Branch]] (IFMS Section maintains/enhances EFMS; agreed to action plans)
 - **Named co-responsible for selected actions:** [[Information Technology Branch|ITB]] (Enterprise Fraud Management Services Section maintains EFMS; jointly named for re-ingestion formalization)
 - **Other named operational role in report:** Internal Affairs reviews alerts (unit named in report; not expanded into an unsupported branch ownership claim here)
 

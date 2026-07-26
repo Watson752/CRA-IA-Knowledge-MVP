@@ -3,7 +3,6 @@ title: Digital Transformation Program Branch
 aliases:
   - DTPB
   - Digital Transformation Program
-  - 01-Organization/Digital Transformation Program Branch
 note_type: organization
 primary_domain: organization-business
 domains:

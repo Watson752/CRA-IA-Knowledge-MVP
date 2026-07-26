@@ -29,8 +29,8 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Compliance Programs Branch]]"
-  - "[[Collections and Verification Branch]]"
+  - "[[02-Organization/Branches/Compliance Programs Branch|CPB]]"
+  - "[[02-Organization/Branches/Collections and Verification Branch|CVB]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -56,7 +56,7 @@ tags:
 
 Integrity and compliance themes: priority **A** ([[CRA Strategic Priorities]]), especially **A2** [[Compliance Assurance]] and **A3** [[Tax Debt Collection]].
 
-HQ program branches publicly associated with tax delivery include [[Compliance Programs Branch]] and [[Collections and Verification Branch]]; regions deliver programs ([[CRA Regions]]).
+HQ program branches publicly associated with tax delivery include [[02-Organization/Branches/Compliance Programs Branch|CPB]] and [[02-Organization/Branches/Collections and Verification Branch|CVB]]; regions deliver programs ([[02-Organization/CRA-Regions]]).
 
 ## Sources
 

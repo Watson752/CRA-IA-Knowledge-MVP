@@ -43,9 +43,9 @@ Do not invent CRA reporting lines; label case-specific OPI/MAP facts separately 
 - [[Monitoring and Alerting]]
 - [[Internal Audit Independence]]
 - [[How Organizational Ownership Affects System Accountability]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Service, Innovation, and Integration Branch]]
-- [[Security Branch]]
+- [[02-Organization/Branches/Security Branch]]
 - [[Audit, Evaluation, and Risk Branch]]
 
 ## Sources

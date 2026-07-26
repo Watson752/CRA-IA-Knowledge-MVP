@@ -92,12 +92,12 @@ Indexes:
 
 - [[Audit, Evaluation, and Risk Branch|AERB]]
 - [[Digital Transformation Program Branch|DTPB]]
-- [[Finance and Administration Branch]]
+- [[02-Organization/Branches/Finance and Administration Branch]]
 - [[Human Resources Branch|HRB]]
 - [[Information Technology Branch|ITB]]
 - [[Legal Services Branch]]
 - [[Public Affairs Branch]]
-- [[Security Branch]]
+- [[02-Organization/Branches/Security Branch]]
 
 ## Regions
 

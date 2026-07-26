@@ -30,7 +30,7 @@ related_sources:
 related_organizations:
   - "[[Audit, Evaluation, and Risk Branch]]"
   - "[[Legislative Policy and Regulatory Affairs Branch]]"
-  - "[[Security Branch]]"
+  - "[[02-Organization/Branches/Security Branch]]"
 related_cases: []
 tags:
   - case-study
@@ -97,7 +97,7 @@ This vault interprets the report’s limited/incomplete data dispersed across so
 - **Publishing assurance branch:** [[Audit, Evaluation, and Risk Branch|AERB]]
 - **Office of primary interest / responsible program area:** Charities Directorate within [[Legislative Policy and Regulatory Affairs Branch|LPRAB]]
 - **Management response / MAP owner:** [[Legislative Policy and Regulatory Affairs Branch|LPRAB]] agreed to recommendations and action plans
-- **Methodology coordination named in report:** [[Security Branch]]; regional offices / tax services offices
+- **Methodology coordination named in report:** [[02-Organization/Branches/Security Branch]]; regional offices / tax services offices
 
 ### Official organizational relationship
 

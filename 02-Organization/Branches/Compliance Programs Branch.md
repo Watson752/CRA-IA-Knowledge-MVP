@@ -3,7 +3,6 @@ title: Compliance Programs Branch
 aliases:
   - CPB
   - Compliance Programs
-  - 01-Organization/Compliance Programs Branch
 note_type: organization
 primary_domain: organization-business
 domains:

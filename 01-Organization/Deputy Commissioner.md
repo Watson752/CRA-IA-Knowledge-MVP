@@ -75,7 +75,7 @@ Supports agency-wide delivery of [[CRA Mandate]] and [[CRA Strategic Priorities]
 
 ## Related business processes
 
-Not branch-specific in public org summary; see [[CRA Headquarters Branches]] and [[CRA Regions]] for program delivery structure.
+Not branch-specific in public org summary; see [[CRA Headquarters Branches]] and [[02-Organization/CRA-Regions]] for program delivery structure.
 
 ## Related systems or data concepts
 

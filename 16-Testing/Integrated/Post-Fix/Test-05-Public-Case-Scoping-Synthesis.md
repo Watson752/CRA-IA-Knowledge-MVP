@@ -1,7 +1,7 @@
 ---
 title: "Test-05: Public Case Scoping Synthesis (Post-Fix)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - organization

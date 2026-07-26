@@ -59,7 +59,7 @@ Full case index: [[Public-Audit-Case-Library]]. Ownership vocabulary: [[Ownershi
 | [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] | Publisher; MAP reasonableness | Named (service delivery / collaboration) | Named (examined/interviewed) | MAP lead | — | CVB named stakeholder; DTPB interviewed |
 | [[Internal Audit - Specific Cyber Security Controls]] | Publisher; third line | — (derived onboarding only; no ITB MAP) | — | — | MAP owner | — |
 | [[Internal Audit - Enterprise Fraud Management System]] | Publisher | Named co-responsible | — | — | MAP owner | — |
-| [[Internal Audit - Accounts Receivable National Inventory]] | Publisher | — | — | — | — | [[Collections and Verification Branch]] (CVB) OPI + MAP |
+| [[Internal Audit - Accounts Receivable National Inventory]] | Publisher | — | — | — | — | [[02-Organization/Branches/Collections and Verification Branch|CVB]] (CVB) OPI + MAP |
 | [[Internal Audit - Charities Audit Process]] | Publisher | — | — | — | Context (methodology) | [[Legislative Policy and Regulatory Affairs Branch]] (LPRAB) OPI + MAP |
 | [[Evaluation - Audit Yield]] | Publisher | Named in MAP plan | MAP responsibility | MAP responsibility | — | ABS shorthand = verification required |
 

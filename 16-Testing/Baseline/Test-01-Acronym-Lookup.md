@@ -50,7 +50,7 @@ All seven acronyms resolve to **current** headquarters branch notes under `02-Or
 | Full branch name | Compliance Programs Branch |
 | Classification | **Program** branch |
 | Plain-language purpose | Designs and supports tax-compliance programs: education for those who want to comply; examinations, audits, penalties, and criminal investigations where warranted; plus administration of various tax credit programs. |
-| Canonical Obsidian note | [[Compliance Programs Branch]] |
+| Canonical Obsidian note | [[02-Organization/Branches/Compliance Programs Branch|CPB]] |
 | Official source note | [[99-Sources/source-notes/SRC-CRA-Org-2025]] |
 | Source date / organizational period | Ministerial Transition **2025** Organization page (page details **2025-09-09**); vault verified **2026-07-25** |
 | Confidence | **Supported** |
@@ -62,7 +62,7 @@ All seven acronyms resolve to **current** headquarters branch notes under `02-Or
 | Full branch name | Information Technology Branch |
 | Classification | **Corporate** branch |
 | Plain-language purpose | Develops, operates, maintains, and evolves CRA information technology; also provides client computing and corporate IT solutions to the Canada Border Services Agency. |
-| Canonical Obsidian note | [[Information Technology Branch]] |
+| Canonical Obsidian note | [[02-Organization/Branches/Information Technology Branch|ITB]] |
 | Official source note | [[99-Sources/source-notes/SRC-CRA-Org-2025]] |
 | Source date / organizational period | Ministerial Transition **2025** Organization page (page details **2025-09-09**); vault verified **2026-07-25** |
 | Confidence | **Supported** |
@@ -86,7 +86,7 @@ All seven acronyms resolve to **current** headquarters branch notes under `02-Or
 | Full branch name | Collections and Verification Branch |
 | Classification | **Program** branch |
 | Plain-language purpose | Delivers national validation, verification, and collections programs: validate returns and benefit entitlements, address non-compliance with verification/analytics, and collect outstanding debts through progressive enforcement. |
-| Canonical Obsidian note | [[Collections and Verification Branch]] |
+| Canonical Obsidian note | [[02-Organization/Branches/Collections and Verification Branch|CVB]] |
 | Official source note | [[99-Sources/source-notes/SRC-CRA-Org-2025]] |
 | Source date / organizational period | Ministerial Transition **2025** Organization page (page details **2025-09-09**); vault verified **2026-07-25** |
 | Confidence | **Supported** |
@@ -141,10 +141,10 @@ All seven acronyms resolve to **current** headquarters branch notes under `02-Or
 - [[Organizational-Onboarding-Path]]
 - [[Learning Path - New Intern]]
 - [[Audit, Evaluation, and Risk Branch]]
-- [[Compliance Programs Branch]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Service, Innovation, and Integration Branch]]
-- [[Collections and Verification Branch]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]]
 - [[Assessment, Benefit, and Service Branch]]
 - [[Legislative Policy and Regulatory Affairs Branch]]
 - [[Domestic Compliance Programs Branch]] (historical caution only; not one of the seven queried acronyms)

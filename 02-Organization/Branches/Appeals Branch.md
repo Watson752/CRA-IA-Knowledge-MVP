@@ -74,7 +74,7 @@ Knowing Appeals helps you place formal review and recourse pathways beside compl
 ### Officially supported relationships
 
 - Program headquarters branch supporting CRA program delivery ([[CRA-Program-Branches]]).
-- Works in the same headquarters program group as [[Assessment, Benefit, and Service Branch]], [[Collections and Verification Branch]], [[Compliance Programs Branch]], [[Legislative Policy and Regulatory Affairs Branch]], and [[Service, Innovation, and Integration Branch]].
+- Works in the same headquarters program group as [[Assessment, Benefit, and Service Branch]], [[02-Organization/Branches/Collections and Verification Branch|CVB]], [[02-Organization/Branches/Compliance Programs Branch|CPB]], [[Legislative Policy and Regulatory Affairs Branch]], and [[Service, Innovation, and Integration Branch]].
 
 ### Derived onboarding interpretation
 

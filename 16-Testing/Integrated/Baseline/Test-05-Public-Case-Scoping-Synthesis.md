@@ -1,7 +1,7 @@
 ---
 title: "Test-05: Public Case Scoping Synthesis (Integrated Baseline)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - business

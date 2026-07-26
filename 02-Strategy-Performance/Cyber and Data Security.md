@@ -34,8 +34,8 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Security Branch]]"
-  - "[[Information Technology Branch]]"
+  - "[[02-Organization/Branches/Security Branch]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -53,8 +53,8 @@ tags:
 
 ## Public organizational links
 
-- [[Security Branch]] (Agency Security Officer named on organization page)
-- [[Information Technology Branch]] (enterprise IT)
+- [[02-Organization/Branches/Security Branch]] (Agency Security Officer named on organization page)
+- [[02-Organization/Branches/Information Technology Branch|ITB]] (enterprise IT)
 
 Detailed control frameworks or incident statistics were not in the provided source summaries.
 

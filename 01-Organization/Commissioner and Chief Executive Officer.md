@@ -94,7 +94,7 @@ Executive leadership delivers [[CRA Strategic Priorities]] and [[CRA Vision Miss
 
 ## Related systems or data concepts
 
-Branch-level CIO and digital transformation roles support enterprise IT and digital priorities ([[Information Technology Branch]], [[Digital Transformation Program Branch]]).
+Branch-level CIO and digital transformation roles support enterprise IT and digital priorities ([[02-Organization/Branches/Information Technology Branch|ITB]], [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]).
 
 ## Source dates
 

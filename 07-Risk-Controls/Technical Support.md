@@ -40,7 +40,7 @@ Technical support partners with process and [[System Owner|system accountability
 ## Related notes
 
 - [[Ownership and Assurance Roles]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Business Process Owner]]
 - [[System Owner]]
 - [[IT Controls]]
@@ -48,4 +48,4 @@ Technical support partners with process and [[System Owner|system accountability
 
 ## Sources
 
-General professional knowledge; IT service management practice. CRA ITB mandate: [[Information Technology Branch]], [[99-Sources/source-notes/SRC-CRA-Org-2025]].
+General professional knowledge; IT service management practice. CRA ITB mandate: [[02-Organization/Branches/Information Technology Branch|ITB]], [[99-Sources/source-notes/SRC-CRA-Org-2025]].

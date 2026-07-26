@@ -1,7 +1,7 @@
 ---
 title: "Test-01: Automated Decisions and Overrides (Post-Fix)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - organization

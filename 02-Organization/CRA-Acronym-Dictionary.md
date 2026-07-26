@@ -66,16 +66,16 @@ Only acronyms supported by official public CRA/Government of Canada sources or e
 | ABSB | Assessment, Benefit, and Service Branch | Program branch | Tax processing, contact centres, benefits administration | current | [[Assessment, Benefit, and Service Branch]] |
 | ABS | Assessment / Benefit Service (report shorthand) | Program area shorthand | Appears in older evaluation MAP language | verification required | [[Assessment, Benefit, and Service Branch]] |
 | AERB | Audit, Evaluation, and Risk Branch | Corporate branch | Independent assurance, evaluation, enterprise risk | current | [[Audit, Evaluation, and Risk Branch]] |
-| CPB | Compliance Programs Branch | Program branch | Compliance education, examinations, audits, investigations | current | [[Compliance Programs Branch]] |
-| CVB | Collections and Verification Branch | Program branch | Validation, verification, collections programs | current | [[Collections and Verification Branch]] |
-| DTPB | Digital Transformation Program Branch | Corporate branch | Enterprise digital transformation direction | current | [[Digital Transformation Program Branch]] |
+| CPB | Compliance Programs Branch | Program branch | Compliance education, examinations, audits, investigations | current | [[02-Organization/Branches/Compliance Programs Branch|CPB]] |
+| CVB | Collections and Verification Branch | Program branch | Validation, verification, collections programs | current | [[02-Organization/Branches/Collections and Verification Branch|CVB]] |
+| DTPB | Digital Transformation Program Branch | Corporate branch | Enterprise digital transformation direction | current | [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]] |
 | HRB | Human Resources Branch | Corporate branch | HR advice, services, stewardship | current | [[Human Resources Branch]] |
-| ITB | Information Technology Branch | Corporate branch | Develop/operate/evolve CRA IT; IT services to CBSA | current | [[Information Technology Branch]] |
+| ITB | Information Technology Branch | Corporate branch | Develop/operate/evolve CRA IT; IT services to CBSA | current | [[02-Organization/Branches/Information Technology Branch|ITB]] |
 | LPRAB | Legislative Policy and Regulatory Affairs Branch | Program branch | Legislative interpretation, charities, registered plans, excise/specialty tax | current | [[Legislative Policy and Regulatory Affairs Branch]] |
 | SIIB | Service, Innovation, and Integration Branch | Program branch | Service, data/info assets, performance reporting, partner coordination | current | [[Service, Innovation, and Integration Branch]] |
 | DCPB | Domestic Compliance Programs Branch | Historical branch name | Older public organizational label | historical | [[Domestic Compliance Programs Branch]] |
 
-Branches without a vault-verified standard acronym: [[Appeals Branch]]; [[Finance and Administration Branch]]; [[Legal Services Branch]]; [[Public Affairs Branch]]; [[Security Branch]].
+Branches without a vault-verified standard acronym: [[Appeals Branch]]; [[02-Organization/Branches/Finance and Administration Branch]]; [[Legal Services Branch]]; [[Public Affairs Branch]]; [[02-Organization/Branches/Security Branch]].
 
 ## Regions and offices
 
@@ -102,14 +102,14 @@ Branches without a vault-verified standard acronym: [[Appeals Branch]]; [[Financ
 | ED/SGC | Executive Director / Senior General Counsel | Executive role | Legal Services leadership title | current | [[Legal Services Branch]] |
 | CEO | Chief Executive Officer | Executive role | Part of Commissioner and CEO title | current | [[Commissioner and Chief Executive Officer]] |
 | CAE | Chief Audit Executive | Executive role | Assurance leadership title held by AERB AC | current | [[Audit, Evaluation, and Risk Branch]] |
-| CFO | Chief Financial Officer | Executive role | Finance leadership title | current | [[Finance and Administration Branch]] |
-| CIO | Chief Information Officer | Executive role | IT leadership title | current | [[Information Technology Branch]] |
+| CFO | Chief Financial Officer | Executive role | Finance leadership title | current | [[02-Organization/Branches/Finance and Administration Branch]] |
+| CIO | Chief Information Officer | Executive role | IT leadership title | current | [[02-Organization/Branches/Information Technology Branch|ITB]] |
 | CDO | Chief Data Officer | Executive role | Data leadership title held with SIIB AC | current | [[Chief Data Officer]] |
 | CSO | Chief Service Officer | Executive role | Service leadership title held with SIIB AC | current | [[Service, Innovation, and Integration Branch]] |
 | CPO | Chief Privacy Officer | Executive role | Privacy leadership title held with Public Affairs AC | current | [[Public Affairs Branch]] |
 | CHRO | Chief Human Resources Officer | Executive role | HR leadership title | current | [[Human Resources Branch]] |
-| ASO | Agency Security Officer | Executive role | Security leadership title | current | [[Security Branch]] |
-| DTO | Digital Transformation Officer | Executive role | Digital transformation leadership title | current | [[Digital Transformation Program Branch]] |
+| ASO | Agency Security Officer | Executive role | Security leadership title | current | [[02-Organization/Branches/Security Branch]] |
+| DTO | Digital Transformation Officer | Executive role | Digital transformation leadership title | current | [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]] |
 
 ## Audit and governance
 
@@ -142,10 +142,10 @@ Branches without a vault-verified standard acronym: [[Appeals Branch]]; [[Financ
 | Acronym | Full form | Type | Plain-language purpose | Status | Canonical note |
 |---|---|---|---|---|---|
 | EFMS | Enterprise Fraud Management System | System | Detects questionable employee access activity | current | [[Internal Audit - Enterprise Fraud Management System]] |
-| IFMS | Internal Fraud Management Solutions | Security unit | Security Branch section supporting EFMS | current | [[Security Branch]] |
+| IFMS | Internal Fraud Management Solutions | Security unit | Security Branch section supporting EFMS | current | [[02-Organization/Branches/Security Branch]] |
 | DSS | Decision Support System | System | ARNI distribution/inventory/business rules system (public audit) | current | [[Internal Audit - Accounts Receivable National Inventory]] |
 | BI | Business Intelligence | Capability | Analytics and decision-support information | current | [[Business Intelligence]] |
-| CISD | Cybersecurity unit named in cyber audit | Security unit | First-line cyber responsibility named in public cyber audit | verification required | [[Security Branch]] |
+| CISD | Cybersecurity unit named in cyber audit | Security unit | First-line cyber responsibility named in public cyber audit | verification required | [[02-Organization/Branches/Security Branch]] |
 | GRC | Governance, Risk and Compliance (capability) | Control capability | Planned second-line capability described in cyber audit | verification required | [[Three Lines Model]] |
 
 ## Common Government of Canada terms
@@ -155,11 +155,11 @@ Branches without a vault-verified standard acronym: [[Appeals Branch]]; [[Financ
 | CRA | Canada Revenue Agency | Institution | Federal tax and benefits administrator | current | [[Canada Revenue Agency]] |
 | TBS | Treasury Board of Canada Secretariat | Central agency | Management policies including internal audit policy | current | [[99-Sources/source-notes/SRC-TBS-Policy-Internal-Audit]] |
 | OAG | Office of the Auditor General of Canada | External auditor | Parliamentary auditor; distinct from CRA AERB | current | [[CRA-Governance-Structure]] |
-| CBSA | Canada Border Services Agency | Partner institution | Receives some corporate IT solutions from CRA ITB | current | [[Information Technology Branch]] |
+| CBSA | Canada Border Services Agency | Partner institution | Receives some corporate IT solutions from CRA ITB | current | [[02-Organization/Branches/Information Technology Branch|ITB]] |
 | ESDC | Employment and Social Development Canada | Partner department | Benefits/social program coordination partner | current | [[CRA-Organizational-Overview]] |
 | FIN | Department of Finance Canada | Partner department | Tax policy/legislation lead; receives CRA admin input | current | [[Legislative Policy and Regulatory Affairs Branch]] |
 | ATIP | Access to Information and Privacy | Corporate function | ATI and privacy operations (Public Affairs) | current | [[Public Affairs Branch]] |
-| FAA | Financial Administration Act | Statute | Financial authorities framework | current | [[Finance and Administration Branch]] |
+| FAA | Financial Administration Act | Statute | Financial authorities framework | current | [[02-Organization/Branches/Finance and Administration Branch]] |
 | DRR | Departmental Results Report | Accountability report | Reports actual results | current | [[CRA Performance Measurement]] |
 | DP | Departmental Plan | Planning report | Sets planned results and spending | current | [[CRA Departmental Results Framework]] |
 

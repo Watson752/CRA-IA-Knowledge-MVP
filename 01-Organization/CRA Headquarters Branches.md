@@ -31,7 +31,7 @@ related_cases: []
 related_processes: []
 related_organizations:
   - "[[Canada Revenue Agency]]"
-  - "[[CRA Regions]]"
+  - "[[02-Organization/CRA-Regions]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -51,7 +51,7 @@ CRA’s ministerial transition organization overview describes **14 headquarters
 
 ## Public mandate or responsibility
 
-HQ branches support CRA’s public mission to administer tax, benefits, and related programs and to ensure compliance ([[CRA Mandate]]). **Six** branches are identified as **program** branches; **eight** as **corporate** branches. **Four regions** deliver programs outside this HQ count ([[CRA Regions]]).
+HQ branches support CRA’s public mission to administer tax, benefits, and related programs and to ensure compliance ([[CRA Mandate]]). **Six** branches are identified as **program** branches; **eight** as **corporate** branches. **Four regions** deliver programs outside this HQ count ([[02-Organization/CRA-Regions]]).
 
 ### Program branches (publicly named)
 
@@ -70,16 +70,16 @@ HQ branches support CRA’s public mission to administer tax, benefits, and rela
 |--------|------|
 | Audit, Evaluation, and Risk | [[Audit, Evaluation, and Risk Branch|AERB]] |
 | Digital Transformation Program | [[Digital Transformation Program Branch|DTPB]] |
-| Finance and Administration | [[Finance and Administration Branch]] |
+| Finance and Administration | [[02-Organization/Branches/Finance and Administration Branch]] |
 | Human Resources | [[Human Resources Branch|HRB]] |
 | Information Technology | [[Information Technology Branch|ITB]] |
 | Legal Services | [[Legal Services Branch]] |
 | Public Affairs | [[Public Affairs Branch]] |
-| Security | [[Security Branch]] |
+| Security | [[02-Organization/Branches/Security Branch]] |
 
 ## Position in the public governance structure
 
-HQ branches operate under CRA executive leadership ([[Commissioner and Chief Executive Officer]]) and deliver against the Corporate Business Plan developed under [[Board of Management]] oversight. Regions handle program delivery geographically ([[CRA Regions]]).
+HQ branches operate under CRA executive leadership ([[Commissioner and Chief Executive Officer]]) and deliver against the Corporate Business Plan developed under [[Board of Management]] oversight. Regions handle program delivery geographically ([[02-Organization/CRA-Regions]]).
 
 ## Related CRA priorities
 
@@ -89,7 +89,7 @@ HQ branches operate under CRA executive leadership ([[Commissioner and Chief Exe
 
 ## Related published audits or evaluations
 
-- [[Audit Evaluation and Risk Branch]] supports internal audit and program evaluation; public reports via [[Internal Audit and Program Evaluation]]
+- [[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]] supports internal audit and program evaluation; public reports via [[Internal Audit and Program Evaluation]]
 
 ## Related business processes
 

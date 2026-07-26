@@ -37,11 +37,11 @@ related_processes:
   - "[[Compliance Assurance]]"
   - "[[Tax Debt Collection]]"
 related_organizations:
-  - "[[Compliance Programs Branch]]"
+  - "[[02-Organization/Branches/Compliance Programs Branch|CPB]]"
   - "[[Service, Innovation, and Integration Branch]]"
-  - "[[Collections and Verification Branch]]"
+  - "[[02-Organization/Branches/Collections and Verification Branch|CVB]]"
   - "[[Assessment, Benefit, and Service Branch]]"
-  - "[[Information Technology Branch]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
   - "[[Audit, Evaluation, and Risk Branch]]"
 related_systems: []
 related_datasets: []
@@ -114,11 +114,11 @@ Provide the Commissioner, CRA management, and the [[Board of Management]] with a
 
 ## Publicly identified organizations
 
-- [[Compliance Programs Branch]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
 - [[Service, Innovation, and Integration Branch]] (results coordination; data as strategic asset)
-- [[Collections and Verification Branch]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]]
 - Appeals Branch; Assessment, Benefit, and Service Branch (downstream roles, as named in report)
-- [[Audit Evaluation and Risk Branch]]
+- [[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]]
 
 ## Publicly identified systems or technology concepts
 

@@ -91,15 +91,15 @@ Primary illustration: [[Internal Audit - Oversight Use and Continuous Improvemen
 | Role in the model | Who in this case (vault-supported) | Class |
 |---|---|---|
 | Business / program ownership of BI activities | [[Service, Innovation, and Integration Branch]] (SIIB) — BI responsibility since 2011; MAP lead | Official case-specific |
-| Program users (not MAP lead) | Selected [[Compliance Programs Branch]] (CPB) and [[Collections and Verification Branch]] (CVB) teams (examined/interviewed) | Official case-specific |
-| Technical support | [[Information Technology Branch]] (ITB) — BI service delivery; BIDGSC co-chair; collaboration in action plans | Official case-specific |
+| Program users (not MAP lead) | Selected [[02-Organization/Branches/Compliance Programs Branch|CPB]] (CPB) and [[02-Organization/Branches/Collections and Verification Branch|CVB]] (CVB) teams (examined/interviewed) | Official case-specific |
+| Technical support | [[02-Organization/Branches/Information Technology Branch|ITB]] (ITB) — BI service delivery; BIDGSC co-chair; collaboration in action plans | Official case-specific |
 | Data leadership signal | [[Chief Data Officer]] = SIIB Assistant Commissioner | Official org + case-specific |
 | Independent assurance | [[Audit, Evaluation, and Risk Branch]] (AERB) — publishing branch; judged MAPs reasonable | Official case-specific |
 | Corrective action | SIIB agrees to strengthen BI governance (ITB/stakeholders named in plans) | Official case-specific |
 
 This case shows why “BI involves technology” must not collapse into “ITB owns BI.”
 
-Secondary illustration (split maintenance vs MAP lead): [[Internal Audit - Enterprise Fraud Management System]] — [[Security Branch]] MAP owner; [[Information Technology Branch|ITB]] co-named for selected actions; AERB publishes assurance.
+Secondary illustration (split maintenance vs MAP lead): [[Internal Audit - Enterprise Fraud Management System]] — [[02-Organization/Branches/Security Branch]] MAP owner; [[Information Technology Branch|ITB]] co-named for selected actions; AERB publishes assurance.
 
 ### Worked example — ARNI (program branch OPI/MAP)
 

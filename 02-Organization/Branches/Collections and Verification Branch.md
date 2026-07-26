@@ -4,7 +4,6 @@ aliases:
   - CVB
   - Collections and Verifications
   - Collections and Verification
-  - 01-Organization/Collections and Verification Branch
 note_type: organization
 primary_domain: organization-business
 domains:
@@ -90,7 +89,7 @@ CVB owns publicly described collections and verification programs such as ARNI. 
 
 > These connections are vault onboarding aids. They are **not** official CRA reporting lines.
 
-- Complements [[Compliance Programs Branch]] on integrity of the tax system (derived functional pairing; not an official org-chart line).
+- Complements [[02-Organization/Branches/Compliance Programs Branch|CPB]] on integrity of the tax system (derived functional pairing; not an official org-chart line).
 - Regional delivery and inventory effects are explicit themes in the ARNI audit involving CVB and regions.
 
 ## Related public audit and evaluation cases

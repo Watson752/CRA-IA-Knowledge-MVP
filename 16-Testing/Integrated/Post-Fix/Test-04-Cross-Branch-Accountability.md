@@ -1,7 +1,7 @@
 ---
 title: "Test-04: Cross-Branch Accountability (Post-Fix)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - organization

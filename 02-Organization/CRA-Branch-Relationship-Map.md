@@ -99,7 +99,7 @@ Every relationship is labelled:
 
 ## Finance and administration
 
-- [[Finance and Administration Branch]] provides financial/resource management, administration, real property; AC is CFO — **Official public relationship**.
+- [[02-Organization/Branches/Finance and Administration Branch]] provides financial/resource management, administration, real property; AC is CFO — **Official public relationship**.
 - Financial statements reviewed by Audit Committee and approved by Board — **Official public relationship**.
 
 ## Human resources
@@ -114,7 +114,7 @@ Every relationship is labelled:
 
 ## Security
 
-- [[Security Branch]] protects people, information, and assets; centralizes security functions — **Official public relationship**.
+- [[02-Organization/Branches/Security Branch]] protects people, information, and assets; centralizes security functions — **Official public relationship**.
 - Security Branch formation / ASO role increase as of April 2022 — **Official public relationship** (cyber audit).
 - Security ↔ ITB ↔ AERB Three Lines description — **Official public relationship** (cyber audit).
 

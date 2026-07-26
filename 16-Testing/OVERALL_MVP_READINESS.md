@@ -1,7 +1,7 @@
 ---
 title: "Overall MVP Readiness Assessment"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - audit
@@ -33,7 +33,7 @@ This is a readiness assessment of the **public-source Obsidian knowledge-vault M
 | Suite | Test Summary / equivalent reviewed | Repair and post-fix evidence |
 |---|---|---|
 | Organization | **No corresponding Test Summary exists.** Baseline Tests 01–06 plus [[Post-Fix Validation (Organizational Repairs)]] are the available equivalent evidence. | [[Organizational-Repair-Register]] · [[Post-Fix Validation (Organizational Repairs)]] |
-| Audit methodology | [[Audit Test Summary — Baseline vs Post-Fix]] | [[Audit-Repair-Register]] · `16-Testing/Audit/POST_FIX_VALIDATION.md` |
+| Audit methodology | [[16-Testing/Audit/Audit-Test-Summary]] | [[Audit-Repair-Register]] · `16-Testing/Audit/POST_FIX_VALIDATION.md` |
 | Software and data | [[Software-Data Test Summary]] | [[Software-Data-Repair-Register]] · `16-Testing/Software-Data/POST_FIX_VALIDATION.md` |
 | Statistics and analytics | [[Statistics-Analytics Test Summary]] | [[Statistics-Analytics-Repair-Register]] · `16-Testing/Statistics-Analytics/POST_FIX_VALIDATION.md` |
 | Integrated reasoning | [[Integrated Test Summary]] | [[Integrated-Repair-Register]] · `16-Testing/Integrated/POST_FIX_VALIDATION.md` |

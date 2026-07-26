@@ -4,7 +4,6 @@ aliases:
   - SIIB
   - Service, Innovation and Integration Branch
   - Service Innovation and Integration Branch
-  - 01-Organization/Service Innovation and Integration Branch
 note_type: organization
 primary_domain: organization-business
 domains:

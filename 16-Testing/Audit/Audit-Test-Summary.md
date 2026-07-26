@@ -86,4 +86,4 @@ Optional later work (out of scope for this regression): attach real public follo
 - Baseline: `16-Testing/Audit/Baseline/`
 - Post-Fix: `16-Testing/Audit/Post-Fix/`
 - Repair register: [[Audit-Repair-Register]]
-- Prior validation: [[POST_FIX_VALIDATION]]
+- Prior validation: [[16-Testing/Audit/POST_FIX_VALIDATION]]

@@ -81,4 +81,4 @@ Caveats for demos: notes are general-professional stubs; public case numerics/co
 - Baseline: `16-Testing/Statistics-Analytics/Baseline/`
 - Post-Fix: `16-Testing/Statistics-Analytics/Post-Fix/`
 - Repair register: [[Statistics-Analytics-Repair-Register]]
-- Validation: [[POST_FIX_VALIDATION]] (Statistics-Analytics)
+- Validation: [[16-Testing/Statistics-Analytics/POST_FIX_VALIDATION]]

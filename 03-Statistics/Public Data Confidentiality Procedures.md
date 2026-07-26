@@ -62,7 +62,7 @@ Table footnotes direct readers to these procedures when row or column totals do 
 
 ## Relationship to general concepts
 
-Profession-wide disclosure control concepts may be developed in `06-Data-Statistics-Concepts/` (for example a future [[06-Data-Statistics-Concepts/Data Suppression]] note). This note records **CRA’s published implementation** for the T1 aggregate statistics product.
+Profession-wide disclosure-control concepts are available in [[Data Suppression — Audit Application]]. This note records **CRA’s published implementation** for the T1 aggregate statistics product.
 
 ## Audit relevance
 

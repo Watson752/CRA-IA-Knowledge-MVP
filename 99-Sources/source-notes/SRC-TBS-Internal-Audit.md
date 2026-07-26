@@ -25,7 +25,7 @@ derived_notes:
   - "[[SRC-TBS-Policy-Internal-Audit]]"
   - "[[Three Lines Model]]"
   - "[[Internal Audit and Program Evaluation]]"
-  - "[[Audit Evaluation and Risk Branch]]"
+  - "[[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]]"
 ---
 
 # SRC: Treasury Board Internal Audit (Policy and community)

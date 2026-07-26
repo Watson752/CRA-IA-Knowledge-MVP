@@ -30,7 +30,7 @@ related_sources:
   - "[[99-Sources/source-notes/SRC-CRA-IA-Cyber-2023]]"
 related_organizations:
   - "[[Audit, Evaluation, and Risk Branch]]"
-  - "[[Security Branch]]"
+  - "[[02-Organization/Branches/Security Branch]]"
 related_cases: []
 tags:
   - case-study
@@ -93,7 +93,7 @@ This vault further interprets alignment with the Treasury Board policy as a gove
 ### Official case-specific relationship
 
 - **Publishing assurance branch / third line (as described in report):** [[Audit, Evaluation, and Risk Branch|AERB]]
-- **Management response owner:** [[Security Branch]] agreed
+- **Management response owner:** [[02-Organization/Branches/Security Branch]] agreed
 - **Three Lines description in report:** CISD as first line; planned GRC capability as second line; AERB as third line ([[Three Lines Model]])
 - **Historical formation fact in report:** Security Branch formed and Agency Security Officer role increased as of April 2022
 

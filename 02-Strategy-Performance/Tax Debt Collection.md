@@ -30,7 +30,7 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Collections and Verification Branch]]"
+  - "[[02-Organization/Branches/Collections and Verification Branch|CVB]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -48,7 +48,7 @@ tags:
 
 ## Organizational link
 
-[[Collections and Verification Branch]] is the publicly named HQ program branch associated with collections and verifications.
+[[02-Organization/Branches/Collections and Verification Branch|CVB]] is the publicly named HQ program branch associated with collections and verifications.
 
 ## Sources
 

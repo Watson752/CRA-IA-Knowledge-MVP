@@ -1,7 +1,7 @@
 ---
 title: "Integrated Repair Register"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - governance

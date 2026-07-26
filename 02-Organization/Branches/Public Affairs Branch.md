@@ -85,7 +85,7 @@ Public Affairs (including ATIP and the Chief Privacy Officer) helps you read pri
 
 > These connections are vault onboarding aids. They are **not** official CRA reporting lines.
 
-- Privacy/security themes intersect [[Security Branch]] and confidentiality regime material on the org page (derived functional pairing).
+- Privacy/security themes intersect [[02-Organization/Branches/Security Branch]] and confidentiality regime material on the org page (derived functional pairing).
 
 ## Related public audit and evaluation cases
 

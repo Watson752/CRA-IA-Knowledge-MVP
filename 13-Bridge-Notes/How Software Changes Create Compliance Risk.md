@@ -8,7 +8,6 @@ domains:
   - software
   - control
   - audit
-  - bridge
 classification: public
 content_origin: derived-analysis
 authoritative: false
@@ -19,7 +18,6 @@ source_status: current
 review_status: analytical-draft
 approved_for_ai_retrieval: false
 tags:
-  - bridge
   - derived-analysis
   - integrated
 ---

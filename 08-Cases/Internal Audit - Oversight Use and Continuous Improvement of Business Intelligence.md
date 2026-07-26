@@ -35,10 +35,10 @@ related_cases: []
 related_processes: []
 related_organizations:
   - "[[Service, Innovation, and Integration Branch]]"
-  - "[[Information Technology Branch]]"
-  - "[[Compliance Programs Branch]]"
-  - "[[Collections and Verification Branch]]"
-  - "[[Digital Transformation Program Branch]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
+  - "[[02-Organization/Branches/Compliance Programs Branch|CPB]]"
+  - "[[02-Organization/Branches/Collections and Verification Branch|CVB]]"
+  - "[[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]"
   - "[[Audit, Evaluation, and Risk Branch]]"
 related_systems: []
 related_datasets: []
@@ -127,10 +127,10 @@ Conducted in accordance with the International Standards for the Professional Pr
 ## Publicly identified organizations
 
 - [[Service, Innovation, and Integration Branch]]
-- [[Information Technology Branch]]
-- [[Collections and Verification Branch]]
-- [[Compliance Programs Branch]]
-- [[Digital Transformation Program Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
+- [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]
 - Business Intelligence and Quality Assurance (Western, Ontario, Quebec, Atlantic regions)
 - Business Intelligence Director General Steering Committee (BIDGSC), co-chaired by SIIB and ITB
 

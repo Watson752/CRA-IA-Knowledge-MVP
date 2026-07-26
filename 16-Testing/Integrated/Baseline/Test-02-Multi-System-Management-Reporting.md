@@ -1,7 +1,7 @@
 ---
 title: "Test-02: Multi-System Management Reporting (Integrated Baseline)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - business
@@ -58,7 +58,7 @@ A management report is assembled from several source systems using APIs, batch p
 |---|---|---|---|
 | **Who owns the business report** | Accountability for report purpose, metric meaning, decision use, and residual reporting risk | [[Business Process Owner]], [[Program Owner]], [[Performance Reporting]], [[Business Intelligence Governance]] | General professional; BI case names SIIB as BI responsibility / MAP lead (**official case-specific**) |
 | **Who owns source data** | Definitions, quality expectations, lawful use, and remediation priority for originating datasets | [[Data Owner]], [[Data Governance]], [[Reference Data]] stewardship | General professional; SIIB/CDO placement = **official org** where sourced |
-| **Who supports technical components** | Build/run of APIs, batch jobs, pipelines, warehouses, BI tools—without automatically owning business outcomes | [[Technical Support]], [[Information Technology Branch]], [[System Owner]], [[Business Intelligence Tools]] | General professional + official ITB mandate / BI service-delivery split |
+| **Who supports technical components** | Build/run of APIs, batch jobs, pipelines, warehouses, BI tools—without automatically owning business outcomes | [[Technical Support]], [[02-Organization/Branches/Information Technology Branch|ITB]], [[System Owner]], [[Business Intelligence Tools]] | General professional + official ITB mandate / BI service-delivery split |
 | **Who approves report logic** | Authorization of metric definitions, transforms, filters, and production promotion | [[Business Intelligence Governance]], [[Change Management]], [[Change Approval]], [[Deployment Approval]] | General professional / derived (no dedicated “report-logic approver” title) |
 | **Who reviews the final output** | Challenge of results, variances, and known limitations before reliance | [[Manual Control]], [[Monitoring and Reporting]], prose “management review” in [[Management Reporting]] / [[Data Pipeline]] | General professional; **no dedicated [[Management Review]] note** |
 

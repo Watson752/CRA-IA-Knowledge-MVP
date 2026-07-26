@@ -47,12 +47,12 @@ Primary source: Ministerial Transition 2025 Organization page. Branch names matc
 |---|---|---|
 | Audit, Evaluation, and Risk Branch | AERB | [[Audit, Evaluation, and Risk Branch|AERB]] |
 | Digital Transformation Program Branch | DTPB | [[Digital Transformation Program Branch|DTPB]] |
-| Finance and Administration Branch | — | [[Finance and Administration Branch]] |
+| Finance and Administration Branch | — | [[02-Organization/Branches/Finance and Administration Branch]] |
 | Human Resources Branch | HRB | [[Human Resources Branch|HRB]] |
 | Information Technology Branch | ITB | [[Information Technology Branch|ITB]] |
 | Legal Services Branch | — | [[Legal Services Branch]] |
 | Public Affairs Branch | — | [[Public Affairs Branch]] |
-| Security Branch | — | [[Security Branch]] |
+| Security Branch | — | [[02-Organization/Branches/Security Branch]] |
 
 ## Also not a corporate branch
 

@@ -84,7 +84,7 @@ Onboarding entry points: [[Organizational-Onboarding-Path]] · [[CRA-Organizatio
 
 ## Related systems or data concepts
 
-Public sources name enterprise-wide themes (cyber and data security, digital tools, data-driven approaches) in [[CRA Strategic Priorities]] and branch-level roles (for example [[Information Technology Branch]], [[Digital Transformation Program Branch]]). This note does not describe internal system names beyond what official pages publish.
+Public sources name enterprise-wide themes (cyber and data security, digital tools, data-driven approaches) in [[CRA Strategic Priorities]] and branch-level roles (for example [[02-Organization/Branches/Information Technology Branch|ITB]], [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]). This note does not describe internal system names beyond what official pages publish.
 
 ## Source date / as_of
 

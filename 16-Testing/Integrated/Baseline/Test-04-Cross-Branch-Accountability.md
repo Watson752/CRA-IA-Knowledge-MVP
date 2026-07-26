@@ -1,7 +1,7 @@
 ---
 title: "Test-04: Cross-Branch Accountability (Integrated Baseline)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - business
@@ -51,7 +51,7 @@ Supported by branch notes and [[99-Sources/source-notes/SRC-CRA-Org-2025]] (Mini
 | [[CRA-Program-Branches]] | Six HQ program branches centrally organize and provide technical and policy support for program delivery |
 | [[Information Technology Branch\|ITB]] | Develops, operates, maintains, and evolves CRA IT; corporate branch |
 | [[Service, Innovation, and Integration Branch\|SIIB]] | Program branch; manages CRA data and information assets and related governance/quality frameworks; AC also Chief Data Officer / Chief Service Officer (org page) |
-| [[Security Branch]] | Corporate branch; protects people, information, and assets; centralized security coordination; Agency Security Officer leadership |
+| [[02-Organization/Branches/Security Branch]] | Corporate branch; protects people, information, and assets; centralized security coordination; Agency Security Officer leadership |
 | [[Audit, Evaluation, and Risk Branch\|AERB]] | Corporate branch; independent and objective assurance/advice; internal audit and program evaluation; enterprise risk oversight and advice |
 
 **Case-specific official facts (not universal ownership rules):**
@@ -73,10 +73,10 @@ The public Organization page **does not** formally define “business-process ow
 |---|---|---|
 | **Program branch / business owner** | Business outcomes, requirements, residual process risk; often OPI/MAP pattern in audits | [[Program Owner]], [[Business Process Owner]], [[Audit Client]] |
 | **System owner** | Named system fitness for purpose, rule/config governance, performance information—distinct from every user and from generic hosting | [[System Owner]] |
-| **ITB / technical support** | Build, run, evolve technology enabling the process—**not** automatic ownership of business outcomes | [[Technical Support]], [[Information Technology Branch]] |
+| **ITB / technical support** | Build, run, evolve technology enabling the process—**not** automatic ownership of business outcomes | [[Technical Support]], [[02-Organization/Branches/Information Technology Branch|ITB]] |
 | **Data owner** | Definitions, quality expectations, lawful use, remediation priority for defined information assets | [[Data Owner]], [[Data Governance]] |
 | **Control owner** | Design, operate, monitor, and remediate a specific control (may split with technical custodians) | [[Control Ownership]] |
-| **Security function** | Security governance, protection, and/or monitoring where applicable (first- or second-line depending on control) | [[Security Branch]] mandate; [[Cybersecurity]]; [[Monitoring and Alerting]]; cyber case Three Lines language |
+| **Security function** | Security governance, protection, and/or monitoring where applicable (first- or second-line depending on control) | [[02-Organization/Branches/Security Branch]] mandate; [[Cybersecurity]]; [[Monitoring and Alerting]]; cyber case Three Lines language |
 | **Change approver** | Authorizes business intent/risk of a change before implementation—≠ implementer ≠ deployment authority | [[Change Approval]], [[Change Management]], [[Deployment Approval]] |
 | **Management** | Owns risks, controls, [[Management Response]], and [[Management Action Plan]] execution | [[Management Action Plan Owner]] |
 | **Internal Audit (AERB)** | Independent assurance/evaluation; may judge MAP reasonableness; does **not** own process, system, data, or corrective execution | [[Internal Audit Independence]], [[Three Lines Model]] |
@@ -186,8 +186,8 @@ Primary composed source: [[Ownership and Assurance Roles]]. Failure-mode concept
 ### Official organization / sources
 
 - [[CRA-Program-Branches]] · [[CRA-Corporate-Branches]] · [[CRA-Organizational-Overview]]
-- [[Information Technology Branch]] · [[Service, Innovation, and Integration Branch]]
-- [[Security Branch]] · [[Audit, Evaluation, and Risk Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]] · [[Service, Innovation, and Integration Branch]]
+- [[02-Organization/Branches/Security Branch]] · [[Audit, Evaluation, and Risk Branch]]
 - [[99-Sources/source-notes/SRC-CRA-Org-2025]]
 - [[99-Sources/source-notes/SRC-TBS-Policy-Internal-Audit]]
 
@@ -284,7 +284,7 @@ Do **not** claim from the vault that:
 
 Do **not** implement in this test. Suggested later work:
 
-1. Add Related links from [[Unclear Accountability]] to [[Information Technology Branch]], [[Service, Innovation, and Integration Branch]], [[Security Branch]], and [[Audit, Evaluation, and Risk Branch]], labeled as illustration targets—not reporting lines.
+1. Add Related links from [[Unclear Accountability]] to [[02-Organization/Branches/Information Technology Branch|ITB]], [[Service, Innovation, and Integration Branch]], [[02-Organization/Branches/Security Branch]], and [[Audit, Evaluation, and Risk Branch]], labeled as illustration targets—not reporting lines.
 2. Add a short failure-mode subsection (or expand Unclear Accountability) covering incident handoffs, duplicated/missing controls, and MAP orphans explicitly.
 3. Add one more worked accountability vignette for a program branch case (e.g., ARNI/CVB) parallel to the BI table in [[Ownership and Assurance Roles]].
 4. Keep change-approver / deployment-authority language labeled general/derived—do not invent an enterprise CAB.

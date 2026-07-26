@@ -2,7 +2,6 @@
 title: Finance and Administration Branch
 aliases:
   - Finance and Administration
-  - 01-Organization/Finance and Administration Branch
 note_type: organization
 primary_domain: organization-business
 domains:

@@ -32,8 +32,8 @@ related_sources:
 related_cases: []
 related_processes: []
 related_organizations:
-  - "[[Digital Transformation Program Branch]]"
-  - "[[Information Technology Branch]]"
+  - "[[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
   - "[[Service, Innovation, and Integration Branch]]"
 related_systems: []
 related_datasets: []
@@ -53,8 +53,8 @@ tags:
 
 ## Public organizational links
 
-- [[Digital Transformation Program Branch]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Service, Innovation, and Integration Branch]] (Chief Data Officer role on organization page)
 
 Workforce **C1** complements this theme with **digital and data skills** ([[CRA Workforce Capability]]).

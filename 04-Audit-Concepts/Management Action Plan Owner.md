@@ -37,7 +37,7 @@ MAP owners align actions with [[Control Ownership]] and root causes of [[Finding
 **Examples (report-named only):**
 
 - BI audit — [[Service, Innovation, and Integration Branch|SIIB]] agrees; ITB and others named in collaboration ([[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]])
-- EFMS audit — [[Security Branch]] MAP owner; [[Information Technology Branch|ITB]] jointly named for selected items ([[Internal Audit - Enterprise Fraud Management System]])
+- EFMS audit — [[02-Organization/Branches/Security Branch]] MAP owner; [[Information Technology Branch|ITB]] jointly named for selected items ([[Internal Audit - Enterprise Fraud Management System]])
 
 Other cases in the vault (ARNI, cyber, charities) use the same pattern: read each case org section for the named MAP owner rather than assuming a single enterprise rule.
 

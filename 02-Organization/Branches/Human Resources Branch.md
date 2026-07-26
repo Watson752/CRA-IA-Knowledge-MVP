@@ -3,7 +3,6 @@ title: Human Resources Branch
 aliases:
   - HRB
   - Human Resources
-  - Human resources
 note_type: organization
 primary_domain: organization-business
 domains:

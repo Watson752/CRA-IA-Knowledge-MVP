@@ -22,9 +22,9 @@ official_government_source: true
 source_category: Organizational overview
 accessed_on: 2026-07-23
 derived_notes:
-  - "[[01-Organization/CRA-Overview-and-Mandate]]"
+  - "[[Canada Revenue Agency]]"
   - "[[01-Organization/CRA Headquarters Branches]]"
-  - "[[09-Processes/Tax Administration]]"
+  - "[[Tax Administration]]"
 ---
 
 # SRC: CRA Structure and Operational Framework
@@ -46,6 +46,6 @@ CRA’s **Canada Revenue Agency structure and operational framework** page descr
 
 ## Derived vault notes
 
-- [[01-Organization/CRA-Overview-and-Mandate]]
-- [[01-Organization/Canada Revenue Agency]]
+- [[Canada Revenue Agency]]
+- [[Tax Administration]]
 - [[00-Start/CRA-Organization-Map]]

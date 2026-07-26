@@ -33,8 +33,8 @@ related_cases: []
 related_processes: []
 related_organizations:
   - "[[Service, Innovation, and Integration Branch]]"
-  - "[[Digital Transformation Program Branch]]"
-  - "[[Information Technology Branch]]"
+  - "[[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]"
+  - "[[02-Organization/Branches/Information Technology Branch|ITB]]"
 related_systems: []
 related_datasets: []
 related_risks: []
@@ -55,8 +55,8 @@ Priority **B** (“Enhance operational efficiency”) includes **B1** focused on
 Branches publicly tied to service, data, and digital delivery:
 
 - [[Service, Innovation, and Integration Branch]] (Chief Service Officer and Chief Data Officer roles on org page)
-- [[Digital Transformation Program Branch]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 
 Specific channels, service standards, and applications are not listed in the provided source summaries.
 

@@ -2,7 +2,6 @@
 title: Security Branch
 aliases:
   - Security
-  - 01-Organization/Security Branch
 note_type: organization
 primary_domain: organization-business
 domains:

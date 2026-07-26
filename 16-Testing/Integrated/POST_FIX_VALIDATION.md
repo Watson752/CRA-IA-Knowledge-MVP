@@ -1,7 +1,7 @@
 ---
 title: "Integrated Post-Fix Validation"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - governance

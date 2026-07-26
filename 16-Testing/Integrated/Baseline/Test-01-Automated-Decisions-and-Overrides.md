@@ -1,7 +1,7 @@
 ---
 title: "Test-01: Automated Decisions and Overrides (Integrated Baseline)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - organization
   - business
@@ -234,7 +234,7 @@ Business Process Owner / Control Owner (eligibility outcomes + override policy)
 - [[Business Process Owner]] · [[Program Owner]] · [[System Owner]] · [[Data Owner]] · [[Control Ownership]]
 - [[Technical Support]] · [[Unclear Accountability]]
 - [[Three Lines Model]] · [[Chief Data Officer]]
-- [[Information Technology Branch]] · [[Service, Innovation, and Integration Branch]] · [[Audit, Evaluation, and Risk Branch]] (as case/org context)
+- [[02-Organization/Branches/Information Technology Branch|ITB]] · [[Service, Innovation, and Integration Branch]] · [[Audit, Evaluation, and Risk Branch]] (as case/org context)
 
 ### Business / risk / control
 

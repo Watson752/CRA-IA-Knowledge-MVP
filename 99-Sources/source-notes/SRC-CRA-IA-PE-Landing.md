@@ -23,7 +23,7 @@ official_government_source: true
 source_category: Audit landing
 accessed_on: 2026-07-23
 derived_notes:
-  - "[[Audit Evaluation and Risk Branch]]"
+  - "[[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]]"
   - "[[Public-Audit-Case-Library]]"
   - "[[CRA Performance Measurement]]"
 ---
@@ -48,6 +48,6 @@ The **Internal Audit and Program Evaluation** landing page on Canada.ca is CRAâ€
 
 ## Derived vault notes
 
-- [[01-Organization/Audit Evaluation and Risk Branch]]
+- [[02-Organization/Branches/Audit, Evaluation, and Risk Branch|AERB]]
 - [[00-Start/Public-Audit-Case-Library]]
 - [[02-Strategy-Performance/CRA Performance Measurement]]

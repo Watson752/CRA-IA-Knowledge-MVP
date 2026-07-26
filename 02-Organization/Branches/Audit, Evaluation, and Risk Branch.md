@@ -4,7 +4,6 @@ aliases:
   - AERB
   - Audit Evaluation and Risk Branch
   - Audit, Evaluation and Risk
-  - 01-Organization/Audit Evaluation and Risk Branch
 note_type: organization
 primary_domain: organization-business
 domains:

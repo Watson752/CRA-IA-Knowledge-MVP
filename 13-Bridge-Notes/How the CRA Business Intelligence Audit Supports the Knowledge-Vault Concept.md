@@ -44,7 +44,6 @@ related_methods:
   - "[[Horizontal Collaboration]]"
   - "[[Continuous Improvement]]"
 tags:
-  - bridge
   - derived-analysis
   - business-intelligence
 ---

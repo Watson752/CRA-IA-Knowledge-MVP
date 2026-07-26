@@ -49,7 +49,7 @@ AERB
 1. [[Audit, Evaluation, and Risk Branch|AERB]] · [[Internal Audit and Program Evaluation]] · [[Internal Audit Independence]]
 2. [[Information Technology Branch|ITB]] · [[Technical Support]] · [[CRA-Technology-and-Risk-Map]] · [[Software and Controls Map]]
 3. [[Service, Innovation, and Integration Branch|SIIB]] · [[Chief Data Officer]] · [[Data Owner]] · [[CRA-Data-and-Statistics-Map]] · [[Data Pipeline and Reporting Map]]
-4. [[Security Branch]] · [[Cybersecurity]] · [[Three Lines Model]] · [[Identity and Access Map]] · [[Logging and Monitoring Map]]
+4. [[02-Organization/Branches/Security Branch]] · [[Cybersecurity]] · [[Three Lines Model]] · [[Identity and Access Map]] · [[Logging and Monitoring Map]]
 5. Pick **one** engagement program branch + case:
    - [[Collections and Verification Branch|CVB]] + [[Internal Audit - Accounts Receivable National Inventory]]
    - [[Legislative Policy and Regulatory Affairs Branch|LPRAB]] + [[Internal Audit - Charities Audit Process]]

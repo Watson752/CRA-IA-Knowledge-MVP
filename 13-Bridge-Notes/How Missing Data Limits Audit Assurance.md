@@ -44,7 +44,6 @@ related_methods:
   - "[[Missing Data]]"
   - "[[How Statistical Limitations Affect Audit Conclusions]]"
 tags:
-  - bridge
   - derived-analysis
   - missing-data
 ---

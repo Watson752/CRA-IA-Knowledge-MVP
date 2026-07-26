@@ -24,7 +24,7 @@ accessed_on: 2026-07-25
 derived_notes:
   - "[[01-Organization/Canada Revenue Agency]]"
   - "[[01-Organization/CRA Headquarters Branches]]"
-  - "[[01-Organization/CRA Regions]]"
+  - "[[02-Organization/CRA-Regions]]"
   - "[[02-Organization/CRA-Organizational-Overview]]"
   - "[[02-Organization/CRA-Program-Branches]]"
   - "[[02-Organization/CRA-Corporate-Branches]]"

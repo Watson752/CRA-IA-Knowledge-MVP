@@ -95,7 +95,7 @@ Then read one primary cross-domain case: [[Internal Audit - Oversight Use and Co
 
 ---
 
-### 4. [[Security Branch]] — fourth
+### 4. [[02-Organization/Branches/Security Branch]] — fourth
 
 | Field | Content |
 |---|---|
@@ -146,7 +146,7 @@ Vault-supported MAP/OPI examples ([[Organizational-Onboarding-Path]] step 8):
 2. Deep-read [[Audit, Evaluation, and Risk Branch|AERB]] + [[Internal Audit and Program Evaluation]] + [[Learning Path - Auditor]] discipline reminder.
 3. Read [[Information Technology Branch|ITB]] + [[CRA-Technology-and-Risk-Map]] + start [[Learning Path - Software Professional]].
 4. Read [[Service, Innovation, and Integration Branch|SIIB]] + [[Chief Data Officer]] + [[CRA-Data-and-Statistics-Map]] + start [[Learning Path - Data and Statistics Professional]].
-5. Read [[Security Branch]] + cyber or EFMS case (respect redactions).
+5. Read [[02-Organization/Branches/Security Branch]] + cyber or EFMS case (respect redactions).
 6. Select **one** program branch matching your engagement + its case.
 7. Capstone: [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] (+ optional bridge note [[How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept]] as **derived analysis**, not an official CRA recommendation).
 
@@ -155,7 +155,7 @@ Vault-supported MAP/OPI examples ([[Organizational-Onboarding-Path]] step 8):
 1. [[Audit, Evaluation, and Risk Branch|AERB]]
 2. [[Information Technology Branch|ITB]]
 3. [[Service, Innovation, and Integration Branch|SIIB]]
-4. [[Security Branch]]
+4. [[02-Organization/Branches/Security Branch]]
 5. Engagement-relevant program branch: [[Collections and Verification Branch|CVB]] / [[Legislative Policy and Regulatory Affairs Branch|LPRAB]] / [[Compliance Programs Branch|CPB]] (as applicable)
 6. [[Digital Transformation Program Branch|DTPB]]
 
@@ -167,7 +167,7 @@ Supporting (not “first,” engagement-dependent): [[CRA-Regions]] when field d
 |---|---|
 | [[Appeals Branch]] | No vault software/data/IA first-path emphasis; no indexed public case pairing it as MAP owner for tech/data themes. |
 | [[Assessment, Benefit, and Service Branch\|ABSB]] | Mandate relevant to processing/benefits, but vault onboarding for IA+software/data does not prioritize it; only thin ABS/yield-context links. Include later if engagement is ABSB-scoped. |
-| [[Finance and Administration Branch]] | Corporate finance/admin; not featured in software/data learning paths or tech/data cases as a first stop. |
+| [[02-Organization/Branches/Finance and Administration Branch]] | Corporate finance/admin; not featured in software/data learning paths or tech/data cases as a first stop. |
 | [[Human Resources Branch\|HRB]] | Workforce stewardship; not a primary IA+software/data entry point in vault paths. |
 | [[Legal Services Branch]] | Legal advisory/litigation; not in software/data onboarding sequences. |
 | [[Public Affairs Branch]] | Communications/ATIP/privacy leadership; privacy may matter later, but not vault’s first branch set for this profile. |
@@ -198,12 +198,12 @@ Supporting (not “first,” engagement-dependent): [[CRA-Regions]] when field d
 ### Branch notes
 
 - [[Audit, Evaluation, and Risk Branch]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Service, Innovation, and Integration Branch]]
-- [[Security Branch]]
-- [[Digital Transformation Program Branch]]
-- [[Collections and Verification Branch]]
-- [[Compliance Programs Branch]]
+- [[02-Organization/Branches/Security Branch]]
+- [[02-Organization/Branches/Digital Transformation Program Branch|DTPB]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
 - [[Legislative Policy and Regulatory Affairs Branch]]
 - [[Chief Data Officer]]
 
@@ -247,7 +247,7 @@ Supporting (not “first,” engagement-dependent): [[CRA-Regions]] when field d
 
 ## Missing cross-domain links
 
-- [[Learning Path - Software Professional]] does not wikilink [[Information Technology Branch|ITB]], [[Security Branch]], or [[Digital Transformation Program Branch|DTPB]].
+- [[Learning Path - Software Professional]] does not wikilink [[Information Technology Branch|ITB]], [[02-Organization/Branches/Security Branch]], or [[Digital Transformation Program Branch|DTPB]].
 - [[Learning Path - Data and Statistics Professional]] does not wikilink [[Service, Innovation, and Integration Branch|SIIB]] or [[Chief Data Officer]].
 - [[Learning Path - Auditor]] does not sequence AERB/ITB/SIIB before case work.
 - No dedicated learning path titled for “Internal Audit + software/data.”
@@ -264,7 +264,7 @@ Supporting (not “first,” engagement-dependent): [[CRA-Regions]] when field d
 Do **not** implement in this test. Suggested later work:
 
 1. Add a short derived path note (e.g., `Learning Path - Internal Audit Software and Data`) that hard-links the sequence: AERB → ITB → SIIB → Security Branch → engagement program branch → DTPB → BI case → cyber/EFMS optional.
-2. Insert wikilinks from [[Learning Path - Software Professional]] to [[Information Technology Branch|ITB]] and [[Security Branch]].
+2. Insert wikilinks from [[Learning Path - Software Professional]] to [[Information Technology Branch|ITB]] and [[02-Organization/Branches/Security Branch]].
 3. Insert wikilinks from [[Learning Path - Data and Statistics Professional]] to [[Service, Innovation, and Integration Branch|SIIB]] and [[Chief Data Officer]].
 4. Add a one-line “IA with software/data background” callout on [[Organizational-Onboarding-Path]] pointing to steps 7–11 plus Security/EFMS.
 5. Keep DTPB after ITB/SIIB in any hybrid path, with an explicit caution that “Program” in the name does not mean program-branch classification.

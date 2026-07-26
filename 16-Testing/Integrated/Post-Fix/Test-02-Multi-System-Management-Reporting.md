@@ -1,7 +1,7 @@
 ---
 title: "Test-02: Multi-System Management Reporting (Post-Fix)"
 note_type: testing
-primary_domain: testing
+primary_domain: governance
 domains:
   - testing
   - organization

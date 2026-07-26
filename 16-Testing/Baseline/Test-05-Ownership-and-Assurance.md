@@ -66,7 +66,7 @@ Who is accountable for a **named system** (its fitness for purpose, onboarding, 
 
 Who **builds, operates, or evolves the technology** that enables a process?
 
-- Vault public mandate: [[Information Technology Branch|ITB]] develops, operates, maintains, and evolves CRA IT ([[Information Technology Branch]]).
+- Vault public mandate: [[Information Technology Branch|ITB]] develops, operates, maintains, and evolves CRA IT ([[02-Organization/Branches/Information Technology Branch|ITB]]).
 - Case pattern: ITB provides BI **service delivery** while SIIB holds BI **responsibility** ([[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]]).
 - **Class:** ITB mandate = **official public CRA fact**. “Technical support ≠ business ownership” = **derived onboarding interpretation**, reinforced by case text.
 
@@ -191,11 +191,11 @@ Management (not AERB) owns [[Management Response]] / [[Management Action Plan]] 
 ### Organization
 
 - [[Audit, Evaluation, and Risk Branch]]
-- [[Information Technology Branch]]
+- [[02-Organization/Branches/Information Technology Branch|ITB]]
 - [[Service, Innovation, and Integration Branch]]
-- [[Security Branch]]
-- [[Compliance Programs Branch]]
-- [[Collections and Verification Branch]]
+- [[02-Organization/Branches/Security Branch]]
+- [[02-Organization/Branches/Compliance Programs Branch|CPB]]
+- [[02-Organization/Branches/Collections and Verification Branch|CVB]]
 - [[CRA-Program-Branches]]
 - [[CRA-Corporate-Branches]]
 - [[CRA-Organizational-Overview]]
@@ -291,7 +291,7 @@ Do **not** implement in this test. Suggested later work:
 2. Expand [[Scope]] (or a small OPI note) to define Office of Primary Interest / audit-client in plain language, matching [[CRA-Acronym-Dictionary]].
 3. Add thin concept stubs: Business Process Owner, System Owner, Data Owner—each labelled general-professional unless tied to a case.
 4. Link [[Control Ownership]], [[Data Governance]], and [[IT Controls]] to [[Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence]] and [[Internal Audit - Enterprise Fraud Management System]] as worked examples.
-5. Add one sentence on [[Information Technology Branch]]: “Technical support and system maintenance roles are not automatic business-process ownership.”
+5. Add one sentence on [[02-Organization/Branches/Information Technology Branch|ITB]]: “Technical support and system maintenance roles are not automatic business-process ownership.”
 6. Cross-link [[Chief Data Officer]] general note to [[Service, Innovation, and Integration Branch]] for the CRA-specific official placement.
 
 ## Test metadata

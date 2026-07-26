@@ -74,7 +74,7 @@ Described on the Ministerial Transition 2025 Organization page:
 
 ## Note on earlier vault file
 
-An earlier summary note remains at [[01-Organization/CRA Regions]]. Prefer this note and the four region notes for onboarding.
+An earlier summary note remains at [[02-Organization/CRA-Regions]]. Prefer this note and the four region notes for onboarding.
 
 ## Sources
 
