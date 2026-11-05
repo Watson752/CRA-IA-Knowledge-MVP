@@ -1,0 +1,725 @@
+{
+  "meta": {
+    "generated_at": "2026-11-05T04:12:07.698548+00:00",
+    "git_sha": "2f9d10fd575ac9f49dd93c828ec33c33d878bbd1",
+    "hardware": "cpu",
+    "configs": [
+      {
+        "id": "baseline",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "provider": "sentence_transformers",
+        "reranker": null,
+        "optional": false
+      },
+      {
+        "id": "minilm_rr",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "provider": "sentence_transformers",
+        "reranker": "BAAI/bge-reranker-v2-m3",
+        "optional": false
+      },
+      {
+        "id": "bge_m3",
+        "embedding_model": "BAAI/bge-m3",
+        "provider": "sentence_transformers",
+        "reranker": null,
+        "optional": false
+      },
+      {
+        "id": "bge_m3_rr",
+        "embedding_model": "BAAI/bge-m3",
+        "provider": "sentence_transformers",
+        "reranker": "BAAI/bge-reranker-v2-m3",
+        "optional": false
+      },
+      {
+        "id": "qwen3",
+        "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+        "provider": "sentence_transformers",
+        "reranker": null,
+        "optional": false
+      },
+      {
+        "id": "qwen3_rr",
+        "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+        "provider": "sentence_transformers",
+        "reranker": "BAAI/bge-reranker-v2-m3",
+        "optional": false
+      }
+    ]
+  },
+  "results": [
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "reranker": "",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9,
+      "hit_at_5": 0.9,
+      "recall_at_5": 0.49,
+      "recall_at_10": 0.715,
+      "mrr": 0.91,
+      "n_questions": 10,
+      "median_query_latency_ms": 11.26,
+      "index_build_seconds": 2.327,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": true
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.5,
+      "hit_at_3": 0.8,
+      "hit_at_5": 0.9,
+      "recall_at_5": 0.335,
+      "recall_at_10": 0.61,
+      "mrr": 0.6694,
+      "n_questions": 10,
+      "median_query_latency_ms": 21128.85,
+      "index_build_seconds": 3.263,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "BAAI/bge-m3",
+      "reranker": "",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.7,
+      "hit_at_3": 0.9,
+      "hit_at_5": 0.9,
+      "recall_at_5": 0.525,
+      "recall_at_10": 0.78,
+      "mrr": 0.8143,
+      "n_questions": 10,
+      "median_query_latency_ms": 157.9,
+      "index_build_seconds": 358.876,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "BAAI/bge-m3",
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.7,
+      "hit_at_3": 0.9,
+      "hit_at_5": 1.0,
+      "recall_at_5": 0.44,
+      "recall_at_10": 0.67,
+      "mrr": 0.825,
+      "n_questions": 10,
+      "median_query_latency_ms": 26012.62,
+      "index_build_seconds": 298.228,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+      "reranker": "",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9,
+      "hit_at_5": 0.9,
+      "recall_at_5": 0.59,
+      "recall_at_10": 0.82,
+      "mrr": 0.9111,
+      "n_questions": 10,
+      "median_query_latency_ms": 146.03,
+      "index_build_seconds": 239.398,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.3,
+      "hit_at_3": 0.8,
+      "hit_at_5": 0.9,
+      "recall_at_5": 0.36,
+      "recall_at_10": 0.655,
+      "mrr": 0.5683,
+      "n_questions": 10,
+      "median_query_latency_ms": 22852.55,
+      "index_build_seconds": 201.844,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
+    }
+  ],
+  "per_question": [
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Design Effectiveness"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit Population"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 10,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Headquarters Branches"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Business Intelligence Governance"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Design Effectiveness; Operating Effectiveness; Control; Control Testing",
+      "top1_title": "Control Implementation"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
+      "top1_title": "Identity and Access Management"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 3,
+      "hit_at_1": 0,
+      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
+      "top1_title": "Substantive Testing"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 9,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Corporate Branches"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sampling Risk"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 4,
+      "hit_at_1": 0,
+      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
+      "top1_title": "Data Owner"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Design Effectiveness"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access Monitoring"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
+      "top1_title": "Substantive Testing"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 7,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Headquarters Branches"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Design Effectiveness; Operating Effectiveness; Control; Control Testing",
+      "top1_title": "Control Implementation"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
+      "top1_title": "Identity and Access Management"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sampling Risk"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 4,
+      "hit_at_1": 0,
+      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
+      "top1_title": "Data Owner"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Design Effectiveness"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 9,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Headquarters Branches"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
+    },
+    {
+      "config_id": "qwen3",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Missing Data; How Missing Data Limits Audit Assurance; Evidence Reliability; Audit Conclusion; Population Completeness",
+      "top1_title": "Non-Response or Unavailable Evidence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Design Effectiveness; Operating Effectiveness; Control; Control Testing",
+      "top1_title": "Control Implementation"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Manual Overrides; How Manual Overrides Weaken Automated Controls; Unmonitored Manual Overrides; Automated Business Rules; Manual Override Approval",
+      "top1_title": "Automated Control"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
+      "top1_title": "Identity and Access Management"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 4,
+      "hit_at_1": 0,
+      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 10,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Corporate Branches"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 3,
+      "hit_at_1": 0,
+      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    }
+  ],
+  "honesty": "Honesty note: the official eval set has only 10 questions. A Hit@1 difference of 0.10 (one question) is not statistically meaningful. Treat these rankings as directional signals for this MVP corpus, not as production model-selection proof.",
+  "package_versions": {
+    "sentence_transformers": "5.7.0",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.2",
+    "networkx": "3.6.1",
+    "rank_bm25": "unknown",
+    "yaml": "6.0.3",
+    "pandas": "3.1.1"
+  }
+}

@@ -1,0 +1,55 @@
+# Data-driven embedding / reranker benchmark configurations.
+# Add a model by appending one entry. Optional configs skip cleanly when env_key is unset.
+
+defaults:
+  mode: hybrid_graph
+  top_k: 10
+  rerank_pool: 30
+  question_sets:
+    - original
+
+configs:
+  - id: baseline
+    embedding_model: sentence-transformers/all-MiniLM-L6-v2
+    provider: sentence_transformers
+    reranker: null
+    optional: false
+
+  - id: minilm_rr
+    embedding_model: sentence-transformers/all-MiniLM-L6-v2
+    provider: sentence_transformers
+    reranker: BAAI/bge-reranker-v2-m3
+    optional: false
+
+  - id: bge_m3
+    embedding_model: BAAI/bge-m3
+    provider: sentence_transformers
+    reranker: null
+    optional: false
+
+  - id: bge_m3_rr
+    embedding_model: BAAI/bge-m3
+    provider: sentence_transformers
+    reranker: BAAI/bge-reranker-v2-m3
+    optional: false
+
+  - id: qwen3
+    embedding_model: Qwen/Qwen3-Embedding-0.6B
+    provider: sentence_transformers
+    query_prompt_name: query
+    reranker: null
+    optional: false
+
+  - id: qwen3_rr
+    embedding_model: Qwen/Qwen3-Embedding-0.6B
+    provider: sentence_transformers
+    query_prompt_name: query
+    reranker: BAAI/bge-reranker-v2-m3
+    optional: false
+
+  - id: hosted_ref
+    embedding_model: text-embedding-3-small
+    provider: openai
+    reranker: null
+    optional: true
+    env_key: OPENAI_API_KEY
