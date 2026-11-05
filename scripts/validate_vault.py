@@ -33,9 +33,10 @@ URL_RE = re.compile(r"https?://[^\s<>)\]]+")
 
 
 def vault_files() -> list[Path]:
+    skip_parts = {".git", ".venv", "venv", "rag_data", "node_modules"}
     return sorted(
         path for path in ROOT.rglob("*.md")
-        if not any(part == ".git" for part in path.parts)
+        if not any(part in skip_parts for part in path.parts)
     )
 
 
