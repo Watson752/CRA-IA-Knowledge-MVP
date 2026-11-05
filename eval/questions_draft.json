@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "description": "Draft retrieval questions for review before promotion into questions.json. Expected notes are suggestions inferred from vault testing reports and note titles. source=draft for all items.",
+  "questions": [
+    {
+      "id": "d01_evidence_hierarchy",
+      "query": "What is an evidence hierarchy and why does it matter for audit conclusions?",
+      "expected_notes": ["Evidence Hierarchy", "Evidence", "Evidence Reliability", "Audit Conclusion"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d02_walkthrough_vs_oe",
+      "query": "Why is a walkthrough not sufficient evidence of operating effectiveness over a period?",
+      "expected_notes": ["Walkthrough", "Operating Effectiveness", "Control Testing", "Audit Period"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d03_inquiry_alone",
+      "query": "Can inquiry alone support a conclusion on operating effectiveness?",
+      "expected_notes": ["Inquiry", "Operating Effectiveness", "Control Testing", "Evidence"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d04_itgc_automated_reliance",
+      "query": "How do IT general controls affect reliance on automated application controls?",
+      "expected_notes": ["IT Controls", "Automated Control", "Control Testing", "System-Generated Evidence"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d05_finding_lifecycle",
+      "query": "What elements turn an observation into an audit finding?",
+      "expected_notes": ["Finding", "Criteria", "Condition", "Evidence", "Cause", "Effect"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d06_recommendation_map",
+      "query": "How should recommendations connect to findings and management action plans?",
+      "expected_notes": ["Recommendation", "Finding", "Management Action Plan", "Follow-up"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d07_three_lines",
+      "query": "How does the three lines model relate to Internal Audit independence?",
+      "expected_notes": ["Three Lines Model", "Independence", "Internal Audit and Program Evaluation"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d08_historical_precedent",
+      "query": "How should historical public audit findings be used as precedent rather than proof of current conditions?",
+      "expected_notes": ["How Historical Findings Should Be Used as Precedent", "Interpreting Historical Public Audit Findings", "Audit Period"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d09_logging_evidence",
+      "query": "How does application logging support audit evidence quality?",
+      "expected_notes": ["Application Logging", "How Logging Supports Audit Evidence", "Audit Logging", "System-Generated Evidence"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d10_incomplete_logging",
+      "query": "What risks arise from incomplete audit logging?",
+      "expected_notes": ["Incomplete Audit Logging", "Audit Logging", "Evidence Reliability"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d11_sod_access",
+      "query": "How does access control relate to segregation of duties?",
+      "expected_notes": ["How Access Control Relates to Segregation of Duties", "Privileged Access", "Role-Based Access Control"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d12_periodic_access_review",
+      "query": "What should an auditor examine in a periodic privileged access review?",
+      "expected_notes": ["Periodic Access Review", "Privileged Access", "Access Review Testing", "User Access Dataset"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d13_dormant_accounts",
+      "query": "Why do dormant accounts matter when testing access populations?",
+      "expected_notes": ["Dormant Accounts", "User Access Dataset", "Population Completeness", "Privileged Access"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d14_service_accounts",
+      "query": "How should service accounts be treated in privileged access testing?",
+      "expected_notes": ["Service Accounts", "Privileged Access", "User Access Dataset", "Access Review Testing"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d15_excessive_vs_unauthorized",
+      "query": "What is the difference between excessive privileges and unauthorized access?",
+      "expected_notes": ["Excessive Privileges", "Unauthorized Access", "Privileged Access"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d16_change_management",
+      "query": "How can software changes create compliance risk?",
+      "expected_notes": ["How Software Changes Create Compliance Risk", "Change Management", "Unauthorized System Changes"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d17_change_approval",
+      "query": "What is the role of change approval in controlling system modifications?",
+      "expected_notes": ["Change Approval", "Change Management", "Change Requester"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d18_exception_report_review",
+      "query": "How does exception report review differ from manual override approval?",
+      "expected_notes": ["Exception Report Review", "Manual Override Approval", "Manual Overrides"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d19_false_positives_negatives",
+      "query": "How should auditors interpret false positives and false negatives in automated rules?",
+      "expected_notes": ["False Positives", "False Negatives", "Automated Business Rules", "Override Population Analytics"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d20_automated_controls_audit",
+      "query": "How are automated controls audited differently from manual controls?",
+      "expected_notes": ["How Automated Controls Are Audited", "Automated Control", "Manual Control", "Configuration Review"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d21_data_lineage",
+      "query": "Why does data lineage matter when relying on management reports?",
+      "expected_notes": ["Data Lineage", "Data Pipeline", "Management Reporting", "Data Reconciliation"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d22_rejected_records",
+      "query": "How can rejected records in a pipeline weaken population completeness?",
+      "expected_notes": ["Rejected Records", "Data Pipeline", "Population Completeness", "Missing Records"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d23_field_mapping",
+      "query": "What audit risks arise from incorrect field mapping in transformations?",
+      "expected_notes": ["Field Mapping", "Data Transformation", "Data Accuracy", "Data Pipeline"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d24_cut_off",
+      "query": "How can an assessment cut-off date affect completeness of an extract?",
+      "expected_notes": ["Assessment Cut-Off Date", "Population Completeness", "Audit Period", "Missing Data"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d25_data_timeliness",
+      "query": "How does data timeliness affect the reliability of management reporting?",
+      "expected_notes": ["Data Timeliness", "Management Reporting", "How Data Quality Affects Management Reporting"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d26_record_uniqueness",
+      "query": "Why does record uniqueness matter when testing a sampling frame?",
+      "expected_notes": ["Record Uniqueness", "Sampling Frame", "Population Completeness", "Data Accuracy"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d27_intended_vs_retrieved",
+      "query": "What is the difference between an intended population and a retrieved population?",
+      "expected_notes": ["Intended Population", "Retrieved Population", "Audit Population", "Sampling Frame"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d28_full_population_analysis",
+      "query": "When might full-population analysis be preferable to sampling?",
+      "expected_notes": ["Full-Population Analysis", "Sample Selection", "Sampling Risk", "Analytics"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d29_random_vs_judgmental",
+      "query": "When is judgmental sampling inappropriate for statistical extrapolation?",
+      "expected_notes": ["Judgmental Sampling", "Random Sampling", "Statistical Extrapolation", "Sampling Risk"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d30_stratified_sampling",
+      "query": "What is stratified sampling and when is it useful in audit testing?",
+      "expected_notes": ["Stratified Sampling", "Sample Selection", "Representativeness", "Evaluation - Audit Yield"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d31_survivorship_bias",
+      "query": "How can survivorship bias distort an audit analysis of completed cases?",
+      "expected_notes": ["Survivorship Bias", "Selection Bias", "How Statistical Bias Can Mislead an Audit"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d32_systematic_exclusion",
+      "query": "How does systematic exclusion differ from random missingness?",
+      "expected_notes": ["Systematic Exclusion", "Missing Data", "Selection Bias", "Non-Response or Unavailable Evidence"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d33_sensitivity_analysis",
+      "query": "How can sensitivity analysis help when evidence is incomplete?",
+      "expected_notes": ["Sensitivity Analysis", "Missing Data", "Evidence Reliability", "Audit Conclusion"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d34_missing_values_vs_records",
+      "query": "What is the difference between missing values and missing records?",
+      "expected_notes": ["Missing Values", "Missing Records", "Missing Data"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d35_data_reconciliation",
+      "query": "How does data reconciliation support evidence reliability?",
+      "expected_notes": ["Data Reconciliation", "Evidence Reliability", "Population Completeness", "Data Pipeline"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d36_control_ownership",
+      "query": "Why does control ownership matter for remediation accountability?",
+      "expected_notes": ["Control Ownership", "Control", "Management Action Plan", "How Organizational Ownership Affects System Accountability"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d37_control_frequency",
+      "query": "How does control frequency affect operating effectiveness testing?",
+      "expected_notes": ["Control Frequency", "Operating Effectiveness", "Control Testing", "Audit Period"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d38_control_deficiency",
+      "query": "What is a control deficiency and how does it relate to findings?",
+      "expected_notes": ["Control Deficiency", "Finding", "Control", "Design Effectiveness"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d39_risk_assessment",
+      "query": "How does risk assessment inform audit objective and scope?",
+      "expected_notes": ["Risk Assessment", "Audit Objective", "Scope", "Risk"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d40_eligibility_decision_risks",
+      "query": "What eligibility decision risks should an auditor consider for automated rules?",
+      "expected_notes": ["Eligibility Decision Risks", "Automated Business Rules", "Manual Overrides", "False Negatives"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d41_aerb_role",
+      "query": "What is the public role of the Audit, Evaluation, and Risk Branch?",
+      "expected_notes": ["Audit, Evaluation, and Risk Branch", "Internal Audit and Program Evaluation", "CRA Organizational Overview"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d42_itb_role",
+      "query": "What does the Information Technology Branch contribute according to public sources?",
+      "expected_notes": ["Information Technology Branch", "CRA Corporate Branches", "CRA Organizational Overview"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d43_siib_role",
+      "query": "Why is the Service, Innovation, and Integration Branch relevant to data and digital work?",
+      "expected_notes": ["Service, Innovation, and Integration Branch", "Business Intelligence", "Data Governance"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d44_security_branch",
+      "query": "How does the Security Branch relate to cybersecurity and access themes in public cases?",
+      "expected_notes": ["Security Branch", "Internal Audit - Specific Cyber Security Controls", "Security Controls"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d45_regions_vs_hq",
+      "query": "How do CRA regions differ from headquarters program branches in delivery roles?",
+      "expected_notes": ["CRA Regions", "CRA Program Branches", "CRA Organizational Overview"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d46_bi_governance",
+      "query": "What does business intelligence governance cover in the vault?",
+      "expected_notes": ["Business Intelligence Governance", "Business Intelligence", "Data Governance"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d47_bi_case_themes",
+      "query": "What governance themes appear in the public CRA business intelligence internal audit?",
+      "expected_notes": [
+        "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence",
+        "Business Intelligence Governance",
+        "How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept"
+      ],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d48_efms_case",
+      "query": "Which public CRA case discusses enterprise fraud management system themes?",
+      "expected_notes": ["Internal Audit - Enterprise Fraud Management System", "Automated Business Rules", "False Positives"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d49_cyber_case",
+      "query": "Which public CRA case is most relevant to specific cyber security controls?",
+      "expected_notes": ["Internal Audit - Specific Cyber Security Controls", "Security Controls", "IT Controls"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d50_charities_case",
+      "query": "Which public CRA case relates to the charities audit process?",
+      "expected_notes": ["Internal Audit - Charities Audit Process", "Data Quality", "Missing Data"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d51_audit_yield_case",
+      "query": "How does the Audit Yield evaluation illustrate stratified sampling and performance information?",
+      "expected_notes": ["Evaluation - Audit Yield", "Stratified Sampling", "Performance Information"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d52_ar_inventory_case",
+      "query": "Which public CRA case concerns accounts receivable national inventory?",
+      "expected_notes": ["Internal Audit - Accounts Receivable National Inventory", "Data Quality", "Population Completeness"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d53_system_generated_evidence",
+      "query": "When can system-generated evidence be relied upon in an audit?",
+      "expected_notes": ["System-Generated Evidence", "IT Controls", "Evidence Reliability", "Automated Control"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d54_reperformance",
+      "query": "What is reperformance and when is it used in control testing?",
+      "expected_notes": ["Reperformance", "Control Testing", "Operating Effectiveness"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d55_materiality",
+      "query": "How does materiality influence sample focus and reporting?",
+      "expected_notes": ["Materiality", "Sample Selection", "Finding", "Audit Conclusion"],
+      "source": "draft",
+      "multi_hop": false
+    },
+    {
+      "id": "d56_multihop_missing_to_conclusion",
+      "query": "Trace how missing data can flow through to a weaker audit conclusion via evidence reliability.",
+      "expected_notes": ["Missing Data", "Evidence Reliability", "Audit Conclusion", "How Missing Data Limits Audit Assurance"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d57_multihop_override_to_control",
+      "query": "Connect manual overrides to automated control weakness and what auditors should examine.",
+      "expected_notes": ["Manual Overrides", "Automated Control", "Unmonitored Manual Overrides", "How Manual Overrides Weaken Automated Controls"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d58_multihop_pipeline_reporting",
+      "query": "Explain how a data pipeline failure can undermine management reporting reliability.",
+      "expected_notes": ["Data Pipeline", "Management Reporting", "How Data Pipelines Affect Evidence Reliability", "Data Reconciliation"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d59_multihop_access_sod",
+      "query": "Link privileged access risks to segregation of duties and periodic review testing.",
+      "expected_notes": ["Privileged Access", "How Access Control Relates to Segregation of Duties", "Periodic Access Review", "Access Review Testing"],
+      "source": "draft",
+      "multi_hop": true
+    },
+    {
+      "id": "d60_multihop_bias_sampling",
+      "query": "How can selection bias and incomplete populations jointly distort sampling conclusions?",
+      "expected_notes": ["Selection Bias", "Population Completeness", "Sampling Risk", "How Statistical Bias Can Mislead an Audit"],
+      "source": "draft",
+      "multi_hop": true
+    }
+  ]
+}

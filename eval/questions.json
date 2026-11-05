@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "description": "Initial Phase 1 retrieval benchmark derived from existing vault testing questions.",
+  "questions": [
+    {
+      "id": "q01_missing_data_audit_conclusion",
+      "query": "How does missing data weaken an audit conclusion?",
+      "expected_notes": [
+        "Missing Data",
+        "How Missing Data Limits Audit Assurance",
+        "Evidence Reliability",
+        "Audit Conclusion",
+        "Population Completeness"
+      ],
+      "source_tests": [
+        "16-Testing/Statistics-Analytics/Post-Fix/Test-03-Missing-Data-and-Bias.md"
+      ]
+    },
+    {
+      "id": "q02_control_design_vs_oe",
+      "query": "What is the difference between control design and operating effectiveness?",
+      "expected_notes": [
+        "Design Effectiveness",
+        "Operating Effectiveness",
+        "Control",
+        "Control Testing"
+      ],
+      "source_tests": [
+        "16-Testing/Audit/Post-Fix/Test-03-Control-Design-and-Effectiveness.md"
+      ]
+    },
+    {
+      "id": "q03_manual_overrides",
+      "query": "How can manual overrides weaken an automated business control?",
+      "expected_notes": [
+        "Manual Overrides",
+        "How Manual Overrides Weaken Automated Controls",
+        "Unmonitored Manual Overrides",
+        "Automated Business Rules",
+        "Manual Override Approval"
+      ],
+      "source_tests": [
+        "16-Testing/Software-Data/Post-Fix/Test-03-Automated-Rules-and-Overrides.md"
+      ]
+    },
+    {
+      "id": "q04_privileged_access",
+      "query": "How should Internal Audit assess privileged access?",
+      "expected_notes": [
+        "Privileged Access",
+        "Privileged Access Monitoring",
+        "Periodic Access Review",
+        "Access Review Testing",
+        "Excessive Privileges"
+      ],
+      "source_tests": [
+        "16-Testing/Software-Data/Post-Fix/Test-01-Privileged-Access.md"
+      ]
+    },
+    {
+      "id": "q05_population_completeness_sampling",
+      "query": "How does population completeness affect sampling?",
+      "expected_notes": [
+        "Population Completeness",
+        "Audit Population",
+        "Sampling Frame",
+        "Sampling Risk",
+        "Sample Selection"
+      ],
+      "source_tests": [
+        "16-Testing/Statistics-Analytics/Post-Fix/Test-01-Population-Completeness.md"
+      ]
+    },
+    {
+      "id": "q06_program_vs_corporate_branches",
+      "query": "What is the difference between program branches and corporate branches?",
+      "expected_notes": [
+        "CRA Program Branches",
+        "CRA Corporate Branches",
+        "CRA Organizational Overview",
+        "CRA Regions"
+      ],
+      "source_tests": [
+        "16-Testing/Baseline/Test-02-Organizational-Structure.md"
+      ]
+    },
+    {
+      "id": "q07_tech_ia_branches",
+      "query": "Which CRA branches are most relevant to technology and Internal Audit?",
+      "expected_notes": [
+        "Audit, Evaluation, and Risk Branch",
+        "Information Technology Branch",
+        "Service, Innovation, and Integration Branch",
+        "Digital Transformation Program Branch",
+        "Security Branch"
+      ],
+      "source_tests": [
+        "16-Testing/Baseline/Test-03-Background-Specific-Onboarding.md"
+      ]
+    },
+    {
+      "id": "q08_pipeline_management_reporting",
+      "query": "How can a data pipeline failure affect management reporting?",
+      "expected_notes": [
+        "Data Pipeline",
+        "How Data Pipelines Affect Evidence Reliability",
+        "How Data Quality Affects Management Reporting",
+        "Management Reporting",
+        "Data Reconciliation"
+      ],
+      "source_tests": [
+        "16-Testing/Software-Data/Post-Fix/Test-04-Data-Pipeline-and-Reporting.md"
+      ]
+    },
+    {
+      "id": "q09_selection_bias",
+      "query": "How can selection bias distort an audit analysis?",
+      "expected_notes": [
+        "Selection Bias",
+        "How Statistical Bias Can Mislead an Audit",
+        "Sampling Risk",
+        "Survivorship Bias",
+        "Missing Data"
+      ],
+      "source_tests": [
+        "16-Testing/Statistics-Analytics/Post-Fix/Test-03-Missing-Data-and-Bias.md"
+      ]
+    },
+    {
+      "id": "q10_bi_data_governance_cases",
+      "query": "Which public CRA cases relate to business intelligence or data governance?",
+      "expected_notes": [
+        "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence",
+        "Business Intelligence",
+        "Business Intelligence Governance",
+        "Data Governance",
+        "How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept"
+      ],
+      "source_tests": [
+        "16-Testing/Baseline/Test-03-Background-Specific-Onboarding.md",
+        "16-Testing/OVERALL_MVP_READINESS.md"
+      ]
+    }
+  ]
+}
