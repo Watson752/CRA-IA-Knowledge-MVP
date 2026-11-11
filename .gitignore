@@ -18,6 +18,8 @@ venv/
 data/indexes/
 data/embeddings/
 data/vector-store/
+rag_data/
+bench/.cache/
 *.db
 *.sqlite
 *.sqlite3
