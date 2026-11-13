@@ -44,6 +44,10 @@ class EmbeddingProvider(ABC):
         return self.embed([text])[0]
 
 
+# BGE-style asymmetric retrieval query prefix.
+BGE_QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
+
+
 class SentenceTransformerProvider(EmbeddingProvider):
     """SentenceTransformers backend suitable for English semantic retrieval."""
 
@@ -53,11 +57,13 @@ class SentenceTransformerProvider(EmbeddingProvider):
         *,
         local_files_only: bool = False,
         query_prompt_name: str | None = None,
+        query_prefix: str | None = None,
     ) -> None:
         from sentence_transformers import SentenceTransformer
 
         self.name = model_name
         self.query_prompt_name = query_prompt_name
+        self.query_prefix = query_prefix
         self._model = SentenceTransformer(model_name, local_files_only=local_files_only)
 
     def embed(self, texts: Sequence[str], *, batch_size: int = 32) -> np.ndarray:
@@ -73,6 +79,9 @@ class SentenceTransformerProvider(EmbeddingProvider):
         return np.asarray(vectors, dtype=np.float32)
 
     def embed_query(self, text: str) -> np.ndarray:
+        # Explicit string prefix (e.g. BGE asymmetric retrieval).
+        if self.query_prefix:
+            return self.embed([f"{self.query_prefix}{text}"])[0]
         if not self.query_prompt_name:
             return self.embed([text])[0]
         # Some models (e.g. Qwen3-Embedding) expose a dedicated query prompt.
@@ -131,29 +140,26 @@ def get_embedding_provider(
     provider_type: str = "sentence_transformers",
     local_files_only: bool | None = None,
     query_prompt_name: str | None = None,
+    query_prefix: str | None = None,
 ) -> EmbeddingProvider:
     """Load provider; prefer local cache when available to avoid Hub round-trips."""
     provider_type = (provider_type or "sentence_transformers").lower()
     if provider_type in {"openai", "hosted"}:
         return OpenAIEmbeddingProvider(model_name=model_name)
+    # Auto-apply BGE query prefix when not overridden.
+    if query_prefix is None and "bge-m3" in model_name.casefold():
+        query_prefix = BGE_QUERY_PREFIX
+    kwargs = dict(
+        model_name=model_name,
+        query_prompt_name=query_prompt_name,
+        query_prefix=query_prefix,
+    )
     if local_files_only is None:
         try:
-            return SentenceTransformerProvider(
-                model_name=model_name,
-                local_files_only=True,
-                query_prompt_name=query_prompt_name,
-            )
+            return SentenceTransformerProvider(local_files_only=True, **kwargs)
         except Exception:
-            return SentenceTransformerProvider(
-                model_name=model_name,
-                local_files_only=False,
-                query_prompt_name=query_prompt_name,
-            )
-    return SentenceTransformerProvider(
-        model_name=model_name,
-        local_files_only=local_files_only,
-        query_prompt_name=query_prompt_name,
-    )
+            return SentenceTransformerProvider(local_files_only=False, **kwargs)
+    return SentenceTransformerProvider(local_files_only=local_files_only, **kwargs)
 
 
 def cosine_similarity(query: np.ndarray, matrix: np.ndarray) -> np.ndarray:
@@ -248,6 +254,7 @@ def ensure_vector_store(
     rebuild: bool = False,
     provider_type: str = "sentence_transformers",
     query_prompt_name: str | None = None,
+    query_prefix: str | None = None,
     provider: EmbeddingProvider | None = None,
 ) -> NumpyVectorStore:
     out_dir = out_dir or DEFAULT_RAG_DATA
@@ -263,6 +270,7 @@ def ensure_vector_store(
             model_name,
             provider_type=provider_type,
             query_prompt_name=query_prompt_name,
+            query_prefix=query_prefix,
         )
     store = NumpyVectorStore.build(chunks, provider)
     store.save(out_dir)

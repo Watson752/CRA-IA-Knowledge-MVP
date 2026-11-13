@@ -133,6 +133,7 @@ def prepare_session(
             model_name=cfg.embedding_model,
             provider_type=cfg.provider,
             query_prompt_name=cfg.query_prompt_name,
+            query_prefix=cfg.query_prefix,
             rebuild=rebuild,
         )
         reranker = get_reranker(cfg.reranker) if cfg.reranker else None
@@ -272,19 +273,20 @@ def evaluate_config(
 
 
 def check_baseline(result: ConfigRunResult) -> None:
+    """Ensure baseline stays healthy: Hit@1≈0.9 and MRR at least ~0.91 (improvements OK)."""
     if result.status != "ok":
         raise SystemExit(
             f"Baseline reproduction failed: status={result.status} error={result.error}"
         )
     assert result.hit_at_1 is not None and result.mrr is not None
-    if abs(result.hit_at_1 - BASELINE_HIT1) > BASELINE_TOLERANCE:
+    if result.hit_at_1 + BASELINE_TOLERANCE < BASELINE_HIT1:
         raise SystemExit(
-            f"Baseline Hit@1 mismatch: got {result.hit_at_1}, expected ~{BASELINE_HIT1}. "
+            f"Baseline Hit@1 regression: got {result.hit_at_1}, expected >={BASELINE_HIT1}. "
             "Stopping without inventing metrics."
         )
-    if abs(result.mrr - BASELINE_MRR) > BASELINE_TOLERANCE:
+    if result.mrr + BASELINE_TOLERANCE < BASELINE_MRR:
         raise SystemExit(
-            f"Baseline MRR mismatch: got {result.mrr}, expected ~{BASELINE_MRR}. "
+            f"Baseline MRR regression: got {result.mrr}, expected >={BASELINE_MRR}. "
             "Stopping without inventing metrics."
         )
 

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T04:12:07.698548+00:00",
-    "git_sha": "2f9d10fd575ac9f49dd93c828ec33c33d878bbd1",
+    "generated_at": "2026-11-13T16:49:20.264198+00:00",
+    "git_sha": "75155bbe02a4b62a3d08b417017e9fe2e1214e98",
     "hardware": "cpu",
     "configs": [
       {
@@ -59,12 +59,12 @@
       "hit_at_1": 0.9,
       "hit_at_3": 0.9,
       "hit_at_5": 0.9,
-      "recall_at_5": 0.49,
-      "recall_at_10": 0.715,
-      "mrr": 0.91,
+      "recall_at_5": 0.525,
+      "recall_at_10": 0.695,
+      "mrr": 0.9167,
       "n_questions": 10,
-      "median_query_latency_ms": 11.26,
-      "index_build_seconds": 2.327,
+      "median_query_latency_ms": 13.86,
+      "index_build_seconds": 2.142,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": true
@@ -76,15 +76,15 @@
       "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.5,
-      "hit_at_3": 0.8,
+      "hit_at_1": 0.8,
+      "hit_at_3": 0.9,
       "hit_at_5": 0.9,
-      "recall_at_5": 0.335,
-      "recall_at_10": 0.61,
-      "mrr": 0.6694,
+      "recall_at_5": 0.55,
+      "recall_at_10": 0.7,
+      "mrr": 0.8667,
       "n_questions": 10,
-      "median_query_latency_ms": 21128.85,
-      "index_build_seconds": 3.263,
+      "median_query_latency_ms": 8734.53,
+      "index_build_seconds": 7.291,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -96,15 +96,15 @@
       "embedding_model": "BAAI/bge-m3",
       "reranker": "",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.7,
+      "hit_at_1": 0.9,
       "hit_at_3": 0.9,
-      "hit_at_5": 0.9,
-      "recall_at_5": 0.525,
+      "hit_at_5": 1.0,
+      "recall_at_5": 0.61,
       "recall_at_10": 0.78,
-      "mrr": 0.8143,
+      "mrr": 0.92,
       "n_questions": 10,
-      "median_query_latency_ms": 157.9,
-      "index_build_seconds": 358.876,
+      "median_query_latency_ms": 270.34,
+      "index_build_seconds": 1.503,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -116,15 +116,15 @@
       "embedding_model": "BAAI/bge-m3",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.7,
-      "hit_at_3": 0.9,
+      "hit_at_1": 0.8,
+      "hit_at_3": 1.0,
       "hit_at_5": 1.0,
-      "recall_at_5": 0.44,
-      "recall_at_10": 0.67,
-      "mrr": 0.825,
+      "recall_at_5": 0.61,
+      "recall_at_10": 0.76,
+      "mrr": 0.9,
       "n_questions": 10,
-      "median_query_latency_ms": 26012.62,
-      "index_build_seconds": 298.228,
+      "median_query_latency_ms": 12862.42,
+      "index_build_seconds": 8.702,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -139,12 +139,12 @@
       "hit_at_1": 0.9,
       "hit_at_3": 0.9,
       "hit_at_5": 0.9,
-      "recall_at_5": 0.59,
-      "recall_at_10": 0.82,
-      "mrr": 0.9111,
+      "recall_at_5": 0.57,
+      "recall_at_10": 0.8,
+      "mrr": 0.9167,
       "n_questions": 10,
-      "median_query_latency_ms": 146.03,
-      "index_build_seconds": 239.398,
+      "median_query_latency_ms": 132.17,
+      "index_build_seconds": 0.528,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -156,15 +156,15 @@
       "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.3,
-      "hit_at_3": 0.8,
+      "hit_at_1": 0.8,
+      "hit_at_3": 0.9,
       "hit_at_5": 0.9,
-      "recall_at_5": 0.36,
-      "recall_at_10": 0.655,
-      "mrr": 0.5683,
+      "recall_at_5": 0.59,
+      "recall_at_10": 0.84,
+      "mrr": 0.8667,
       "n_questions": 10,
-      "median_query_latency_ms": 22852.55,
-      "index_build_seconds": 201.844,
+      "median_query_latency_ms": 13388.0,
+      "index_build_seconds": 7.663,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -229,7 +229,7 @@
       "config_id": "baseline",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 10,
+      "first_hit_rank": 6,
       "hit_at_1": 0,
       "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
       "top1_title": "CRA Headquarters Branches"
@@ -268,7 +268,7 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Population Completeness"
+      "top1_title": "Missing Data"
     },
     {
       "config_id": "minilm_rr",
@@ -292,19 +292,19 @@
       "config_id": "minilm_rr",
       "question_set": "original",
       "question_id": "q04_privileged_access",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
-      "top1_title": "Identity and Access Management"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
     },
     {
       "config_id": "minilm_rr",
       "question_set": "original",
       "question_id": "q05_population_completeness_sampling",
-      "first_hit_rank": 3,
-      "hit_at_1": 0,
-      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
-      "top1_title": "Substantive Testing"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
     },
     {
       "config_id": "minilm_rr",
@@ -319,10 +319,10 @@
       "config_id": "minilm_rr",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 9,
+      "first_hit_rank": 6,
       "hit_at_1": 0,
       "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
-      "top1_title": "CRA Corporate Branches"
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     },
     {
       "config_id": "minilm_rr",
@@ -340,16 +340,16 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Sampling Risk"
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
     },
     {
       "config_id": "minilm_rr",
       "question_set": "original",
       "question_id": "q10_bi_data_governance_cases",
-      "first_hit_rank": 4,
-      "hit_at_1": 0,
-      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
-      "top1_title": "Data Owner"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Business Intelligence Governance"
     },
     {
       "config_id": "bge_m3",
@@ -385,16 +385,16 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Privileged Access Monitoring"
+      "top1_title": "Privileged Access"
     },
     {
       "config_id": "bge_m3",
       "question_set": "original",
       "question_id": "q05_population_completeness_sampling",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
-      "top1_title": "Substantive Testing"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
     },
     {
       "config_id": "bge_m3",
@@ -409,7 +409,7 @@
       "config_id": "bge_m3",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 7,
+      "first_hit_rank": 5,
       "hit_at_1": 0,
       "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
       "top1_title": "CRA Headquarters Branches"
@@ -421,7 +421,7 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "How Data Quality Affects Management Reporting"
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
     },
     {
       "config_id": "bge_m3",
@@ -436,10 +436,10 @@
       "config_id": "bge_m3",
       "question_set": "original",
       "question_id": "q10_bi_data_governance_cases",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
-      "top1_title": "Service, Innovation, and Integration Branch"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     },
     {
       "config_id": "bge_m3_rr",
@@ -472,10 +472,10 @@
       "config_id": "bge_m3_rr",
       "question_set": "original",
       "question_id": "q04_privileged_access",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
-      "top1_title": "Identity and Access Management"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
     },
     {
       "config_id": "bge_m3_rr",
@@ -499,10 +499,10 @@
       "config_id": "bge_m3_rr",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "Information Technology Branch"
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Headquarters Branches"
     },
     {
       "config_id": "bge_m3_rr",
@@ -520,16 +520,16 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Sampling Risk"
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
     },
     {
       "config_id": "bge_m3_rr",
       "question_set": "original",
       "question_id": "q10_bi_data_governance_cases",
-      "first_hit_rank": 4,
-      "hit_at_1": 0,
-      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
-      "top1_title": "Data Owner"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     },
     {
       "config_id": "qwen3",
@@ -589,7 +589,7 @@
       "config_id": "qwen3",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 9,
+      "first_hit_rank": 6,
       "hit_at_1": 0,
       "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
       "top1_title": "CRA Headquarters Branches"
@@ -601,7 +601,7 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "How Data Quality Affects Management Reporting"
+      "top1_title": "Management Reporting"
     },
     {
       "config_id": "qwen3",
@@ -625,10 +625,10 @@
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q01_missing_data_audit_conclusion",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Missing Data; How Missing Data Limits Audit Assurance; Evidence Reliability; Audit Conclusion; Population Completeness",
-      "top1_title": "Non-Response or Unavailable Evidence"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Missing Data Limits Audit Assurance"
     },
     {
       "config_id": "qwen3_rr",
@@ -643,28 +643,28 @@
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q03_manual_overrides",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Manual Overrides; How Manual Overrides Weaken Automated Controls; Unmonitored Manual Overrides; Automated Business Rules; Manual Override Approval",
-      "top1_title": "Automated Control"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
     },
     {
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q04_privileged_access",
-      "first_hit_rank": 2,
-      "hit_at_1": 0,
-      "missed_expected": "Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges",
-      "top1_title": "Identity and Access Management"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
     },
     {
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q05_population_completeness_sampling",
-      "first_hit_rank": 4,
-      "hit_at_1": 0,
-      "missed_expected": "Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection",
-      "top1_title": "Missing Data"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
     },
     {
       "config_id": "qwen3_rr",
@@ -679,10 +679,10 @@
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 10,
+      "first_hit_rank": 6,
       "hit_at_1": 0,
       "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
-      "top1_title": "CRA Corporate Branches"
+      "top1_title": "CRA Headquarters Branches"
     },
     {
       "config_id": "qwen3_rr",
@@ -706,10 +706,10 @@
       "config_id": "qwen3_rr",
       "question_set": "original",
       "question_id": "q10_bi_data_governance_cases",
-      "first_hit_rank": 3,
-      "hit_at_1": 0,
-      "missed_expected": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept",
-      "top1_title": "Service, Innovation, and Integration Branch"
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     }
   ],
   "honesty": "Honesty note: the official eval set has only 10 questions. A Hit@1 difference of 0.10 (one question) is not statistically meaningful. Treat these rankings as directional signals for this MVP corpus, not as production model-selection proof.",
