@@ -32,7 +32,7 @@ class FakeResult:
 
 class FakeCE:
     def predict(self, pairs):
-        # Higher index => higher score so last candidate wins.
+        # Higher index => higher score so last candidate wins on CE alone.
         return list(range(len(pairs)))
 
 
@@ -48,16 +48,33 @@ def test_get_reranker_none():
     assert isinstance(get_reranker(""), NoOpReranker)
 
 
-def test_cross_encoder_rerank_with_fake_model():
+def test_cross_encoder_blends_with_hybrid():
     rr = object.__new__(CrossEncoderReranker)
     rr.name = "fake-reranker"
+    rr.alpha = 0.35
     rr._model = FakeCE()
+    # Equal hybrid scores → order follows CE (c, b, a).
     cands = [
-        FakeResult(rank=1, chunk_id="a", text_preview="A"),
-        FakeResult(rank=2, chunk_id="b", text_preview="B"),
-        FakeResult(rank=3, chunk_id="c", text_preview="C"),
+        FakeResult(rank=1, chunk_id="a", title="A", text_preview="A", final_score=1.0),
+        FakeResult(rank=2, chunk_id="b", title="B", text_preview="B", final_score=1.0),
+        FakeResult(rank=3, chunk_id="c", title="C", text_preview="C", final_score=1.0),
     ]
     out = CrossEncoderReranker.rerank(rr, "query", cands, top_k=2)
     assert [c.chunk_id for c in out] == ["c", "b"]
     assert out[0].rank == 1
-    assert "cross-encoder rerank" in out[0].why_included
+    assert any("cross-encoder blend" in w for w in out[0].why_included)
+
+
+def test_cross_encoder_respects_strong_hybrid():
+    rr = object.__new__(CrossEncoderReranker)
+    rr.name = "fake-reranker"
+    rr.alpha = 0.35
+    rr._model = FakeCE()  # CE prefers c > b > a
+    # Strong hybrid on "a" should keep it competitive / top after blend.
+    cands = [
+        FakeResult(rank=1, chunk_id="a", title="A", text_preview="A", final_score=10.0),
+        FakeResult(rank=2, chunk_id="b", title="B", text_preview="B", final_score=1.0),
+        FakeResult(rank=3, chunk_id="c", title="C", text_preview="C", final_score=1.0),
+    ]
+    out = CrossEncoderReranker.rerank(rr, "query", cands, top_k=3)
+    assert out[0].chunk_id == "a"

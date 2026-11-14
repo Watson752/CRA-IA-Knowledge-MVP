@@ -71,9 +71,50 @@ class RetrievalWeights:
     graph: float = 0.12
     domain: float = 0.05
     authoritative: float = 0.03
+    title_match: float = 0.22
 
     def as_dict(self) -> dict[str, float]:
         return asdict(self)
+
+
+def _query_tokens(query: str) -> set[str]:
+    return {
+        t
+        for t in query.casefold().replace("-", " ").replace("_", " ").split()
+        if len(t) > 2 and t not in _QUERY_STOPWORDS
+    }
+
+
+def title_match_score(query: str, title: str, aliases: list[str] | None = None) -> float:
+    """Score title/alias relevance: exact containment (1.0) or token Jaccard (0–1)."""
+    q = query.casefold().strip()
+    labels = [title] + list(aliases or [])
+    best = 0.0
+    q_tokens = _query_tokens(query)
+    for label in labels:
+        if not label or not str(label).strip():
+            continue
+        lab = str(label).casefold().strip()
+        if lab and lab in q:
+            return 1.0
+        # Also treat multi-word title tokens largely present in the query as strong.
+        lab_tokens = {
+            t
+            for t in lab.replace("-", " ").replace("_", " ").split()
+            if len(t) > 2 and t not in _QUERY_STOPWORDS
+        }
+        if not lab_tokens or not q_tokens:
+            continue
+        overlap = len(q_tokens & lab_tokens)
+        jaccard = overlap / len(q_tokens | lab_tokens)
+        coverage = overlap / len(lab_tokens)
+        # Prefer titles that cover distinctive query tokens (length >= 5).
+        distinctive = {t for t in q_tokens if len(t) >= 5}
+        distinctive_hit = (
+            len(distinctive & lab_tokens) / max(len(distinctive), 1) if distinctive else 0.0
+        )
+        best = max(best, max(jaccard, 0.85 * coverage, 0.9 * distinctive_hit))
+    return min(1.0, best)
 
 
 @dataclass
@@ -150,6 +191,7 @@ class Retriever:
         weights: RetrievalWeights | None = None,
         provider_type: str = "sentence_transformers",
         query_prompt_name: str | None = None,
+        query_prefix: str | None = None,
     ) -> None:
         self.corpus = corpus
         self.chunks = chunks
@@ -164,6 +206,7 @@ class Retriever:
         self.weights = weights or RetrievalWeights()
         self.provider_type = provider_type
         self.query_prompt_name = query_prompt_name
+        self.query_prefix = query_prefix
 
     @classmethod
     def build(
@@ -175,6 +218,7 @@ class Retriever:
         rebuild: bool = False,
         provider_type: str = "sentence_transformers",
         query_prompt_name: str | None = None,
+        query_prefix: str | None = None,
         embedding_out_dir: Path | None = None,
         embedding_provider: EmbeddingProvider | None = None,
         shared_index_dir: Path | None = None,
@@ -219,6 +263,7 @@ class Retriever:
             rebuild=rebuild,
             provider_type=provider_type,
             query_prompt_name=query_prompt_name,
+            query_prefix=query_prefix,
             provider=embedding_provider,
         )
         lexical_index = ensure_lexical_index(chunks, index_dir, rebuild=rebuild)
@@ -232,6 +277,7 @@ class Retriever:
             embedding_provider=embedding_provider,
             provider_type=provider_type,
             query_prompt_name=query_prompt_name,
+            query_prefix=query_prefix,
         )
 
     def _ensure_provider(self) -> EmbeddingProvider:
@@ -240,6 +286,7 @@ class Retriever:
                 self.vector_store.model_name,
                 provider_type=self.provider_type,
                 query_prompt_name=self.query_prompt_name,
+                query_prefix=self.query_prefix,
             )
         return self.embedding_provider
 
@@ -264,6 +311,15 @@ class Retriever:
         if "official" in origin or "public-source" in origin:
             score += 0.4
         return min(score, 1.0)
+
+    def _aliases_for_chunk(self, chunk: Chunk) -> list[str]:
+        note = self.corpus.knowledge_notes.get(chunk.note_id)
+        if note is None:
+            return []
+        return list(note.aliases or [])
+
+    def _title_bonus(self, query: str, chunk: Chunk) -> float:
+        return title_match_score(query, chunk.note_title, self._aliases_for_chunk(chunk))
 
     def _best_chunk_for_note(self, note_id: str, query: str) -> Chunk | None:
         chunks = self.chunks_by_note.get(note_id)
@@ -308,6 +364,17 @@ class Retriever:
         lexical_norm = _minmax(lexical_raw)
 
         candidate_ids = set(semantic_raw) | set(lexical_raw)
+        # Inject strong title/alias matches so named notes can enter the pool
+        # even when semantic/BM25 under-rank them (e.g. org/branch questions).
+        for note in self.corpus.knowledge_notes.values():
+            tscore = title_match_score(query, note.title, note.aliases)
+            # High bar for cold injection to avoid crowding top-10 with weak title hits.
+            if tscore < 0.55:
+                continue
+            chunk = self._best_chunk_for_note(note.note_id, query)
+            if chunk is not None:
+                candidate_ids.add(chunk.chunk_id)
+
         if domain:
             candidate_ids = {
                 cid
@@ -322,11 +389,13 @@ class Retriever:
             l = lexical_norm.get(chunk_id, 0.0)
             d = self._domain_bonus(chunk, domain)
             a = self._authoritative_bonus(chunk)
+            t = self._title_bonus(query, chunk)
             base = (
                 weights.semantic * s
                 + weights.lexical * l
                 + weights.domain * d
                 + weights.authoritative * a
+                + weights.title_match * t
             )
             why = []
             if chunk_id in semantic_raw:
@@ -337,6 +406,8 @@ class Retriever:
                 why.append(f"domain match ({chunk.primary_domain})")
             if a > 0:
                 why.append("authoritative/source metadata bonus")
+            if t > 0:
+                why.append(f"title/alias match ({t:.2f})")
             scored[chunk_id] = {
                 "chunk": chunk,
                 "semantic": s,
@@ -345,6 +416,7 @@ class Retriever:
                 "lexical_raw": lexical_raw.get(chunk_id, 0.0),
                 "domain": d,
                 "authoritative": a,
+                "title": t,
                 "graph": 0.0,
                 "graph_path": None,
                 "base": base,
@@ -432,12 +504,20 @@ class Retriever:
                 l = lexical_norm.get(chunk.chunk_id, 0.0)
                 d = self._domain_bonus(chunk, domain)
                 a = self._authoritative_bonus(chunk)
+                t = self._title_bonus(query, chunk)
                 base = (
                     weights.semantic * s
                     + weights.lexical * l
                     + weights.domain * d
                     + weights.authoritative * a
+                    + weights.title_match * t
                 )
+                why = [
+                    f"graph expansion from seed (distance={distance})",
+                    f"path: {' -> '.join(meta['path'])}",
+                ]
+                if t > 0:
+                    why.append(f"title/alias match ({t:.2f})")
                 scored[chunk.chunk_id] = {
                     "chunk": chunk,
                     "semantic": s,
@@ -446,13 +526,11 @@ class Retriever:
                     "lexical_raw": lexical_raw.get(chunk.chunk_id, 0.0),
                     "domain": d,
                     "authoritative": a,
+                    "title": t,
                     "graph": graph_score,
                     "graph_path": meta["path"],
                     "base": base,
-                    "why": [
-                        f"graph expansion from seed (distance={distance})",
-                        f"path: {' -> '.join(meta['path'])}",
-                    ],
+                    "why": why,
                     "origin": "graph_expansion",
                 }
 

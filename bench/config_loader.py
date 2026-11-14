@@ -24,6 +24,7 @@ class BenchConfig:
     optional: bool = False
     env_key: str | None = None
     query_prompt_name: str | None = None
+    query_prefix: str | None = None
     mode: str = "hybrid_graph"
     top_k: int = 10
     rerank_pool: int = 30
@@ -72,6 +73,7 @@ def load_configs(
             optional=bool(item.get("optional", False)),
             env_key=item.get("env_key"),
             query_prompt_name=item.get("query_prompt_name"),
+            query_prefix=item.get("query_prefix"),
             mode=str(item.get("mode") or defaults.get("mode") or "hybrid_graph"),
             top_k=int(item.get("top_k") or defaults.get("top_k") or 10),
             rerank_pool=int(item.get("rerank_pool") or defaults.get("rerank_pool") or 30),

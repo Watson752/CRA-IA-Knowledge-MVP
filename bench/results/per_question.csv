@@ -5,57 +5,57 @@ baseline,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automate
 baseline,original,q04_privileged_access,1,1,,Privileged Access
 baseline,original,q05_population_completeness_sampling,1,1,,Audit Population
 baseline,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-baseline,original,q07_tech_ia_branches,10,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
+baseline,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
 baseline,original,q08_pipeline_management_reporting,1,1,,How Data Pipelines Affect Evidence Reliability
 baseline,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 baseline,original,q10_bi_data_governance_cases,1,1,,Business Intelligence Governance
-minilm_rr,original,q01_missing_data_audit_conclusion,1,1,,Population Completeness
+minilm_rr,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 minilm_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
 minilm_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
-minilm_rr,original,q04_privileged_access,2,0,Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges,Identity and Access Management
-minilm_rr,original,q05_population_completeness_sampling,3,0,Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection,Substantive Testing
+minilm_rr,original,q04_privileged_access,1,1,,Privileged Access
+minilm_rr,original,q05_population_completeness_sampling,1,1,,Population Completeness
 minilm_rr,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-minilm_rr,original,q07_tech_ia_branches,9,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Corporate Branches
+minilm_rr,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
 minilm_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
-minilm_rr,original,q09_selection_bias,1,1,,Sampling Risk
-minilm_rr,original,q10_bi_data_governance_cases,4,0,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept,Data Owner
+minilm_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
+minilm_rr,original,q10_bi_data_governance_cases,1,1,,Business Intelligence Governance
 bge_m3,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 bge_m3,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
 bge_m3,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
-bge_m3,original,q04_privileged_access,1,1,,Privileged Access Monitoring
-bge_m3,original,q05_population_completeness_sampling,2,0,Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection,Substantive Testing
+bge_m3,original,q04_privileged_access,1,1,,Privileged Access
+bge_m3,original,q05_population_completeness_sampling,1,1,,Population Completeness
 bge_m3,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-bge_m3,original,q07_tech_ia_branches,7,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
-bge_m3,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
+bge_m3,original,q07_tech_ia_branches,5,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
+bge_m3,original,q08_pipeline_management_reporting,1,1,,How Data Pipelines Affect Evidence Reliability
 bge_m3,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
-bge_m3,original,q10_bi_data_governance_cases,2,0,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept,"Service, Innovation, and Integration Branch"
+bge_m3,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
 bge_m3_rr,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 bge_m3_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
 bge_m3_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
-bge_m3_rr,original,q04_privileged_access,2,0,Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges,Identity and Access Management
+bge_m3_rr,original,q04_privileged_access,1,1,,Privileged Access
 bge_m3_rr,original,q05_population_completeness_sampling,1,1,,Population Completeness
 bge_m3_rr,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-bge_m3_rr,original,q07_tech_ia_branches,1,1,,Information Technology Branch
+bge_m3_rr,original,q07_tech_ia_branches,2,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
 bge_m3_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
-bge_m3_rr,original,q09_selection_bias,1,1,,Sampling Risk
-bge_m3_rr,original,q10_bi_data_governance_cases,4,0,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept,Data Owner
+bge_m3_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
+bge_m3_rr,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
 qwen3,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 qwen3,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
 qwen3,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
 qwen3,original,q04_privileged_access,1,1,,Privileged Access
 qwen3,original,q05_population_completeness_sampling,1,1,,Population Completeness
 qwen3,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-qwen3,original,q07_tech_ia_branches,9,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
-qwen3,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
+qwen3,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
+qwen3,original,q08_pipeline_management_reporting,1,1,,Management Reporting
 qwen3,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 qwen3,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
-qwen3_rr,original,q01_missing_data_audit_conclusion,2,0,Missing Data; How Missing Data Limits Audit Assurance; Evidence Reliability; Audit Conclusion; Population Completeness,Non-Response or Unavailable Evidence
+qwen3_rr,original,q01_missing_data_audit_conclusion,1,1,,How Missing Data Limits Audit Assurance
 qwen3_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
-qwen3_rr,original,q03_manual_overrides,2,0,Manual Overrides; How Manual Overrides Weaken Automated Controls; Unmonitored Manual Overrides; Automated Business Rules; Manual Override Approval,Automated Control
-qwen3_rr,original,q04_privileged_access,2,0,Privileged Access; Privileged Access Monitoring; Periodic Access Review; Access Review Testing; Excessive Privileges,Identity and Access Management
-qwen3_rr,original,q05_population_completeness_sampling,4,0,Population Completeness; Audit Population; Sampling Frame; Sampling Risk; Sample Selection,Missing Data
+qwen3_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
+qwen3_rr,original,q04_privileged_access,1,1,,Privileged Access
+qwen3_rr,original,q05_population_completeness_sampling,1,1,,Population Completeness
 qwen3_rr,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-qwen3_rr,original,q07_tech_ia_branches,10,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Corporate Branches
+qwen3_rr,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
 qwen3_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
 qwen3_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
-qwen3_rr,original,q10_bi_data_governance_cases,3,0,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence; Business Intelligence; Business Intelligence Governance; Data Governance; How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept,"Service, Innovation, and Integration Branch"
+qwen3_rr,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
