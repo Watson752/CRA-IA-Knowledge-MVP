@@ -14,7 +14,7 @@ import numpy as np
 from rag.chunking import Chunk
 from rag.corpus import DEFAULT_RAG_DATA
 
-DEFAULT_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-Embedding-0.6B"
 
 
 def sanitize_model_id(model_name: str) -> str:
@@ -149,6 +149,9 @@ def get_embedding_provider(
     # Auto-apply BGE query prefix when not overridden.
     if query_prefix is None and "bge-m3" in model_name.casefold():
         query_prefix = BGE_QUERY_PREFIX
+    # Auto-apply Qwen3 dedicated query prompt when not overridden.
+    if query_prompt_name is None and "qwen3-embedding" in model_name.casefold():
+        query_prompt_name = "query"
     kwargs = dict(
         model_name=model_name,
         query_prompt_name=query_prompt_name,

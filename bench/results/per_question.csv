@@ -3,12 +3,136 @@ baseline,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 baseline,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
 baseline,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
 baseline,original,q04_privileged_access,1,1,,Privileged Access
-baseline,original,q05_population_completeness_sampling,1,1,,Audit Population
+baseline,original,q05_population_completeness_sampling,1,1,,Population Completeness
 baseline,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
 baseline,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
-baseline,original,q08_pipeline_management_reporting,1,1,,How Data Pipelines Affect Evidence Reliability
+baseline,original,q08_pipeline_management_reporting,1,1,,Management Reporting
 baseline,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
-baseline,original,q10_bi_data_governance_cases,1,1,,Business Intelligence Governance
+baseline,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+baseline,original,q11_evidence_hierarchy,1,1,,Evidence
+baseline,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+baseline,original,q13_inquiry_alone,1,1,,Inquiry
+baseline,original,q14_itgc_automated_reliance,1,1,,IT Controls
+baseline,original,q15_recommendation_map,1,1,,Recommendation
+baseline,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+baseline,original,q17_logging_evidence,1,1,,Application Logging
+baseline,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+baseline,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+baseline,original,q20_periodic_access_review,1,1,,Privileged Access
+baseline,original,q21_dormant_accounts,1,1,,Dormant Accounts
+baseline,original,q22_service_accounts,1,1,,Service Accounts
+baseline,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+baseline,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+baseline,original,q25_change_approval,1,1,,Change Approval
+baseline,original,q26_exception_report_review,1,1,,Exception Report Review
+baseline,original,q27_false_positives_negatives,1,1,,False Negatives
+baseline,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+baseline,original,q29_data_lineage,1,1,,Data Lineage
+baseline,original,q30_rejected_records,1,1,,Rejected Records
+baseline,original,q31_field_mapping,1,1,,Field Mapping
+baseline,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+baseline,original,q33_data_timeliness,2,0,Data Timeliness; Management Reporting; How Data Quality Affects Management Reporting,How Data Pipelines Affect Evidence Reliability
+baseline,original,q34_record_uniqueness,1,1,,Sampling Frame
+baseline,original,q35_intended_vs_retrieved,1,1,,Intended Population
+baseline,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+baseline,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+baseline,original,q38_stratified_sampling,1,1,,Stratified Sampling
+baseline,original,q39_survivorship_bias,1,1,,Survivorship Bias
+baseline,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+baseline,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+baseline,original,q42_missing_values_vs_records,1,1,,Missing Values
+baseline,original,q43_data_reconciliation,2,0,Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline,How Data Pipelines Affect Evidence Reliability
+baseline,original,q44_control_ownership,1,1,,Control Ownership
+baseline,original,q45_control_frequency,1,1,,Control Frequency
+baseline,original,q46_control_deficiency,1,1,,Control Deficiency
+baseline,original,q47_risk_assessment,1,1,,Risk Assessment
+baseline,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+baseline,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+baseline,original,q50_itb_role,1,1,,Information Technology Branch
+baseline,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+baseline,original,q52_security_branch,1,1,,Security Branch
+baseline,original,q53_regions_vs_hq,1,1,,CRA Program Branches
+baseline,original,q54_bi_governance,1,1,,Business Intelligence Governance
+baseline,original,q55_bi_case_themes,1,1,,How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept
+baseline,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+baseline,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+baseline,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+baseline,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+baseline,original,q60_system_generated_evidence,1,1,,System-Generated Evidence
+baseline,original,q61_reperformance,1,1,,Reperformance
+baseline,original,q62_materiality,1,1,,Materiality
+baseline,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+baseline,original,q64_multihop_override_to_control,1,1,,How Manual Overrides Weaken Automated Controls
+baseline,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+baseline,original,q66_multihop_access_sod,1,1,,Periodic Access Review
+baseline,original,q67_multihop_bias_sampling,1,1,,Selection Bias
+minilm,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
+minilm,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
+minilm,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
+minilm,original,q04_privileged_access,1,1,,Privileged Access
+minilm,original,q05_population_completeness_sampling,1,1,,Audit Population
+minilm,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
+minilm,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
+minilm,original,q08_pipeline_management_reporting,1,1,,How Data Pipelines Affect Evidence Reliability
+minilm,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
+minilm,original,q10_bi_data_governance_cases,1,1,,Business Intelligence Governance
+minilm,original,q11_evidence_hierarchy,1,1,,Evidence Hierarchy
+minilm,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+minilm,original,q13_inquiry_alone,1,1,,Inquiry
+minilm,original,q14_itgc_automated_reliance,1,1,,IT Controls
+minilm,original,q15_recommendation_map,1,1,,Management Action Plan
+minilm,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+minilm,original,q17_logging_evidence,1,1,,Application Logging
+minilm,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+minilm,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+minilm,original,q20_periodic_access_review,1,1,,Privileged Access
+minilm,original,q21_dormant_accounts,1,1,,Dormant Accounts
+minilm,original,q22_service_accounts,1,1,,Service Accounts
+minilm,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+minilm,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+minilm,original,q25_change_approval,1,1,,Change Approval
+minilm,original,q26_exception_report_review,1,1,,Exception Report Review
+minilm,original,q27_false_positives_negatives,1,1,,False Negatives
+minilm,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+minilm,original,q29_data_lineage,1,1,,Data Lineage
+minilm,original,q30_rejected_records,1,1,,Population Completeness
+minilm,original,q31_field_mapping,1,1,,Field Mapping
+minilm,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+minilm,original,q33_data_timeliness,2,0,Data Timeliness; Management Reporting; How Data Quality Affects Management Reporting,How Data Pipelines Affect Evidence Reliability
+minilm,original,q34_record_uniqueness,1,1,,Record Uniqueness
+minilm,original,q35_intended_vs_retrieved,1,1,,Intended Population
+minilm,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+minilm,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+minilm,original,q38_stratified_sampling,1,1,,Stratified Sampling
+minilm,original,q39_survivorship_bias,1,1,,Survivorship Bias
+minilm,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+minilm,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+minilm,original,q42_missing_values_vs_records,1,1,,Missing Values
+minilm,original,q43_data_reconciliation,1,1,,Data Reconciliation
+minilm,original,q44_control_ownership,1,1,,Control Ownership
+minilm,original,q45_control_frequency,1,1,,Control Frequency
+minilm,original,q46_control_deficiency,1,1,,Control Deficiency
+minilm,original,q47_risk_assessment,1,1,,Risk Assessment
+minilm,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+minilm,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+minilm,original,q50_itb_role,1,1,,Information Technology Branch
+minilm,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+minilm,original,q52_security_branch,2,0,Security Branch; Internal Audit - Specific Cyber Security Controls; Security Controls,Cybersecurity
+minilm,original,q53_regions_vs_hq,1,1,,CRA Program Branches
+minilm,original,q54_bi_governance,3,0,Business Intelligence Governance; Business Intelligence; Data Governance,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+minilm,original,q55_bi_case_themes,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+minilm,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+minilm,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+minilm,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+minilm,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+minilm,original,q60_system_generated_evidence,2,0,System-Generated Evidence; IT Controls; Evidence Reliability; Automated Control,Evidence
+minilm,original,q61_reperformance,1,1,,Reperformance
+minilm,original,q62_materiality,1,1,,Materiality
+minilm,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+minilm,original,q64_multihop_override_to_control,1,1,,Automated Control
+minilm,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+minilm,original,q66_multihop_access_sod,1,1,,Periodic Access Review
+minilm,original,q67_multihop_bias_sampling,1,1,,Selection Bias
 minilm_rr,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 minilm_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
 minilm_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
@@ -19,6 +143,63 @@ minilm_rr,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch;
 minilm_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
 minilm_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 minilm_rr,original,q10_bi_data_governance_cases,1,1,,Business Intelligence Governance
+minilm_rr,original,q11_evidence_hierarchy,1,1,,Evidence Hierarchy
+minilm_rr,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+minilm_rr,original,q13_inquiry_alone,1,1,,Inquiry
+minilm_rr,original,q14_itgc_automated_reliance,1,1,,IT Controls
+minilm_rr,original,q15_recommendation_map,1,1,,Management Action Plan
+minilm_rr,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+minilm_rr,original,q17_logging_evidence,1,1,,How Logging Supports Audit Evidence
+minilm_rr,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+minilm_rr,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+minilm_rr,original,q20_periodic_access_review,1,1,,Periodic Access Review
+minilm_rr,original,q21_dormant_accounts,1,1,,Dormant Accounts
+minilm_rr,original,q22_service_accounts,1,1,,Service Accounts
+minilm_rr,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+minilm_rr,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+minilm_rr,original,q25_change_approval,1,1,,Change Approval
+minilm_rr,original,q26_exception_report_review,1,1,,Exception Report Review
+minilm_rr,original,q27_false_positives_negatives,1,1,,False Negatives
+minilm_rr,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+minilm_rr,original,q29_data_lineage,1,1,,Data Lineage
+minilm_rr,original,q30_rejected_records,2,0,Rejected Records; Data Pipeline; Population Completeness; Missing Records,Data Transformation
+minilm_rr,original,q31_field_mapping,1,1,,Field Mapping
+minilm_rr,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+minilm_rr,original,q33_data_timeliness,1,1,,How Data Quality Affects Management Reporting
+minilm_rr,original,q34_record_uniqueness,1,1,,Record Uniqueness
+minilm_rr,original,q35_intended_vs_retrieved,1,1,,Retrieved Population
+minilm_rr,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+minilm_rr,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+minilm_rr,original,q38_stratified_sampling,1,1,,Stratified Sampling
+minilm_rr,original,q39_survivorship_bias,1,1,,Survivorship Bias
+minilm_rr,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+minilm_rr,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+minilm_rr,original,q42_missing_values_vs_records,1,1,,Missing Values
+minilm_rr,original,q43_data_reconciliation,2,0,Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline,How Data Pipelines Affect Evidence Reliability
+minilm_rr,original,q44_control_ownership,1,1,,Control Ownership
+minilm_rr,original,q45_control_frequency,1,1,,Control Frequency
+minilm_rr,original,q46_control_deficiency,1,1,,Control Deficiency
+minilm_rr,original,q47_risk_assessment,1,1,,Risk Assessment
+minilm_rr,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+minilm_rr,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+minilm_rr,original,q50_itb_role,1,1,,Information Technology Branch
+minilm_rr,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+minilm_rr,original,q52_security_branch,1,1,,Security Branch
+minilm_rr,original,q53_regions_vs_hq,1,1,,CRA Regions
+minilm_rr,original,q54_bi_governance,2,0,Business Intelligence Governance; Business Intelligence; Data Governance,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+minilm_rr,original,q55_bi_case_themes,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+minilm_rr,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+minilm_rr,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+minilm_rr,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+minilm_rr,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+minilm_rr,original,q60_system_generated_evidence,1,1,,System-Generated Evidence
+minilm_rr,original,q61_reperformance,1,1,,Reperformance
+minilm_rr,original,q62_materiality,1,1,,Materiality
+minilm_rr,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+minilm_rr,original,q64_multihop_override_to_control,1,1,,How Manual Overrides Weaken Automated Controls
+minilm_rr,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+minilm_rr,original,q66_multihop_access_sod,2,0,Privileged Access; How Access Control Relates to Segregation of Duties; Periodic Access Review; Access Review Testing,Inadequate Segregation of Duties
+minilm_rr,original,q67_multihop_bias_sampling,2,0,Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit,Sensitivity Analysis
 bge_m3,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 bge_m3,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
 bge_m3,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
@@ -29,6 +210,63 @@ bge_m3,original,q07_tech_ia_branches,5,0,"Audit, Evaluation, and Risk Branch; In
 bge_m3,original,q08_pipeline_management_reporting,1,1,,How Data Pipelines Affect Evidence Reliability
 bge_m3,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 bge_m3,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3,original,q11_evidence_hierarchy,1,1,,Evidence Hierarchy
+bge_m3,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+bge_m3,original,q13_inquiry_alone,1,1,,Inquiry
+bge_m3,original,q14_itgc_automated_reliance,1,1,,IT Controls
+bge_m3,original,q15_recommendation_map,1,1,,Recommendation
+bge_m3,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+bge_m3,original,q17_logging_evidence,1,1,,Application Logging
+bge_m3,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+bge_m3,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+bge_m3,original,q20_periodic_access_review,1,1,,Periodic Access Review
+bge_m3,original,q21_dormant_accounts,1,1,,Dormant Accounts
+bge_m3,original,q22_service_accounts,1,1,,Service Accounts
+bge_m3,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+bge_m3,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+bge_m3,original,q25_change_approval,1,1,,Change Approval
+bge_m3,original,q26_exception_report_review,1,1,,Manual Override Approval
+bge_m3,original,q27_false_positives_negatives,1,1,,False Positives
+bge_m3,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+bge_m3,original,q29_data_lineage,1,1,,Data Lineage
+bge_m3,original,q30_rejected_records,1,1,,Rejected Records
+bge_m3,original,q31_field_mapping,1,1,,Field Mapping
+bge_m3,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+bge_m3,original,q33_data_timeliness,1,1,,Data Timeliness
+bge_m3,original,q34_record_uniqueness,1,1,,Record Uniqueness
+bge_m3,original,q35_intended_vs_retrieved,1,1,,Retrieved Population
+bge_m3,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+bge_m3,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+bge_m3,original,q38_stratified_sampling,1,1,,Stratified Sampling
+bge_m3,original,q39_survivorship_bias,1,1,,Survivorship Bias
+bge_m3,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+bge_m3,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+bge_m3,original,q42_missing_values_vs_records,1,1,,Missing Values
+bge_m3,original,q43_data_reconciliation,1,1,,Data Reconciliation
+bge_m3,original,q44_control_ownership,1,1,,Control Ownership
+bge_m3,original,q45_control_frequency,1,1,,Control Frequency
+bge_m3,original,q46_control_deficiency,1,1,,Control Deficiency
+bge_m3,original,q47_risk_assessment,1,1,,Risk Assessment
+bge_m3,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+bge_m3,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+bge_m3,original,q50_itb_role,1,1,,Information Technology Branch
+bge_m3,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+bge_m3,original,q52_security_branch,1,1,,Security Branch
+bge_m3,original,q53_regions_vs_hq,1,1,,CRA Regions
+bge_m3,original,q54_bi_governance,3,0,Business Intelligence Governance; Business Intelligence; Data Governance,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3,original,q55_bi_case_themes,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+bge_m3,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+bge_m3,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+bge_m3,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+bge_m3,original,q60_system_generated_evidence,1,1,,System-Generated Evidence
+bge_m3,original,q61_reperformance,1,1,,Reperformance
+bge_m3,original,q62_materiality,1,1,,Materiality
+bge_m3,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+bge_m3,original,q64_multihop_override_to_control,1,1,,How Manual Overrides Weaken Automated Controls
+bge_m3,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+bge_m3,original,q66_multihop_access_sod,1,1,,Periodic Access Review
+bge_m3,original,q67_multihop_bias_sampling,1,1,,Selection Bias
 bge_m3_rr,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
 bge_m3_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
 bge_m3_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
@@ -39,16 +277,63 @@ bge_m3_rr,original,q07_tech_ia_branches,2,0,"Audit, Evaluation, and Risk Branch;
 bge_m3_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
 bge_m3_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 bge_m3_rr,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
-qwen3,original,q01_missing_data_audit_conclusion,1,1,,Missing Data
-qwen3,original,q02_control_design_vs_oe,1,1,,Design Effectiveness
-qwen3,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
-qwen3,original,q04_privileged_access,1,1,,Privileged Access
-qwen3,original,q05_population_completeness_sampling,1,1,,Population Completeness
-qwen3,original,q06_program_vs_corporate_branches,1,1,,CRA Program Branches
-qwen3,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",CRA Headquarters Branches
-qwen3,original,q08_pipeline_management_reporting,1,1,,Management Reporting
-qwen3,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
-qwen3,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3_rr,original,q11_evidence_hierarchy,1,1,,Evidence Hierarchy
+bge_m3_rr,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+bge_m3_rr,original,q13_inquiry_alone,1,1,,Inquiry
+bge_m3_rr,original,q14_itgc_automated_reliance,1,1,,IT Controls
+bge_m3_rr,original,q15_recommendation_map,1,1,,Recommendation
+bge_m3_rr,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+bge_m3_rr,original,q17_logging_evidence,1,1,,How Logging Supports Audit Evidence
+bge_m3_rr,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+bge_m3_rr,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+bge_m3_rr,original,q20_periodic_access_review,1,1,,Periodic Access Review
+bge_m3_rr,original,q21_dormant_accounts,1,1,,Dormant Accounts
+bge_m3_rr,original,q22_service_accounts,1,1,,Service Accounts
+bge_m3_rr,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+bge_m3_rr,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+bge_m3_rr,original,q25_change_approval,1,1,,Change Approval
+bge_m3_rr,original,q26_exception_report_review,1,1,,Manual Override Approval
+bge_m3_rr,original,q27_false_positives_negatives,2,0,False Positives; False Negatives; Automated Business Rules; Override Population Analytics,How Automated Controls Are Audited
+bge_m3_rr,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+bge_m3_rr,original,q29_data_lineage,1,1,,Data Lineage
+bge_m3_rr,original,q30_rejected_records,1,1,,Rejected Records
+bge_m3_rr,original,q31_field_mapping,1,1,,Field Mapping
+bge_m3_rr,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+bge_m3_rr,original,q33_data_timeliness,1,1,,How Data Quality Affects Management Reporting
+bge_m3_rr,original,q34_record_uniqueness,1,1,,Record Uniqueness
+bge_m3_rr,original,q35_intended_vs_retrieved,1,1,,Retrieved Population
+bge_m3_rr,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+bge_m3_rr,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+bge_m3_rr,original,q38_stratified_sampling,1,1,,Stratified Sampling
+bge_m3_rr,original,q39_survivorship_bias,1,1,,Survivorship Bias
+bge_m3_rr,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+bge_m3_rr,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+bge_m3_rr,original,q42_missing_values_vs_records,1,1,,Missing Values
+bge_m3_rr,original,q43_data_reconciliation,1,1,,Data Reconciliation
+bge_m3_rr,original,q44_control_ownership,1,1,,Control Ownership
+bge_m3_rr,original,q45_control_frequency,1,1,,Control Frequency
+bge_m3_rr,original,q46_control_deficiency,1,1,,Control Deficiency
+bge_m3_rr,original,q47_risk_assessment,1,1,,Risk Assessment
+bge_m3_rr,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+bge_m3_rr,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+bge_m3_rr,original,q50_itb_role,1,1,,Information Technology Branch
+bge_m3_rr,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+bge_m3_rr,original,q52_security_branch,1,1,,Security Branch
+bge_m3_rr,original,q53_regions_vs_hq,1,1,,CRA Regions
+bge_m3_rr,original,q54_bi_governance,3,0,Business Intelligence Governance; Business Intelligence; Data Governance,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3_rr,original,q55_bi_case_themes,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+bge_m3_rr,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+bge_m3_rr,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+bge_m3_rr,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+bge_m3_rr,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+bge_m3_rr,original,q60_system_generated_evidence,1,1,,System-Generated Evidence
+bge_m3_rr,original,q61_reperformance,1,1,,Reperformance
+bge_m3_rr,original,q62_materiality,1,1,,Materiality
+bge_m3_rr,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+bge_m3_rr,original,q64_multihop_override_to_control,1,1,,How Manual Overrides Weaken Automated Controls
+bge_m3_rr,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+bge_m3_rr,original,q66_multihop_access_sod,1,1,,How Access Control Relates to Segregation of Duties
+bge_m3_rr,original,q67_multihop_bias_sampling,2,0,Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit,Sensitivity Analysis
 qwen3_rr,original,q01_missing_data_audit_conclusion,1,1,,How Missing Data Limits Audit Assurance
 qwen3_rr,original,q02_control_design_vs_oe,2,0,Design Effectiveness; Operating Effectiveness; Control; Control Testing,Control Implementation
 qwen3_rr,original,q03_manual_overrides,1,1,,How Manual Overrides Weaken Automated Controls
@@ -59,3 +344,60 @@ qwen3_rr,original,q07_tech_ia_branches,6,0,"Audit, Evaluation, and Risk Branch; 
 qwen3_rr,original,q08_pipeline_management_reporting,1,1,,How Data Quality Affects Management Reporting
 qwen3_rr,original,q09_selection_bias,1,1,,How Statistical Bias Can Mislead an Audit
 qwen3_rr,original,q10_bi_data_governance_cases,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+qwen3_rr,original,q11_evidence_hierarchy,1,1,,Evidence Hierarchy
+qwen3_rr,original,q12_walkthrough_vs_oe,1,1,,Walkthrough
+qwen3_rr,original,q13_inquiry_alone,1,1,,Inquiry
+qwen3_rr,original,q14_itgc_automated_reliance,1,1,,IT Controls
+qwen3_rr,original,q15_recommendation_map,1,1,,Recommendation
+qwen3_rr,original,q16_historical_precedent,1,1,,How Historical Findings Should Be Used as Precedent
+qwen3_rr,original,q17_logging_evidence,1,1,,How Logging Supports Audit Evidence
+qwen3_rr,original,q18_incomplete_logging,1,1,,Incomplete Audit Logging
+qwen3_rr,original,q19_sod_access,1,1,,How Access Control Relates to Segregation of Duties
+qwen3_rr,original,q20_periodic_access_review,1,1,,Periodic Access Review
+qwen3_rr,original,q21_dormant_accounts,1,1,,Dormant Accounts
+qwen3_rr,original,q22_service_accounts,1,1,,Service Accounts
+qwen3_rr,original,q23_excessive_vs_unauthorized,1,1,,Excessive Privileges
+qwen3_rr,original,q24_change_management,1,1,,How Software Changes Create Compliance Risk
+qwen3_rr,original,q25_change_approval,1,1,,Change Approval
+qwen3_rr,original,q26_exception_report_review,1,1,,Exception Report Review
+qwen3_rr,original,q27_false_positives_negatives,1,1,,False Negatives
+qwen3_rr,original,q28_automated_controls_audit,1,1,,How Automated Controls Are Audited
+qwen3_rr,original,q29_data_lineage,1,1,,Data Lineage
+qwen3_rr,original,q30_rejected_records,1,1,,Rejected Records
+qwen3_rr,original,q31_field_mapping,1,1,,Field Mapping
+qwen3_rr,original,q32_cut_off,2,0,Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data,Assessment Cut-Off Date — Audit Application
+qwen3_rr,original,q33_data_timeliness,1,1,,How Data Quality Affects Management Reporting
+qwen3_rr,original,q34_record_uniqueness,1,1,,Record Uniqueness
+qwen3_rr,original,q35_intended_vs_retrieved,1,1,,Retrieved Population
+qwen3_rr,original,q36_full_population_analysis,1,1,,Full-Population Analysis
+qwen3_rr,original,q37_random_vs_judgmental,1,1,,Statistical Extrapolation
+qwen3_rr,original,q38_stratified_sampling,1,1,,Stratified Sampling
+qwen3_rr,original,q39_survivorship_bias,1,1,,Survivorship Bias
+qwen3_rr,original,q40_systematic_exclusion,1,1,,Systematic Exclusion
+qwen3_rr,original,q41_sensitivity_analysis,1,1,,Sensitivity Analysis
+qwen3_rr,original,q42_missing_values_vs_records,1,1,,Missing Values
+qwen3_rr,original,q43_data_reconciliation,2,0,Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline,How Data Pipelines Affect Evidence Reliability
+qwen3_rr,original,q44_control_ownership,1,1,,Control Ownership
+qwen3_rr,original,q45_control_frequency,1,1,,Control Frequency
+qwen3_rr,original,q46_control_deficiency,1,1,,Control Deficiency
+qwen3_rr,original,q47_risk_assessment,1,1,,Risk Assessment
+qwen3_rr,original,q48_eligibility_decision_risks,1,1,,Eligibility Decision Risks
+qwen3_rr,original,q49_aerb_role,1,1,,"Audit, Evaluation, and Risk Branch"
+qwen3_rr,original,q50_itb_role,1,1,,Information Technology Branch
+qwen3_rr,original,q51_siib_role,1,1,,"Service, Innovation, and Integration Branch"
+qwen3_rr,original,q52_security_branch,1,1,,Security Branch
+qwen3_rr,original,q53_regions_vs_hq,1,1,,CRA Program Branches
+qwen3_rr,original,q54_bi_governance,1,1,,Business Intelligence Governance
+qwen3_rr,original,q55_bi_case_themes,1,1,,Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence
+qwen3_rr,original,q56_efms_case,1,1,,Internal Audit – Enterprise Fraud Management System
+qwen3_rr,original,q57_cyber_case,1,1,,Internal Audit – Specific Cyber Security Controls
+qwen3_rr,original,q58_charities_case,1,1,,Internal Audit – Charities Audit Process
+qwen3_rr,original,q59_ar_inventory_case,1,1,,Internal Audit – Accounts Receivable National Inventory
+qwen3_rr,original,q60_system_generated_evidence,1,1,,System-Generated Evidence
+qwen3_rr,original,q61_reperformance,1,1,,Reperformance
+qwen3_rr,original,q62_materiality,1,1,,Materiality
+qwen3_rr,original,q63_multihop_missing_to_conclusion,1,1,,Missing Data
+qwen3_rr,original,q64_multihop_override_to_control,1,1,,How Manual Overrides Weaken Automated Controls
+qwen3_rr,original,q65_multihop_pipeline_reporting,2,0,Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation,How Data Quality Affects Management Reporting
+qwen3_rr,original,q66_multihop_access_sod,1,1,,How Access Control Relates to Segregation of Duties
+qwen3_rr,original,q67_multihop_bias_sampling,2,0,Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit,Sensitivity Analysis

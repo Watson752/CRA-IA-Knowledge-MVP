@@ -145,6 +145,7 @@ class NoteRecord:
     classification: str | None = None
     content_origin: str | None = None
     authoritative: bool | None = None
+    approved_for_ai_retrieval: bool | None = None
     review_status: str | None = None
     official_source: Any = None
     official_government_source: Any = None
@@ -212,6 +213,11 @@ def note_from_path(path: Path, root: Path) -> NoteRecord:
             str(meta.get("content_origin")) if meta.get("content_origin") is not None else None
         ),
         authoritative=meta.get("authoritative") if isinstance(meta.get("authoritative"), bool) else None,
+        approved_for_ai_retrieval=(
+            meta.get("approved_for_ai_retrieval")
+            if isinstance(meta.get("approved_for_ai_retrieval"), bool)
+            else None
+        ),
         review_status=(
             str(meta.get("review_status")) if meta.get("review_status") is not None else None
         ),
