@@ -67,5 +67,9 @@ def test_repo_configs_yaml_parses():
     cfgs = load_configs(include_unavailable=True)
     ids = [c.id for c in cfgs]
     assert "baseline" in ids
-    assert "qwen3" in ids
+    assert "minilm" in ids
+    assert "qwen3_rr" in ids
     assert "hosted_ref" in ids
+    baseline = next(c for c in cfgs if c.id == "baseline")
+    assert baseline.embedding_model == "Qwen/Qwen3-Embedding-0.6B"
+    assert baseline.query_prompt_name == "query"

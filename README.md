@@ -95,6 +95,35 @@ primary_domain:template
 
 Recommended graph filter: exclude `path:"16-Testing"` when exploring knowledge content, then include it only when reviewing diagnostics and validation history.
 
+## Retrieval and grounded answers (Phase 1–2)
+
+Local hybrid retrieval (semantic + BM25 + wikilink graph) uses the locked embedding model
+`Qwen/Qwen3-Embedding-0.6B`. Phase 2 grounded answers call OpenAI Chat Completions over
+retrieved evidence and require `OPENAI_API_KEY`.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Build indexes (once, or after corpus changes)
+python -m rag.cli index
+
+# Phase 1 — retrieval only
+python -m rag.cli search "How does missing data weaken an audit conclusion?"
+
+# Phase 2 — grounded answer (needs OPENAI_API_KEY)
+export OPENAI_API_KEY=...
+python -m rag.cli ask "Users may have excessive privileges. What should auditors examine?"
+
+# Optional structural answer eval (writes rag_data/runtime-results/answer_eval.json)
+python -m eval.answer_eval
+```
+
+Override the chat model with `--chat-model` or `OPENAI_CHAT_MODEL` (default `gpt-4.1-mini`).
+Answers follow vault governance in `15-Governance/` (inquiry not findings; historical ≠ current;
+citations required). `search` remains retrieval-only.
+
 ## Validation and maintenance
 
 Run the local, network-free validator from the repository root:
@@ -113,22 +142,22 @@ It writes machine-readable and Markdown results under `16-Testing/Consistency/Re
 <!-- BENCH:START -->
 ### Retrieval embedding / reranker benchmark
 
-Honesty note: the official eval set has only 10 questions. A Hit@1 difference of 0.10 (one question) is not statistically meaningful. Treat these rankings as directional signals for this MVP corpus, not as production model-selection proof.
+Honesty note: the official eval set has 67 questions. Rankings are directional signals for this MVP corpus, not production model-selection proof. The baseline regression gate still uses the original Phase 1 ten questions.
 
 Source: [`bench/results/RESULTS.md`](bench/results/RESULTS.md).
 
 | config | embedding | reranker | status | Hit@1 | Hit@3 | Hit@5 | Recall@5 | Recall@10 | MRR | median_ms | index_s | hardware |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| bge_m3 | BAAI/bge-m3 | none | ok | 0.900 | 0.900 | 1.000 | 0.610 | 0.780 | 0.920 | 270.340 | 1.503 | cpu |
-| **baseline (baseline)** | sentence-transformers/all-MiniLM-L6-v2 | none | ok | 0.900 | 0.900 | 0.900 | 0.525 | 0.695 | 0.917 | 13.860 | 2.142 | cpu |
-| qwen3 | Qwen/Qwen3-Embedding-0.6B | none | ok | 0.900 | 0.900 | 0.900 | 0.570 | 0.800 | 0.917 | 132.170 | 0.528 | cpu |
-| bge_m3_rr | BAAI/bge-m3 | BAAI/bge-reranker-v2-m3 | ok | 0.800 | 1.000 | 1.000 | 0.610 | 0.760 | 0.900 | 12862.420 | 8.702 | cpu |
-| minilm_rr | sentence-transformers/all-MiniLM-L6-v2 | BAAI/bge-reranker-v2-m3 | ok | 0.800 | 0.900 | 0.900 | 0.550 | 0.700 | 0.867 | 8734.530 | 7.291 | cpu |
-| qwen3_rr | Qwen/Qwen3-Embedding-0.6B | BAAI/bge-reranker-v2-m3 | ok | 0.800 | 0.900 | 0.900 | 0.590 | 0.840 | 0.867 | 13388.000 | 7.663 | cpu |
+| bge_m3 | BAAI/bge-m3 | none | ok | 0.940 | 0.985 | 1.000 | 0.679 | 0.763 | 0.963 | 165.930 | 1.791 | cpu |
+| **baseline (baseline)** | Qwen/Qwen3-Embedding-0.6B | none | ok | 0.925 | 0.985 | 0.985 | 0.687 | 0.785 | 0.958 | 172.980 | 4.183 | cpu |
+| qwen3_rr | Qwen/Qwen3-Embedding-0.6B | BAAI/bge-reranker-v2-m3 | ok | 0.910 | 0.985 | 0.985 | 0.690 | 0.802 | 0.950 | 6021.960 | 3.958 | cpu |
+| bge_m3_rr | BAAI/bge-m3 | BAAI/bge-reranker-v2-m3 | ok | 0.895 | 1.000 | 1.000 | 0.677 | 0.764 | 0.945 | 5219.540 | 5.434 | cpu |
+| minilm | sentence-transformers/all-MiniLM-L6-v2 | none | ok | 0.895 | 0.985 | 0.985 | 0.667 | 0.775 | 0.940 | 14.800 | 11.205 | cpu |
+| minilm_rr | sentence-transformers/all-MiniLM-L6-v2 | BAAI/bge-reranker-v2-m3 | ok | 0.866 | 0.985 | 0.985 | 0.665 | 0.776 | 0.928 | 5168.590 | 4.943 | cpu |
 <!-- BENCH:END -->
 
 ## Current limitations and future direction
 
-The vault is MVP demonstration material only. It is not production ready and does not provide CRA approval or endorsement. Important limitations include incomplete public follow-up evidence, unavailable public internal procedures/configurations, a dated organization baseline for personnel information, and the absence of a formal retrieval runtime.
+The vault is MVP demonstration material only. It is not production ready and does not provide CRA approval or endorsement. Important limitations include incomplete public follow-up evidence, unavailable public internal procedures/configurations, a dated organization baseline for personnel information, and MVP-only answer guards (deterministic citation/policy checks, not production monitoring).
 
-A future RAG/GraphRAG implementation should use a curated, versioned corpus; source/citation metadata; public-only access controls; evaluation sets; grounding checks; and explicit down-ranking or exclusion of `16-Testing/**` from doctrine retrieval.
+Further RAG/GraphRAG hardening should deepen corpus curation and versioning, access controls, richer answer evaluation, red-team coverage, and human escalation. `16-Testing/**` remains excluded from doctrine retrieval.

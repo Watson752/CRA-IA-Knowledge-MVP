@@ -1,11 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T16:49:20.264198+00:00",
-    "git_sha": "75155bbe02a4b62a3d08b417017e9fe2e1214e98",
+    "generated_at": "2026-11-23T06:44:42.541491+00:00",
+    "git_sha": "0279fd86b8f0f10386e8ca4044cc8f2c01cc0fde",
     "hardware": "cpu",
     "configs": [
       {
         "id": "baseline",
+        "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+        "provider": "sentence_transformers",
+        "reranker": null,
+        "optional": false
+      },
+      {
+        "id": "minilm",
         "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
         "provider": "sentence_transformers",
         "reranker": null,
@@ -33,13 +40,6 @@
         "optional": false
       },
       {
-        "id": "qwen3",
-        "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
-        "provider": "sentence_transformers",
-        "reranker": null,
-        "optional": false
-      },
-      {
         "id": "qwen3_rr",
         "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
         "provider": "sentence_transformers",
@@ -53,21 +53,41 @@
       "config_id": "baseline",
       "question_set": "original",
       "status": "ok",
-      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
       "reranker": "",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.9,
-      "hit_at_3": 0.9,
-      "hit_at_5": 0.9,
-      "recall_at_5": 0.525,
-      "recall_at_10": 0.695,
-      "mrr": 0.9167,
-      "n_questions": 10,
-      "median_query_latency_ms": 13.86,
-      "index_build_seconds": 2.142,
+      "hit_at_1": 0.9254,
+      "hit_at_3": 0.9851,
+      "hit_at_5": 0.9851,
+      "recall_at_5": 0.6871,
+      "recall_at_10": 0.7848,
+      "mrr": 0.9577,
+      "n_questions": 67,
+      "median_query_latency_ms": 172.98,
+      "index_build_seconds": 4.183,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": true
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "status": "ok",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "reranker": "",
+      "provider": "sentence_transformers",
+      "hit_at_1": 0.8955,
+      "hit_at_3": 0.9851,
+      "hit_at_5": 0.9851,
+      "recall_at_5": 0.6667,
+      "recall_at_10": 0.7754,
+      "mrr": 0.9403,
+      "n_questions": 67,
+      "median_query_latency_ms": 14.8,
+      "index_build_seconds": 11.205,
+      "hardware": "cpu",
+      "error": "",
+      "baseline_marked": false
     },
     {
       "config_id": "minilm_rr",
@@ -76,15 +96,15 @@
       "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.8,
-      "hit_at_3": 0.9,
-      "hit_at_5": 0.9,
-      "recall_at_5": 0.55,
-      "recall_at_10": 0.7,
-      "mrr": 0.8667,
-      "n_questions": 10,
-      "median_query_latency_ms": 8734.53,
-      "index_build_seconds": 7.291,
+      "hit_at_1": 0.8657,
+      "hit_at_3": 0.9851,
+      "hit_at_5": 0.9851,
+      "recall_at_5": 0.6654,
+      "recall_at_10": 0.7761,
+      "mrr": 0.9279,
+      "n_questions": 67,
+      "median_query_latency_ms": 5168.59,
+      "index_build_seconds": 4.943,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -96,15 +116,15 @@
       "embedding_model": "BAAI/bge-m3",
       "reranker": "",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.9,
-      "hit_at_3": 0.9,
+      "hit_at_1": 0.9403,
+      "hit_at_3": 0.9851,
       "hit_at_5": 1.0,
-      "recall_at_5": 0.61,
-      "recall_at_10": 0.78,
-      "mrr": 0.92,
-      "n_questions": 10,
-      "median_query_latency_ms": 270.34,
-      "index_build_seconds": 1.503,
+      "recall_at_5": 0.6794,
+      "recall_at_10": 0.7632,
+      "mrr": 0.9632,
+      "n_questions": 67,
+      "median_query_latency_ms": 165.93,
+      "index_build_seconds": 1.791,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -116,35 +136,15 @@
       "embedding_model": "BAAI/bge-m3",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.8,
+      "hit_at_1": 0.8955,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
-      "recall_at_5": 0.61,
-      "recall_at_10": 0.76,
-      "mrr": 0.9,
-      "n_questions": 10,
-      "median_query_latency_ms": 12862.42,
-      "index_build_seconds": 8.702,
-      "hardware": "cpu",
-      "error": "",
-      "baseline_marked": false
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "status": "ok",
-      "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
-      "reranker": "",
-      "provider": "sentence_transformers",
-      "hit_at_1": 0.9,
-      "hit_at_3": 0.9,
-      "hit_at_5": 0.9,
-      "recall_at_5": 0.57,
-      "recall_at_10": 0.8,
-      "mrr": 0.9167,
-      "n_questions": 10,
-      "median_query_latency_ms": 132.17,
-      "index_build_seconds": 0.528,
+      "recall_at_5": 0.6769,
+      "recall_at_10": 0.7639,
+      "mrr": 0.9453,
+      "n_questions": 67,
+      "median_query_latency_ms": 5219.54,
+      "index_build_seconds": 5.434,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -156,15 +156,15 @@
       "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
       "reranker": "BAAI/bge-reranker-v2-m3",
       "provider": "sentence_transformers",
-      "hit_at_1": 0.8,
-      "hit_at_3": 0.9,
-      "hit_at_5": 0.9,
-      "recall_at_5": 0.59,
-      "recall_at_10": 0.84,
-      "mrr": 0.8667,
-      "n_questions": 10,
-      "median_query_latency_ms": 13388.0,
-      "index_build_seconds": 7.663,
+      "hit_at_1": 0.9104,
+      "hit_at_3": 0.9851,
+      "hit_at_5": 0.9851,
+      "recall_at_5": 0.69,
+      "recall_at_10": 0.802,
+      "mrr": 0.9502,
+      "n_questions": 67,
+      "median_query_latency_ms": 6021.96,
+      "index_build_seconds": 3.958,
       "hardware": "cpu",
       "error": "",
       "baseline_marked": false
@@ -214,7 +214,7 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Audit Population"
+      "top1_title": "Population Completeness"
     },
     {
       "config_id": "baseline",
@@ -241,7 +241,7 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+      "top1_title": "Management Reporting"
     },
     {
       "config_id": "baseline",
@@ -259,7 +259,1123 @@
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Recommendation"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Application Logging"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Exception Report Review"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "False Negatives"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Rejected Records"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Timeliness; Management Reporting; How Data Quality Affects Management Reporting",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sampling Frame"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Intended Population"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Security Branch"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
       "top1_title": "Business Intelligence Governance"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How the CRA Business Intelligence Audit Supports the Knowledge-Vault Concept"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "System-Generated Evidence"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q64_multihop_override_to_control",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q66_multihop_access_sod",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "baseline",
+      "question_set": "original",
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Selection Bias"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q01_missing_data_audit_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q02_control_design_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Design Effectiveness"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q03_manual_overrides",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q04_privileged_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q05_population_completeness_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit Population"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q06_program_vs_corporate_branches",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q07_tech_ia_branches",
+      "first_hit_rank": 6,
+      "hit_at_1": 0,
+      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
+      "top1_title": "CRA Headquarters Branches"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q08_pipeline_management_reporting",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q09_selection_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Statistical Bias Can Mislead an Audit"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q10_bi_data_governance_cases",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Business Intelligence Governance"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence Hierarchy"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Management Action Plan"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Application Logging"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Privileged Access"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Exception Report Review"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "False Negatives"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Population Completeness"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Timeliness; Management Reporting; How Data Quality Affects Management Reporting",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Record Uniqueness"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Intended Population"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Reconciliation"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Security Branch; Internal Audit - Specific Cyber Security Controls; Security Controls",
+      "top1_title": "Cybersecurity"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 3,
+      "hit_at_1": 0,
+      "missed_expected": "Business Intelligence Governance; Business Intelligence; Data Governance",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "System-Generated Evidence; IT Controls; Evidence Reliability; Automated Control",
+      "top1_title": "Evidence"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q64_multihop_override_to_control",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Automated Control"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q66_multihop_access_sod",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "minilm",
+      "question_set": "original",
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Selection Bias"
     },
     {
       "config_id": "minilm_rr",
@@ -350,6 +1466,519 @@
       "hit_at_1": 1,
       "missed_expected": "",
       "top1_title": "Business Intelligence Governance"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence Hierarchy"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Management Action Plan"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Logging Supports Audit Evidence"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Exception Report Review"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "False Negatives"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Rejected Records; Data Pipeline; Population Completeness; Missing Records",
+      "top1_title": "Data Transformation"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Record Uniqueness"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Retrieved Population"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Security Branch"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Regions"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Business Intelligence Governance; Business Intelligence; Data Governance",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "System-Generated Evidence"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q64_multihop_override_to_control",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q66_multihop_access_sod",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Privileged Access; How Access Control Relates to Segregation of Duties; Periodic Access Review; Access Review Testing",
+      "top1_title": "Inadequate Segregation of Duties"
+    },
+    {
+      "config_id": "minilm_rr",
+      "question_set": "original",
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit",
+      "top1_title": "Sensitivity Analysis"
     },
     {
       "config_id": "bge_m3",
@@ -442,6 +2071,519 @@
       "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     },
     {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence Hierarchy"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Recommendation"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Application Logging"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Manual Override Approval"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "False Positives"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Rejected Records"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Timeliness"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Record Uniqueness"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Retrieved Population"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Reconciliation"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Security Branch"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Regions"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 3,
+      "hit_at_1": 0,
+      "missed_expected": "Business Intelligence Governance; Business Intelligence; Data Governance",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "System-Generated Evidence"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q64_multihop_override_to_control",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q66_multihop_access_sod",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "bge_m3",
+      "question_set": "original",
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Selection Bias"
+    },
+    {
       "config_id": "bge_m3_rr",
       "question_set": "original",
       "question_id": "q01_missing_data_audit_conclusion",
@@ -532,94 +2674,517 @@
       "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
     },
     {
-      "config_id": "qwen3",
+      "config_id": "bge_m3_rr",
       "question_set": "original",
-      "question_id": "q01_missing_data_audit_conclusion",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence Hierarchy"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Recommendation"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Logging Supports Audit Evidence"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Manual Override Approval"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "False Positives; False Negatives; Automated Business Rules; Override Population Analytics",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Rejected Records"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Record Uniqueness"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Retrieved Population"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Reconciliation"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Security Branch"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Regions"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 3,
+      "hit_at_1": 0,
+      "missed_expected": "Business Intelligence Governance; Business Intelligence; Data Governance",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "System-Generated Evidence"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "bge_m3_rr",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
       "top1_title": "Missing Data"
     },
     {
-      "config_id": "qwen3",
+      "config_id": "bge_m3_rr",
       "question_set": "original",
-      "question_id": "q02_control_design_vs_oe",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "Design Effectiveness"
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "question_id": "q03_manual_overrides",
+      "question_id": "q64_multihop_override_to_control",
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
       "top1_title": "How Manual Overrides Weaken Automated Controls"
     },
     {
-      "config_id": "qwen3",
+      "config_id": "bge_m3_rr",
       "question_set": "original",
-      "question_id": "q04_privileged_access",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "Privileged Access"
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "question_id": "q05_population_completeness_sampling",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "Population Completeness"
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "question_id": "q06_program_vs_corporate_branches",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "CRA Program Branches"
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "question_id": "q07_tech_ia_branches",
-      "first_hit_rank": 6,
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
       "hit_at_1": 0,
-      "missed_expected": "Audit, Evaluation, and Risk Branch; Information Technology Branch; Service, Innovation, and Integration Branch; Digital Transformation Program Branch; Security Branch",
-      "top1_title": "CRA Headquarters Branches"
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
     },
     {
-      "config_id": "qwen3",
+      "config_id": "bge_m3_rr",
       "question_set": "original",
-      "question_id": "q08_pipeline_management_reporting",
+      "question_id": "q66_multihop_access_sod",
       "first_hit_rank": 1,
       "hit_at_1": 1,
       "missed_expected": "",
-      "top1_title": "Management Reporting"
+      "top1_title": "How Access Control Relates to Segregation of Duties"
     },
     {
-      "config_id": "qwen3",
+      "config_id": "bge_m3_rr",
       "question_set": "original",
-      "question_id": "q09_selection_bias",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "How Statistical Bias Can Mislead an Audit"
-    },
-    {
-      "config_id": "qwen3",
-      "question_set": "original",
-      "question_id": "q10_bi_data_governance_cases",
-      "first_hit_rank": 1,
-      "hit_at_1": 1,
-      "missed_expected": "",
-      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit",
+      "top1_title": "Sensitivity Analysis"
     },
     {
       "config_id": "qwen3_rr",
@@ -710,9 +3275,522 @@
       "hit_at_1": 1,
       "missed_expected": "",
       "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q11_evidence_hierarchy",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Evidence Hierarchy"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q12_walkthrough_vs_oe",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Walkthrough"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q13_inquiry_alone",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Inquiry"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q14_itgc_automated_reliance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "IT Controls"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q15_recommendation_map",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Recommendation"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q16_historical_precedent",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Historical Findings Should Be Used as Precedent"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q17_logging_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Logging Supports Audit Evidence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q18_incomplete_logging",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Incomplete Audit Logging"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q19_sod_access",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q20_periodic_access_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Periodic Access Review"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q21_dormant_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Dormant Accounts"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q22_service_accounts",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service Accounts"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q23_excessive_vs_unauthorized",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Excessive Privileges"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q24_change_management",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Software Changes Create Compliance Risk"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q25_change_approval",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Change Approval"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q26_exception_report_review",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Exception Report Review"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q27_false_positives_negatives",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "False Negatives"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q28_automated_controls_audit",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Automated Controls Are Audited"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q29_data_lineage",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Data Lineage"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q30_rejected_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Rejected Records"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q31_field_mapping",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Field Mapping"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q32_cut_off",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Assessment Cut-Off Date; Population Completeness; Audit Period; Missing Data",
+      "top1_title": "Assessment Cut-Off Date — Audit Application"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q33_data_timeliness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q34_record_uniqueness",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Record Uniqueness"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q35_intended_vs_retrieved",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Retrieved Population"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q36_full_population_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Full-Population Analysis"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q37_random_vs_judgmental",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Statistical Extrapolation"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q38_stratified_sampling",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Stratified Sampling"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q39_survivorship_bias",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Survivorship Bias"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q40_systematic_exclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Systematic Exclusion"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q41_sensitivity_analysis",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Sensitivity Analysis"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q42_missing_values_vs_records",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Values"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q43_data_reconciliation",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Reconciliation; Evidence Reliability; Population Completeness; Data Pipeline",
+      "top1_title": "How Data Pipelines Affect Evidence Reliability"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q44_control_ownership",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Ownership"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q45_control_frequency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Frequency"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q46_control_deficiency",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Control Deficiency"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q47_risk_assessment",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Risk Assessment"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q48_eligibility_decision_risks",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Eligibility Decision Risks"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q49_aerb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Audit, Evaluation, and Risk Branch"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q50_itb_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Information Technology Branch"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q51_siib_role",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Service, Innovation, and Integration Branch"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q52_security_branch",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Security Branch"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q53_regions_vs_hq",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "CRA Program Branches"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q54_bi_governance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Business Intelligence Governance"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q55_bi_case_themes",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit - Oversight Use and Continuous Improvement of Business Intelligence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q56_efms_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Enterprise Fraud Management System"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q57_cyber_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Specific Cyber Security Controls"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q58_charities_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Charities Audit Process"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q59_ar_inventory_case",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Internal Audit – Accounts Receivable National Inventory"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q60_system_generated_evidence",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "System-Generated Evidence"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q61_reperformance",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Reperformance"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q62_materiality",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Materiality"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q63_multihop_missing_to_conclusion",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "Missing Data"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q64_multihop_override_to_control",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Manual Overrides Weaken Automated Controls"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q65_multihop_pipeline_reporting",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Data Pipeline; Management Reporting; How Data Pipelines Affect Evidence Reliability; Data Reconciliation",
+      "top1_title": "How Data Quality Affects Management Reporting"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q66_multihop_access_sod",
+      "first_hit_rank": 1,
+      "hit_at_1": 1,
+      "missed_expected": "",
+      "top1_title": "How Access Control Relates to Segregation of Duties"
+    },
+    {
+      "config_id": "qwen3_rr",
+      "question_set": "original",
+      "question_id": "q67_multihop_bias_sampling",
+      "first_hit_rank": 2,
+      "hit_at_1": 0,
+      "missed_expected": "Selection Bias; Population Completeness; Sampling Risk; How Statistical Bias Can Mislead an Audit",
+      "top1_title": "Sensitivity Analysis"
     }
   ],
-  "honesty": "Honesty note: the official eval set has only 10 questions. A Hit@1 difference of 0.10 (one question) is not statistically meaningful. Treat these rankings as directional signals for this MVP corpus, not as production model-selection proof.",
+  "honesty": "Honesty note: the official eval set is still small. Treat these rankings as directional signals for this MVP corpus, not as production model-selection proof.",
   "package_versions": {
     "sentence_transformers": "5.7.0",
     "torch": "2.13.0+cu130",

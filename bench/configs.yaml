@@ -10,6 +10,13 @@ defaults:
 
 configs:
   - id: baseline
+    embedding_model: Qwen/Qwen3-Embedding-0.6B
+    provider: sentence_transformers
+    query_prompt_name: query
+    reranker: null
+    optional: false
+
+  - id: minilm
     embedding_model: sentence-transformers/all-MiniLM-L6-v2
     provider: sentence_transformers
     reranker: null
@@ -33,13 +40,6 @@ configs:
     provider: sentence_transformers
     query_prefix: "Represent this sentence for searching relevant passages: "
     reranker: BAAI/bge-reranker-v2-m3
-    optional: false
-
-  - id: qwen3
-    embedding_model: Qwen/Qwen3-Embedding-0.6B
-    provider: sentence_transformers
-    query_prompt_name: query
-    reranker: null
     optional: false
 
   - id: qwen3_rr

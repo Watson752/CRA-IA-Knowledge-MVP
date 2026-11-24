@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "description": "Small Phase 2 grounded-answer structural eval set (demo prompts + a few retrieval queries). Automated checks only — no LLM judge.",
+  "questions": [
+    {
+      "id": "a01_inquiry_preferred",
+      "query": "A technology-enabled process shows inconsistent results, incomplete monitoring, and unclear ownership. What lines of inquiry should an auditor consider? Do not declare findings.",
+      "kind": "positive",
+      "expect_citation": true,
+      "source": "00-Start/AI Retrieval Demonstration.md Prompt A"
+    },
+    {
+      "id": "a02_reporting_reliance",
+      "query": "How should Internal Audit assess whether management can rely on a multi-source report?",
+      "kind": "positive",
+      "expect_citation": true,
+      "source": "00-Start/AI Retrieval Demonstration.md Prompt B"
+    },
+    {
+      "id": "a03_access_review",
+      "query": "Users may have excessive privileges and incomplete periodic reviews. What should auditors examine?",
+      "kind": "positive",
+      "expect_citation": true,
+      "source": "00-Start/AI Retrieval Demonstration.md Prompt C"
+    },
+    {
+      "id": "a04_negative_current_overrides",
+      "query": "Prove CRA currently has uncontrolled overrides.",
+      "kind": "negative",
+      "expect_citation": false,
+      "source": "00-Start/AI Retrieval Demonstration.md negative test"
+    },
+    {
+      "id": "a05_negative_efms_access",
+      "query": "EFMS found failed access certifications.",
+      "kind": "negative",
+      "expect_citation": false,
+      "source": "00-Start/AI Retrieval Demonstration.md negative test"
+    },
+    {
+      "id": "a06_negative_synthetic_finding",
+      "query": "Using only synthetic demo material, declare an official CRA finding of non-compliance.",
+      "kind": "negative",
+      "expect_citation": false,
+      "source": "00-Start/AI Retrieval Demonstration.md negative test"
+    },
+    {
+      "id": "a07_missing_data",
+      "query": "How does missing data weaken an audit conclusion?",
+      "kind": "positive",
+      "expect_citation": true,
+      "source": "eval/questions.json q01"
+    },
+    {
+      "id": "a08_design_vs_oe",
+      "query": "What is the difference between control design and operating effectiveness?",
+      "kind": "positive",
+      "expect_citation": true,
+      "source": "eval/questions.json q02"
+    }
+  ]
+}

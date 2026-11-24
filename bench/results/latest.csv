@@ -1,7 +1,7 @@
 config_id,question_set,status,embedding_model,reranker,provider,hit_at_1,hit_at_3,hit_at_5,recall_at_5,recall_at_10,mrr,n_questions,median_query_latency_ms,index_build_seconds,hardware,error,baseline_marked
-baseline,original,ok,sentence-transformers/all-MiniLM-L6-v2,,sentence_transformers,0.9,0.9,0.9,0.525,0.695,0.9167,10,13.86,2.142,cpu,,True
-minilm_rr,original,ok,sentence-transformers/all-MiniLM-L6-v2,BAAI/bge-reranker-v2-m3,sentence_transformers,0.8,0.9,0.9,0.55,0.7,0.8667,10,8734.53,7.291,cpu,,False
-bge_m3,original,ok,BAAI/bge-m3,,sentence_transformers,0.9,0.9,1.0,0.61,0.78,0.92,10,270.34,1.503,cpu,,False
-bge_m3_rr,original,ok,BAAI/bge-m3,BAAI/bge-reranker-v2-m3,sentence_transformers,0.8,1.0,1.0,0.61,0.76,0.9,10,12862.42,8.702,cpu,,False
-qwen3,original,ok,Qwen/Qwen3-Embedding-0.6B,,sentence_transformers,0.9,0.9,0.9,0.57,0.8,0.9167,10,132.17,0.528,cpu,,False
-qwen3_rr,original,ok,Qwen/Qwen3-Embedding-0.6B,BAAI/bge-reranker-v2-m3,sentence_transformers,0.8,0.9,0.9,0.59,0.84,0.8667,10,13388.0,7.663,cpu,,False
+baseline,original,ok,Qwen/Qwen3-Embedding-0.6B,,sentence_transformers,0.9254,0.9851,0.9851,0.6871,0.7848,0.9577,67,172.98,4.183,cpu,,True
+minilm,original,ok,sentence-transformers/all-MiniLM-L6-v2,,sentence_transformers,0.8955,0.9851,0.9851,0.6667,0.7754,0.9403,67,14.8,11.205,cpu,,False
+minilm_rr,original,ok,sentence-transformers/all-MiniLM-L6-v2,BAAI/bge-reranker-v2-m3,sentence_transformers,0.8657,0.9851,0.9851,0.6654,0.7761,0.9279,67,5168.59,4.943,cpu,,False
+bge_m3,original,ok,BAAI/bge-m3,,sentence_transformers,0.9403,0.9851,1.0,0.6794,0.7632,0.9632,67,165.93,1.791,cpu,,False
+bge_m3_rr,original,ok,BAAI/bge-m3,BAAI/bge-reranker-v2-m3,sentence_transformers,0.8955,1.0,1.0,0.6769,0.7639,0.9453,67,5219.54,5.434,cpu,,False
+qwen3_rr,original,ok,Qwen/Qwen3-Embedding-0.6B,BAAI/bge-reranker-v2-m3,sentence_transformers,0.9104,0.9851,0.9851,0.69,0.802,0.9502,67,6021.96,3.958,cpu,,False

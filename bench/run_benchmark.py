@@ -33,13 +33,43 @@ SHARED_INDEX_DIR = DEFAULT_RAG_DATA / "shared_index"
 BASELINE_HIT1 = 0.9
 BASELINE_MRR = 0.91
 BASELINE_TOLERANCE = 0.005
+# Golden regression gate stays on the original Phase 1 ten, even after promotion.
+GOLDEN_QUESTION_IDS = {
+    "q01_missing_data_audit_conclusion",
+    "q02_control_design_vs_oe",
+    "q03_manual_overrides",
+    "q04_privileged_access",
+    "q05_population_completeness_sampling",
+    "q06_program_vs_corporate_branches",
+    "q07_tech_ia_branches",
+    "q08_pipeline_management_reporting",
+    "q09_selection_bias",
+    "q10_bi_data_governance_cases",
+}
 
 HONESTY = (
-    "Honesty note: the official eval set has only 10 questions. "
-    "A Hit@1 difference of 0.10 (one question) is not statistically meaningful. "
+    "Honesty note: the official eval set is still small. "
     "Treat these rankings as directional signals for this MVP corpus, not as "
     "production model-selection proof."
 )
+
+
+def honesty_note(n_questions: int | None = None) -> str:
+    if n_questions is None:
+        return HONESTY
+    if n_questions <= 10:
+        return (
+            f"Honesty note: the official eval set has only {n_questions} questions. "
+            "A Hit@1 difference of 0.10 (one question) is not statistically meaningful. "
+            "Treat these rankings as directional signals for this MVP corpus, not as "
+            "production model-selection proof."
+        )
+    return (
+        f"Honesty note: the official eval set has {n_questions} questions. "
+        "Rankings are directional signals for this MVP corpus, not production "
+        "model-selection proof. The baseline regression gate still uses the "
+        "original Phase 1 ten questions."
+    )
 
 
 @dataclass
@@ -273,20 +303,36 @@ def evaluate_config(
 
 
 def check_baseline(result: ConfigRunResult) -> None:
-    """Ensure baseline stays healthy: Hit@1≈0.9 and MRR at least ~0.91 (improvements OK)."""
+    """Ensure baseline stays healthy on the original Phase 1 ten questions."""
     if result.status != "ok":
         raise SystemExit(
             f"Baseline reproduction failed: status={result.status} error={result.error}"
         )
-    assert result.hit_at_1 is not None and result.mrr is not None
-    if result.hit_at_1 + BASELINE_TOLERANCE < BASELINE_HIT1:
+    golden_rows = [
+        row
+        for row in result.per_question
+        if row.get("question_id") in GOLDEN_QUESTION_IDS
+    ]
+    if len(golden_rows) == len(GOLDEN_QUESTION_IDS):
+        ranks = [
+            None if row.get("first_hit_rank") in (None, "") else int(row["first_hit_rank"])
+            for row in golden_rows
+        ]
+        hit1 = hit_at_k(ranks, 1)
+        mrr_val = mrr(ranks)
+    else:
+        # Fallback when per-question rows are unavailable (e.g. prep failure path).
+        assert result.hit_at_1 is not None and result.mrr is not None
+        hit1 = result.hit_at_1
+        mrr_val = result.mrr
+    if hit1 + BASELINE_TOLERANCE < BASELINE_HIT1:
         raise SystemExit(
-            f"Baseline Hit@1 regression: got {result.hit_at_1}, expected >={BASELINE_HIT1}. "
+            f"Baseline Hit@1 regression (golden-10): got {hit1}, expected >={BASELINE_HIT1}. "
             "Stopping without inventing metrics."
         )
-    if result.mrr + BASELINE_TOLERANCE < BASELINE_MRR:
+    if mrr_val + BASELINE_TOLERANCE < BASELINE_MRR:
         raise SystemExit(
-            f"Baseline MRR regression: got {result.mrr}, expected >={BASELINE_MRR}. "
+            f"Baseline MRR regression (golden-10): got {mrr_val}, expected >={BASELINE_MRR}. "
             "Stopping without inventing metrics."
         )
 
@@ -308,17 +354,23 @@ def write_results_md(path: Path, results: list[ConfigRunResult], meta: dict[str,
     original = [r for r in results if r.question_set == "original"]
     draft = [r for r in results if r.question_set == "draft"]
     combined = [r for r in results if r.question_set == "combined"]
+    n_official = next((r.n_questions for r in original if r.n_questions), None)
+    official_heading = (
+        f"## Official set ({n_official} questions)"
+        if n_official
+        else "## Official set"
+    )
 
     lines = [
         "# Embedding / Reranker Benchmark Results",
         "",
-        HONESTY,
+        honesty_note(n_official),
         "",
         f"- Generated: `{meta.get('generated_at')}`",
         f"- Git commit: `{meta.get('git_sha')}`",
         f"- Hardware: `{meta.get('hardware')}`",
         "",
-        "## Official set (original 10 questions)",
+        official_heading,
         "",
     ]
     lines.extend(_markdown_table(original))
